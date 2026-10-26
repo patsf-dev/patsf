@@ -1,0 +1,10 @@
+link,a,b,LINK,matched_patents,claims
+C1-C3,shaft,primary drive unit,RECOMBINED,,1
+C1-C4,shaft,supplementary drive unit,RECOMBINED,,1
+C1-C6,shaft,linear actuator,RECOMBINED,,1
+C10-C5,circuit component,weight-equipped rotary motor,NEW,,4
+C10-C6,circuit component,linear actuator,NEW,,4
+C11-C3,first holder,primary drive unit,NEW,,7
+C12-C13,second holder,elastic member,NEW,,8
+C12-C4,second holder,supplementary drive unit,NEW,,7
+C5-C8,weight-equipped rotary motor,retainer,NEW,,3

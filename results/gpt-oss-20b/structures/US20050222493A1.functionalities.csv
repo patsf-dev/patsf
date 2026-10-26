@@ -1,0 +1,11 @@
+id,component,text,target,claims,status
+FN1,C1,insert,,1,stated
+FN2,C2,guide,,1,stated
+FN3,C3,obtain an image,,1,stated
+FN4,C3,include part of support in image,C2,1;5,stated
+FN5,C4,employ image to determine whether support has been reclined,C2,2,stated
+FN6,C5,provide on part of support to determine whether support has been reclined,C2,3,stated
+FN7,C5,captured in image when support is reclined,,3,stated
+FN8,C6,designate location of marker displayed in image when support is reclined,C5,4,stated
+FN9,C7,indicate first position of marker displayed in image when support is reclined,C5,5,stated
+FN10,C8,indicate second position of marker displayed in image when support is elevated,C5,5,stated

@@ -1,0 +1,17 @@
+id,name,parent,claims,status
+C0,relative rotational angular displacement detection device,,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18,stated
+C1,rotatable member,C0,1;12;13,stated
+C2,permanent magnet,C1,1;5;10;11,stated
+C3,magnetic flux guiding ring,C0,1;10;11,stated
+C4,annular ring body,C3,1;6;9,stated
+C5,protruding portion,C4,1;2;3;8;9;10;11;17,stated
+C6,magnetic detection unit,C0,1;5;7,stated
+C7,magnetic sensor,C6,5;6;7,stated
+C8,intermediate yoke,C6,7,stated
+C9,first plane portion,C8,8,stated
+C10,shaft,C0,18,stated
+C11,elastic member,C0,12,stated
+C12,restriction part,C0,12,stated
+C13,rotation driving member,C0,13,stated
+C14,power source,C0,13,stated
+C15,control unit,C0,13,stated

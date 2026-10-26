@@ -1,0 +1,711 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "endoscope",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An endoscope including:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "operating portion",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          4,
+          8,
+          9,
+          10
+        ],
+        "quote": "an operating portion placed outside a living body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "elongated insertion portion",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          4
+        ],
+        "quote": "an elongated insertion portion having a proximal end portion coupled to said operating portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "raising mechanism",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a raising mechanism, having an operation wire, for directing a distal end portion of an instrument",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "operation wire",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "quote": "having an operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "instrument insertion channel",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an instrument insertion channel extending through said insertion portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "raising base",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          1,
+          3,
+          7,
+          11
+        ],
+        "quote": "a raising base which is supported on said support member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "support member",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          1,
+          3
+        ],
+        "quote": "a support member for forming at least a portion of an outer surface of said distal end portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "distal end body portion",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a distal end body portion arranged at the distal end portion of said elongated insertion portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "transmission member",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          1,
+          4,
+          6,
+          10
+        ],
+        "quote": "a transmission member having an end detachably coupled to another end of said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "observation means",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "incorporating observation means for observing an interior of the living body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "housing",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "operating portion comprises a housing to which the proximal end portion of said insertion portion is coupled",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "guide means",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "further comprising guide means for causing said operation wire to extend outward through said housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "guide tube",
+      "parent": "C12",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "guide tube enclosing said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "coupling means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          6,
+          7,
+          8,
+          10
+        ],
+        "quote": "further comprising coupling means for coupling one end of said transmission member to said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "grip",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "operating portion comprises a grip which an operator can grip",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "operating knob",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "an operating knob for operating a direction of the distal end portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "stopper",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "support member has a stopper for determining a raised position of said raising base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "flexible tube",
+      "parent": "C12",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "guide means having a flexible tube for causing the operation wire to loosely extend therethrough",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "holding means",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "operating portion having holding means, arranged in the housing, for holding said flexible tube",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "cooperation means",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "cooperation means arranged on part of said endoscope and capable of operating in cooperation with said adjusting means to operate said adjusting means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "adjusting means",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "adjusting means for adjusting a coupling position of said operation wire with respect to said end of said transmission member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C22",
+      "name": "operation means",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "operation means, provided in said operating portion, for operating said operation wire",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C3",
+      "text": "direct",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a raising mechanism, having an operation wire, for directing a distal end portion of an instrument",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C22",
+      "text": "operate",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "operation means ... to cause said transmission member to operate said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C9",
+      "text": "operate",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "said transmission member to operate said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C4",
+      "text": "adjust angle",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "operation wire ... adjusts an angle of said raising base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C6",
+      "text": "adjust angle",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "raising base which is supported on said support member such that an angle at which said raising base is arranged is adjustable",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C7",
+      "text": "form",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a support member for forming at least a portion of an outer surface of said distal end portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C10",
+      "text": "observe",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "incorporating observation means for observing an interior of the living body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C5",
+      "text": "extend through",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an instrument insertion channel extending through said insertion portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C4",
+      "text": "fit",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "operation wire has an end which is fitted in said raising base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C9",
+      "text": "detachably couple",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a transmission member having an end detachably coupled to another end of said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C4",
+      "text": "fix",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "said end of said operation wire which is fitted in said raising base is fixed to said raising base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C6",
+      "text": "move",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "said raising base is movable between a lower resting position and a raised position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C7",
+      "text": "determine",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "support member has a stopper for determining a raised position of said raising base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C1",
+      "text": "have",
+      "target": "C11",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "operating portion comprises a housing to which the proximal end portion of said insertion portion is coupled",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C11",
+      "text": "couple",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "housing to which the proximal end portion of said insertion portion is coupled",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C9",
+      "text": "located",
+      "target": "C11",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "end of said transmission member to which said operation wire is detachably coupled, is located outside the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C12",
+      "text": "cause",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "guide means for causing said operation wire to extend outward through said housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN18",
+      "component": "C13",
+      "text": "enclose",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "guide tube enclosing said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN19",
+      "component": "C13",
+      "text": "seal",
+      "target": "C11",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "guide tube being liquidtightly sealed with respect to said housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN20",
+      "component": "C14",
+      "text": "couple",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "coupling means for coupling one end of said transmission member to said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN21",
+      "component": "C14",
+      "text": "adjust",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          7,
+          10
+        ],
+        "quote": "coupling means being capable of adjusting a coupling position of said operation wire with respect to said end of said transmission member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN22",
+      "component": "C14",
+      "text": "maintain",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "maintaining a moving range of said raising base regardless of a length of said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN23",
+      "component": "C1",
+      "text": "have",
+      "target": "C15",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "operating portion comprises a grip which an operator can grip",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN24",
+      "component": "C1",
+      "text": "have",
+      "target": "C16",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "an operating knob for operating a direction of the distal end portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN25",
+      "component": "C12",
+      "text": "have",
+      "target": "C18",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "guide means having a flexible tube for causing the operation wire to loosely extend therethrough",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN26",
+      "component": "C1",
+      "text": "have",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "operating portion having holding means, arranged in the housing, for holding said flexible tube",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN27",
+      "component": "C19",
+      "text": "hold",
+      "target": "C18",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "holding means, arranged in the housing, for holding said flexible tube",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN28",
+      "component": "C20",
+      "text": "operate",
+      "target": "C21",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "cooperation means arranged on part of said endoscope and capable of operating in cooperation with said adjusting means to operate said adjusting means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN29",
+      "component": "C4",
+      "text": "detach",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "operation wire and raising base are detachable from each other",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN30",
+      "component": "C14",
+      "text": "arrange",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "coupling means for coupling one end of said transmission member to said operation wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN32",
+      "component": "C18",
+      "text": "move",
+      "target": null,
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "guide means having a flexible tube for causing the operation wire to loosely extend therethrough and to be movable in an axial direction",
+        "status": "stated"
+      }
+    }
+  ]
+}

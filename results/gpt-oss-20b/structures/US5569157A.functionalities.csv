@@ -1,0 +1,32 @@
+id,component,text,target,claims,status
+FN1,C3,direct,,1,stated
+FN2,C22,operate,C9,1,stated
+FN3,C9,operate,C4,1,stated
+FN4,C4,adjust angle,C6,1,stated
+FN5,C6,adjust angle,C7,1,stated
+FN6,C7,form,C8,1,stated
+FN7,C10,observe,,1,stated
+FN8,C5,extend through,C2,1,stated
+FN9,C4,fit,C6,1,stated
+FN10,C9,detachably couple,C4,1,stated
+FN11,C4,fix,C6,2,stated
+FN12,C6,move,,3,stated
+FN13,C7,determine,C6,3,stated
+FN14,C1,have,C11,4,stated
+FN15,C11,couple,C2,4,stated
+FN16,C9,located,C11,4,stated
+FN17,C12,cause,C4,5,stated
+FN18,C13,enclose,C4,5,stated
+FN19,C13,seal,C11,5,stated
+FN20,C14,couple,C9,6,stated
+FN21,C14,adjust,C4,7;10,stated
+FN22,C14,maintain,C6,7,stated
+FN23,C1,have,C15,8,stated
+FN24,C1,have,C16,8,stated
+FN25,C12,have,C18,9,stated
+FN26,C1,have,C19,9,stated
+FN27,C19,hold,C18,9,stated
+FN28,C20,operate,C21,10,stated
+FN29,C4,detach,C6,11,stated
+FN30,C14,arrange,,6,stated
+FN32,C18,move,,9,stated

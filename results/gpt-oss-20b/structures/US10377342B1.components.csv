@@ -1,0 +1,20 @@
+id,name,parent,claims,status
+C0,seat-belt monitoring system,,1,stated
+C1,self-driving vehicle,C0,1,stated
+C2,seat,C0,1,stated
+C3,seat belt,C0,1,stated
+C4,seat belt sensor,C0,1,stated
+C5,occupancy sensor,C0,1,stated
+C6,computer system,C0,1,stated
+C7,memory,C6,1,stated
+C8,program instructions,C1,1,stated
+C9,program instructions,C6,1,stated
+C10,program instructions,C6,2,stated
+C11,program instructions,C6,4,stated
+C12,camera,C1,12,stated
+C13,self-driving vehicle,C0,8,stated
+C14,seat belt,C13,8,stated
+C15,seat belt sensor,C13,8,stated
+C16,program instructions,C13,8,stated
+C17,weight sensor,C1,15,stated
+C18,weight sensor,C13,15,stated

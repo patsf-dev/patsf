@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "water powered rotary brush",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A water powered rotary brush",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "housing means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "housing means; a pair of generally cylindrical brushes rotatably mounted in said housing means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "pair of generally cylindrical brushes",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "pair of generally cylindrical brushes rotatably mounted in said housing means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "drive means",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive means in said housing means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "fluid motor",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "fluid motor having fluid inlet and outlet conduit means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "drive connection means",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive connection means from said fluid motor to said brushes arranged to drive said brushes in opposite directions of rotation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "drive control means",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive control means associated with said drive means for selectively actuating said drive means between on and off drive conditions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "clutch means",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive control means comprising clutch means in said drive connection",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "positive displacement motor",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "positive displacement motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "pair of axially aligned rotors",
+      "parent": "C10",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "pair of axially aligned rotors rotationally offset approximately 90\u00b0",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "annular rotor means",
+      "parent": "C10",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "annular rotor means eccentrically mounted within generally annular chamber means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "annular chamber means",
+      "parent": "C10",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "annular chamber means",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C7",
+      "text": "drive a brush",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive connection means from said fluid motor to said brushes arranged to drive said brushes in opposite directions of rotation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C8",
+      "text": "actuate a drive means",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive control means associated with said drive means for selectively actuating said drive means between on and off drive conditions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C9",
+      "text": "clutch a drive connection",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive control means comprising clutch means in said drive connection",
+        "status": "stated"
+      }
+    }
+  ]
+}

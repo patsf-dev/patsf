@@ -1,0 +1,561 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "relative rotational angular displacement detection device",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "quote": "A relative rotational angular displacement detection device, comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "rotatable member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          12,
+          13
+        ],
+        "quote": "a pair of rotatable members rotatable relative to each other about an axis of rotation in a circumferential direction;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "permanent magnet",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1,
+          5,
+          10,
+          11
+        ],
+        "quote": "permanent magnet attached to one of the pair of rotatable members and including magnetic poles magnetized in an axial direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "magnetic flux guiding ring",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          10,
+          11
+        ],
+        "quote": "magnetic flux guiding ring including an annular ring body, the annular ring body being attached to the other of the pair of rotatable members",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "annular ring body",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1,
+          6,
+          9
+        ],
+        "quote": "the annular ring body including an annular plane portion that extends in a direction intersecting with the axial direction of the axis of rotation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "protruding portion",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          8,
+          9,
+          10,
+          11,
+          17
+        ],
+        "quote": "a plurality of protruding portions each having a circumferential width, the plurality of protruding portions protruding from the annular ring body toward one side",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "magnetic detection unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          5,
+          7
+        ],
+        "quote": "magnetic detection unit facing one surface of the annular ring body with a gap therebetween with respect to the axial direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "magnetic sensor",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          5,
+          6,
+          7
+        ],
+        "quote": "magnetic sensor for detecting magnetic fluxes oriented in the axial direction of the axis of rotation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "intermediate yoke",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "intermediate yoke having a first plane portion arranged between the magnetic sensor and the annular ring body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "first plane portion",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "first plane portion surface area smaller than annular plane portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "shaft",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          18
+        ],
+        "quote": "a shaft, an axis of which being the axis of rotation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "elastic member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "elastic member arranged between the pair of rotatable members, configured to constantly apply a biasing force in a relative rotation direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "restriction part",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "restriction part configured to prevent rotation of members relative to other after a first member is rotated relative to a second through a predetermined angle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "rotation driving member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "rotation driving member connected to a first of the pair of rotatable members, configured such that a user gives a rotational force thereto",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "power source",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "power source configured to give a rotational force to a second of the pair of rotatable members",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "control unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "control unit configured to, when first member rotated relative to second through a predetermined angle, control the power source force depending on magnetic detection output",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "rotatable members rotate relative to each other about an axis",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a pair of rotatable members rotatable relative to each other about an axis of rotation in a circumferential direction;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C2",
+      "text": "permanent magnet has magnetic poles arranged alternately in circumferential direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "magnetic poles being arranged so as to alternate in polarity in the circumferential direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C4",
+      "text": "annular ring body has annular plane portion extending intersecting axial direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the annular ring body including an annular plane portion that extends in a direction intersecting with the axial direction of the axis of rotation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C5",
+      "text": "protruding portion protrudes from annular ring body toward one side",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the plurality of protruding portions protruding from the annular ring body toward one side with respect to radial directions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C5",
+      "text": "protruding portion configured such that circumferential width is smaller than magnetic pole width",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "being configured such that the circumferential width of the respective protruding portion is smaller than the circumferential width of one of the magnetic poles",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C4",
+      "text": "annular ring body magnetized with strength changing depending on protruding portions relative to magnetic poles",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the annular ring body being magnetized with a strength of magnetization changing depending on positions of the protruding portions relative to positions of magnetic poles",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C6",
+      "text": "magnetic detection unit detects magnetic fluxes of annular plane portion from one surface of annular ring body",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the magnetic detection unit being configured to detect magnetic fluxes of the annular plane portion from the one surface of the annular ring body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C4",
+      "text": "annular ring body formed of single piece",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the annular ring body is formed of a single piece",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C5",
+      "text": "protruding portion tapered shape with circumferential width decreasing",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2,
+          17
+        ],
+        "quote": "each of the protruding portions has a tapered shape with the circumferential width thereof decreasing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C5",
+      "text": "protruding portion extends outward in radial direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "each of the protruding portions extends outward in a respective radial direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C0",
+      "text": "device configured to detect magnetic fluxes without forming closed loop circuit",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "device is configured to detect magnetic fluxes by the magnetic detection unit without forming a magnetic closed loop circuit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C6",
+      "text": "magnetic detection unit includes magnetic sensor for detecting axial oriented magnetic fluxes",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "magnetic detection unit includes a magnetic sensor for detecting magnetic fluxes oriented in the axial direction of the axis of rotation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C4",
+      "text": "annular ring body or magnetic sensor arranged at a position different from protruding portions along axial direction",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "annular ring body or magnetic sensor is arranged at a position different from protruding portions along axial direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C8",
+      "text": "intermediate yoke has first plane portion arranged between magnetic sensor and annular ring body",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "intermediate yoke having a first plane portion arranged between the magnetic sensor and the annular ring body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C9",
+      "text": "first plane portion surface area smaller than annular plane portion",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "first plane portion surface area smaller than annular plane portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C4",
+      "text": "annular ring body or intermediate yoke or magnetic sensor arranged at a position different from protruding portions along radial directions",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "annular ring body or intermediate yoke or magnetic sensor arranged at a position different from protruding portions along radial directions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C3",
+      "text": "ring magnetized with different strengths in first and second states",
+      "target": null,
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "ring magnetized with different strengths in first and second states",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN18",
+      "component": "C5",
+      "text": "protruding portions positioned to cause equal or single group magnetization",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "protruding portions positioned to cause equal or single group magnetization",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN19",
+      "component": "C11",
+      "text": "elastic member constantly applies biasing force in relative rotation direction",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "elastic member arranged between the pair of rotatable members, configured to constantly apply a biasing force in a relative rotation direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN20",
+      "component": "C12",
+      "text": "restriction part prevents rotation of members relative to other after a first member rotated relative to a second through a predetermined angle",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "restriction part configured to prevent rotation of members relative to other after a first member is rotated relative to a second through a predetermined angle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN21",
+      "component": "C13",
+      "text": "rotation driving member configured such that user gives rotational force",
+      "target": null,
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "rotation driving member connected to a first of the pair of rotatable members, configured such that a user gives a rotational force thereto",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN22",
+      "component": "C14",
+      "text": "power source configured to give rotational force to second member",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "power source configured to give a rotational force to a second of the pair of rotatable members",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN23",
+      "component": "C15",
+      "text": "control unit configured to, when first member rotated relative to second through a predetermined angle, control the power source force depending on magnetic detection output",
+      "target": "C14",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "control unit configured to, when first member rotated relative to second through a predetermined angle, control the power source force depending on magnetic detection output",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN24",
+      "component": "C10",
+      "text": "shaft has axis being axis of rotation",
+      "target": null,
+      "provenance": {
+        "claims": [
+          18
+        ],
+        "quote": "a shaft, an axis of which being the axis of rotation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN25",
+      "component": "C2",
+      "text": "magnetic poles form N-pole group and S-pole group",
+      "target": null,
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "magnetic poles form N-pole group and S-pole group",
+        "status": "stated"
+      }
+    }
+  ]
+}

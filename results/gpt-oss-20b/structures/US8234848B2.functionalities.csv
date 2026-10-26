@@ -1,0 +1,7 @@
+id,component,text,target,claims,status
+FN1,C2,rotate,,1;2,stated
+FN2,C3,rotate,,1;2,stated
+FN3,C1,engage detents,C2,1,stated
+FN4,C1,flex radially,,5,stated
+FN5,C2,move vertically between min and max cutting height,,2,stated
+FN6,C3,move vertically between min and max cutting height,,2,stated

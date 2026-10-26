@@ -1,0 +1,26 @@
+id,name,parent,claims,status
+C0,actuator,,1,stated
+C1,shaft,C0,1,stated
+C2,reciprocal linear driving unit,C0,1,stated
+C3,rolling driving unit,C0,1,stated
+C4,first moving object,C2,1,stated
+C5,first permanent magnets,C4,1,stated
+C6,first stator,C2,1,stated
+C7,first coil,C6,1,stated
+C8,second moving object,C3,1,stated
+C9,second yoke,C8,1,stated
+C10,second permanent magnet,C8,1,stated
+C11,second stator,C3,1,stated
+C12,second coil,C11,1,stated
+C13,second stationary yokes,C11,1,stated
+C14,switching means,C0,2,stated
+C15,spring members,C0,7,stated
+C16,common vibrational absorption spindle,C0,8,stated
+C17,spring receiving members,C0,9,stated
+C18,spring hook portions,C0,10,stated
+C19,magnetic shielding member,C0,12,stated
+C20,first yokes,C2,3,stated
+C21,iron core,C2,3,stated
+C22,first bobbin,C6,3,stated
+C23,first stationary yoke,C6,3,stated
+C24,torsion and compression coil springs,C17,9,stated

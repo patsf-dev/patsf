@@ -1,0 +1,17 @@
+id,component,text,target,claims,status
+FN1,C1,emit a multi-pulse sequence,,1,stated
+FN2,C2,detect light pulses,,1,stated
+FN3,C3,obtain real-time conditions for determining a coding scheme,,1,stated
+FN4,C3,determine a coding scheme for creating a temporal profile,,1,stated
+FN5,C3,calculate a distance based on a time of flight,,1,stated
+FN6,C3,determine a match between detected pulses and a temporal profile,,1,stated
+FN7,C1,emit pulses within a duration of no more than 100 nanoseconds,,6,stated
+FN8,C1,emit pulses with time intervals no more than 30 nanoseconds,,6,stated
+FN9,C3,generate control signals to the switching element and built-in switching element,,13,stated
+FN10,C3,cause predetermined amount of energy to be supplied from charging unit to energy storage element,,14,stated
+FN11,C3,use predetermined energy to emit multiple pulses,,15,stated
+FN12,C3,use predetermined energy to emit one pulse,,16,stated
+FN13,C3,cause electrical discharges from energy storage element to light emitting device to trigger emission of multiple pulses,C4,17,stated
+FN14,C3,generate pulses with different amplitudes from different amounts of energy from charging units,,18,stated
+FN15,C3,"regulate duration, amplitude, and time intervals of pulses by control signals",,19,stated
+FN16,C3,"select factors, extract factors, compare them with temporal profile",,20,stated

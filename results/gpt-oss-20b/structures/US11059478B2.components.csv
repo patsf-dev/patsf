@@ -1,0 +1,7 @@
+id,name,parent,claims,status
+C0,automotive vehicle,,1,stated
+C1,actuator,C0,1,stated
+C2,sensor,C0,1,stated
+C3,controller,C0,1,stated
+C4,LiDAR emitter,C2,7,stated
+C5,LiDAR receiver,C2,7,stated

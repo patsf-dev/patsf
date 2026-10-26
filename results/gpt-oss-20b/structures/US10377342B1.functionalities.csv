@@ -1,0 +1,22 @@
+id,component,text,target,claims,status
+FN1,C1,transport a rider,,1,stated
+FN2,C3,secure a rider,C2,1,stated
+FN3,C4,detect a buckled or unbuckled state,C3,1,stated
+FN4,C5,detect a rider sitting,C2,1,stated
+FN5,C7,store buckling history,,1,stated
+FN6,C9,determine a future transportation price,,1,stated
+FN7,C8,send a first wireless communication,C6,1,stated
+FN8,C10,send a second wireless communication,,2,stated
+FN9,C10,warn the rider of a fine,,2,stated
+FN10,C10,update buckling history,C7,3,stated
+FN11,C11,deny a future ride request,,4,stated
+FN12,C12,take a picture,,12,stated
+FN13,C8,send picture via wireless communication,C6,13,stated
+FN14,C9,receive identification and record rider sitting,C2,16,stated
+FN15,C9,determine unknown rider is rider,,15,stated
+FN16,C9,determine future transportation price for ride in second vehicle,,17,stated
+FN17,C10,charge transportation price to account,,18,stated
+FN18,C10,increase future transportation price in response to buckling history indicating unbuckled state of first seat belt,,19,stated
+FN19,C10,increase future transportation price in response to buckling history indicating unbuckled state of second seat belt,,20,stated
+FN20,C10,prompt rider to buckle seat belt,,21,stated
+FN21,C16,send a second wireless communication to computer system in response to second seat belt sensor detecting unbuckled state,C6,21,stated

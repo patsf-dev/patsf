@@ -1,0 +1,19 @@
+id,component,text,target,claims,status
+FN1,C6,mount a motor,C2,1,stated
+FN2,C7,mount a motor,C3,1,stated
+FN3,C6,drive a pulley,C12,1,stated
+FN4,C7,drive a pulley,C13,1,stated
+FN5,C12,drive a pulley,C14,1,stated
+FN6,C13,drive a pulley,C15,1,stated
+FN7,C8,connect a drive means,C4,1,stated
+FN8,C9,connect a drive means,C5,1,stated
+FN9,C6,reverse,,3,stated
+FN10,C7,reverse,,3,stated
+FN11,C6,mesh a pinion,C10,4,stated
+FN12,C7,mesh a pinion,C11,4,stated
+FN13,C16,secure a motor,C2,2,stated
+FN14,C17,secure a motor,C3,2,stated
+FN17,C6,arrange a motor,C2,1,stated
+FN18,C7,arrange a motor,C3,1,stated
+FN19,C6,mount a motor transversely,C2,1,stated
+FN20,C7,mount a motor transversely,C3,1,stated

@@ -1,0 +1,8 @@
+id,name,parent,claims,status
+C0,invention,,1,stated
+C1,radar unit,C0,1,stated
+C2,signal pulse,C1,1,stated
+C3,reflection signal,C1,1,stated
+C4,target information,C0,1,stated
+C5,predetermined map,C0,1,stated
+C6,electronic database,C0,1,stated

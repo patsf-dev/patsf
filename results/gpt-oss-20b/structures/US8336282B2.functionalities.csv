@@ -1,0 +1,10 @@
+id,component,text,target,claims,status
+FN1,C2,mount a component,C1,1,stated
+FN2,C3,attach a component,C1,1,stated
+FN3,C4,enclose a cavity,C6,1,stated
+FN4,C5,enclose a cavity,C7,1,stated
+FN5,C4,prevent contaminants from reaching components,,1,stated
+FN6,C5,prevent contaminants from reaching components,,1,stated
+FN7,C8,position a component,C6,2,stated
+FN8,C9,mount a component,C1,3,stated
+FN9,C10,position a component,C7,4,stated

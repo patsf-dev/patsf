@@ -1,0 +1,11 @@
+id,component,text,target,claims,status
+FN1,C14,engage a drive chain,C7,1,stated
+FN2,C13,extend from a base,C12,1,stated
+FN3,C14,be displaceable relative to a base,C12,1,stated
+FN4,C11,be mounted in fixed relation to a frame,C1,1,stated
+FN5,C11,be mounted in fixed relation to a motor,C9,1,stated
+FN6,C9,be disposed within a housing,C16,5,stated
+FN7,C11,be disposed within a housing,C16,6,stated
+FN8,C17,be mounted to a flexible arm,C13,7,stated
+FN9,C18,be mounted to a housing,C16,7,stated
+FN10,C18,be spaced from a magnet,C17,7,stated

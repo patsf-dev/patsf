@@ -1,0 +1,34 @@
+functionality,component,text,target,FUNCTIONALITY,closest,score,matched_patents,claims
+FN1,outer cover,surround,inner body,EXISTING,US20140033862A1:FN8 surround,0.937,US20140033862A1,1
+FN2,blades,cut,,EXISTING,US20180199506A1:FN3 reduce voltage supplied to cutting blade motor,0.614,US20180199506A1,1
+FN3,casters,pivot,rotation shaft,EXISTING,US20080276407A1:FN7 pivot in place,0.851,US20080276407A1;US20100257691A1,1
+FN4,wheels,roll,,NEW,,0.0,,1
+FN5,driving unit,drive,wheels,EXISTING,US20170265384A1:FN6 drive a component,0.731,US20080276407A1;US20170265384A1;US5094310A,1
+FN6,sensor unit,sense,casters,EXISTING,US20100257691A1:FN13 sense extends downwardly,0.64,US20100257691A1,1
+FN7,drop switch,sense,casters,EXISTING,US20100257691A1:FN13 sense extends downwardly,0.64,US20100257691A1,1
+FN8,shaft supporter,move,,EXISTING,US20100257691A1:FN6 move debris,0.714,US20080276407A1;US20100257691A1,1
+FN9,lowering protrusion,contact,drop switch,NEW,,0.0,,1
+FN10,drop switch,activate,,NEW,US20080276407A1:FN5 actuate a latch,0.402,,1
+FN11,sensor unit,stop,wheels,EXISTING,US20180199506A1:FN7 stop rotation of wheel motor,0.707,US20180199506A1,1
+FN12,supporter receiving portion,receive,shaft supporter,EXISTING,US8417383B2:FN4 receive a reflected signal,0.79,US20080276407A1;US20100257691A1;US20140033862A1;US8417383B2,2
+FN13,height restricting portion,restrict,shaft supporter,EXISTING,US20140033862A1:FN6 create a barrier,0.791,US20140033862A1,2
+FN14,bracket,restrict,shaft supporter,EXISTING,US20140033862A1:FN6 create a barrier,0.791,US20140033862A1,2
+FN15,guide protrusions,spaced,,NEW,,0.0,,3
+FN16,rotation preventing protrusions,insert,guide protrusions,NEW,,0.0,,3
+FN17,insertion hole,accommodate,rotation shaft,NEW,,0.0,,4;10
+FN18,release preventing member,prevent,rotation shaft,EXISTING,US8336282B2:FN5 prevent contaminants from reaching components,0.774,US8336282B2,4;10
+FN19,housing,receive,,EXISTING,US8417383B2:FN4 receive a reflected signal,0.79,US20080276407A1;US20100257691A1;US20140033862A1;US8417383B2,6
+FN20,housing supporter,fasten,inner body,NEW,US20080276407A1:FN5 actuate a latch,0.425,,6
+FN21,housing coupling portion,surround,housing,EXISTING,US20140033862A1:FN8 surround,0.937,US20140033862A1,6
+FN22,flange portion,protrude,inner body,NEW,US8234848B2:FN4 flex radially,0.305,,6
+FN23,ribs,connect,housing coupling portion,EXISTING,US8336282B2:FN2 attach a component,0.564,US20100257691A1;US5094310A;US8336282B2,8
+FN24,spacer,protrude,,NEW,US8234848B2:FN4 flex radially,0.305,,8
+FN25,guide portion,surround,fastening portions,EXISTING,US20140033862A1:FN8 surround,0.937,US20140033862A1,8
+FN26,drive motor,connect,gears,EXISTING,US8336282B2:FN2 attach a component,0.564,US20100257691A1;US5094310A;US8336282B2,9
+FN27,gears,couple,wheels,EXISTING,US20140033862A1:FN7 couple,0.993,US20140033862A1,9
+FN28,gears,change,drive motor,NEW,US5094310A:FN9 reverse,0.4,,9
+FN29,lever,lower,lowering protrusion,EXISTING,US20100257691A1:FN2 move downwardly,0.904,US20100257691A1,5
+FN30,lever,contact,lowering protrusion,NEW,,0.0,,5
+FN31,lowering protrusion,contact,lever,NEW,,0.0,,5
+FN32,corner portion,fasten,inner body,NEW,US20080276407A1:FN5 actuate a latch,0.425,,7
+FN33,fastening portions,accommodate,,NEW,,0.0,,7

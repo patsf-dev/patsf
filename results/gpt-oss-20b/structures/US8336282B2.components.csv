@@ -1,0 +1,12 @@
+id,name,parent,claims,status
+C0,robotic mower housing,,1,stated
+C1,bottom chassis,C0,1,stated
+C2,traction wheel motors,C1,1,stated
+C3,top cover,C1,1,stated
+C4,outer seal,C1,1,stated
+C5,inner seal,C1,1,stated
+C6,outer cavity,C1,1,stated
+C7,inner cavity,C1,1,stated
+C8,mounting clips,C1,2,stated
+C9,height of cut adjustment assembly,C1,3,stated
+C10,boundary sensor,C1,4,stated

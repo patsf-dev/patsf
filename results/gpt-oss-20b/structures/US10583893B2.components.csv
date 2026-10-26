@@ -1,0 +1,20 @@
+id,name,parent,claims,status
+C0,electric bicycle,,1,stated
+C1,frame,C0,1,stated
+C2,front wheel,C0,1,stated
+C3,rear wheel,C0,1,stated
+C4,bottom bracket shell,C0,1,stated
+C5,drive train,C0,1,stated
+C6,pedal crank,C5,1,stated
+C7,drive chain,C5,1,stated
+C8,rear sprocket,C3,1,stated
+C9,electric motor,C16,5,stated
+C10,motor output shaft,C9,1,stated
+C11,torque sensor,C0,1,stated
+C12,base,C11,1,stated
+C13,flexible arm,C11,1,stated
+C14,sensing member,C13,1,stated
+C15,segment of drive chain,C7,1,stated
+C16,housing,C0,5,stated
+C17,magnet,C13,7,stated
+C18,Hall effect sensor,C16,7,stated

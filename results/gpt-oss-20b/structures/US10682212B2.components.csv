@@ -1,0 +1,15 @@
+id,name,parent,claims,status
+C0,electric toothbrush,,1,stated
+C1,shaft,C0,1,stated
+C2,brush,C1,1,stated
+C3,primary drive unit,C0,1,stated
+C4,supplementary drive unit,C0,1,stated
+C5,weight-equipped rotary motor,C4,1,stated
+C6,linear actuator,C3,1,stated
+C7,spindle,C5,1,stated
+C8,retainer,C0,3,stated
+C9,circuit board,C0,4,stated
+C10,circuit component,C9,4,stated
+C11,first holder,C0,7,stated
+C12,second holder,C0,7,stated
+C13,elastic member,C0,8,stated

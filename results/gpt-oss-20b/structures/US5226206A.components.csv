@@ -1,0 +1,28 @@
+id,name,parent,claims,status
+C0,toothbrush,,1,stated
+C1,handle,C0,1,stated
+C2,brush head,C0,1,stated
+C3,bristle holder,C0,1,stated
+C4,motor,C0,1,stated
+C5,transmission assembly,C0,1,stated
+C6,carrier assembly,C5,1,stated
+C7,coupling means,C0,1,stated
+C8,circular gear,C7,4,stated
+C9,rack,C0,4,stated
+C10,circular stem,C8,5,stated
+C11,non-circular socket,C8,5,stated
+C12,inner plate,C6,6,stated
+C13,outer plate,C6,6,stated
+C14,fastening means,C6,6,stated
+C15,cylindrical socket,C14,7,stated
+C16,cylindrical pin,C14,7,stated
+C17,U-shaped member,C0,9,stated
+C18,leg of U-shaped member,C17,10,stated
+C19,teeth,C18,10,stated
+C20,cover,C0,12,stated
+C21,gear,C5,13,stated
+C22,crank arm,C5,13,stated
+C23,rod,C5,14,stated
+C24,ball,C23,15,stated
+C25,annular groove,C23,16,stated
+C26,ribs,C6,16,stated

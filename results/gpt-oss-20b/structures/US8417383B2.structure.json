@@ -1,0 +1,395 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "coverage robot",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "coverage robot",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "drive",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "controller",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "controller",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "swivel caster assembly",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "swivel caster assembly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "stasis indication wheel",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "stasis indication wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "wheel housing",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "wheel housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "suspension",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "suspension",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "shaft",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "signal emitter",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "signal emitter",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "signal receiver",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "signal receiver",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "wheel drop sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "wheel drop sensor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "cliff signal emitter",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "cliff signal emitter",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "cliff signal receiver",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "cliff signal receiver",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "second signal receiver",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          21
+        ],
+        "quote": "second signal receiver",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "maneuver a robot",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive configured to maneuver the robot",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C2",
+      "text": "monitor a drive current",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "controller monitors a drive current",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C8",
+      "text": "direct a signal",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "signal emitter disposed remotely from the wheel and positioned to direct a signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C9",
+      "text": "receive a reflected signal",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "signal receiver co-located adjacent the signal emitter to receive the signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C10",
+      "text": "detect vertical displacement",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "wheel drop sensor arranged to detect vertical displacement of the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C11",
+      "text": "emit a cliff detection signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "cliff signal emitter aligned to emit a cliff detection signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C12",
+      "text": "receive a reflected cliff detection signal",
+      "target": "C11",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "cliff signal receiver configured to receive the cliff detection signal reflected",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C13",
+      "text": "receive a reflected signal",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          21
+        ],
+        "quote": "second signal receiver, the first and second signal receivers having a sufficient aggregate field of detection to receive the reflected signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C6",
+      "text": "permit vertical displacement of wheel",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the permitted direction of wheel movement by the suspension comprises vertical displacement of the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C6",
+      "text": "permit tilting away from a vertical axis",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "the permitted direction of wheel movement by the suspension comprises tilting away from a vertical axis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C6",
+      "text": "permit translation parallel to underside of robot",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "the permitted direction of wheel movement by the suspension comprises translation parallel to an underside of the robot",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C5",
+      "text": "shroud wheel and define aperture exposing wheel to signal emitter and receiver",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "the wheel housing shrouds the wheel and defines an aperture exposing the wheel to the signal emitter and the signal receiver",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C5",
+      "text": "minimize entry of ambient light into aperture",
+      "target": null,
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "the wheel housing is configured to minimize an entry of ambient light into the aperture of",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C4",
+      "text": "reflect light of first infrared wavelength and second infrared wavelength different from first",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "the first reflective portion of the wheel reflects light of a first infrared wavelength and the second reflective portion reflects light of a second infrared wavelength",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C8",
+      "text": "arranged above the wheel to emit signal onto top portion of wheel",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "the emitter and receiver are arranged above the wheel, the emitter emitting the signal onto a top portion of the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C4",
+      "text": "disposed adjacent a drive wheel",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "the stasis indication wheel is disposed adjacent a drive wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C7",
+      "text": "freely rotatable within predetermined angular range as wide as field of detection of signal receiver",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          20
+        ],
+        "quote": "the shaft is freely rotatable within a predetermined angular range as wide as the field of detection of the signal receiver",
+        "status": "stated"
+      }
+    }
+  ]
+}

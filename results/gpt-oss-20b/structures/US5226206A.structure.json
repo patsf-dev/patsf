@@ -1,0 +1,460 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "toothbrush",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A toothbrush comprising: a handle one end, a brush head at the opposite end, at least one bristle holder oscillatably mounted within said brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "handle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a handle at one end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "brush head",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a brush head at the opposite end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "bristle holder",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one bristle holder oscillatably mounted within said brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor within said handle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "transmission assembly",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a transmission assembly coupling said motor to said bristle holder",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "carrier assembly",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a carrier assembly carrying said bristle holder",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "coupling means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "coupling means between said bristle holder and said brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "circular gear",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a circular gear non-rotatably coupled to said bristle holder",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "rack",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "meshing with a rack fixed to said brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "circular stem",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a circular stem at one end received within a circular opening",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "non-circular socket",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a non-circular socket at its opposite end receiving a non-circular stem",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "inner plate",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an inner plate formed with said circular opening",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "outer plate",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an outer plate formed with a circular opening",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "fastening means",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "fastening means for fastening the two plates together",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "cylindrical socket",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a cylindrical socket on one of said plates",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "cylindrical pin",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "receiving with a snap-action a cylindrical pin",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "U-shaped member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "a two-legged U-shaped member fixed within said brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "leg of U-shaped member",
+      "parent": "C17",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "one of the legs of the U-shaped member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "teeth",
+      "parent": "C18",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "formed with teeth meshing with the circular gears",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "cover",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a cover formed with an opening for each of said bristle holders",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "gear",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a gear rotatable by said motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C22",
+      "name": "crank arm",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a crank arm eccentrically coupled at one end to said gear",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C23",
+      "name": "rod",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "a rod having one end coupled to said crank arm",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C24",
+      "name": "ball",
+      "parent": "C23",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "a ball formed at the end of the crank arm",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C25",
+      "name": "annular groove",
+      "parent": "C23",
+      "provenance": {
+        "claims": [
+          16
+        ],
+        "quote": "an annular groove formed in the rod",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C26",
+      "name": "ribs",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          16
+        ],
+        "quote": "a pair of ribs formed in the respective end of the carrier assembly",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C5",
+      "text": "drive a component",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "transmission assembly coupling said motor to said bristle holder to oscillate the bristle holder",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C7",
+      "text": "drive a component",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "coupling means between said bristle holder and said brush head effective to oscillate said bristle holder",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C6",
+      "text": "move a component",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "carrier assembly carrying said bristle holder and reciprocatable therewith within said brush head by said motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C4",
+      "text": "drive a component",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "transmission assembly coupling said motor to said bristle holder",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C4",
+      "text": "drive a component",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "carrier assembly carrying said bristle holder and reciprocatable therewith within said brush head by said motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C8",
+      "text": "drive a component",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "circular gear non-rotatably coupled to said bristle holder and meshing with a rack fixed to said brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C19",
+      "text": "drive a component",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "one of the legs of the U-shaped member is formed with teeth meshing with the circular gears",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C21",
+      "text": "drive a component",
+      "target": "C22",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "gear rotatable by said motor, and a crank arm eccentrically coupled at one end to said gear",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C22",
+      "text": "drive a component",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "crank arm eccentrically coupled at one end to said gear and at the opposite end to said carrier assembly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C23",
+      "text": "drive a component",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "rod having one end coupled to said crank arm and the opposite end coupled to said carrier assembly",
+        "status": "stated"
+      }
+    }
+  ]
+}

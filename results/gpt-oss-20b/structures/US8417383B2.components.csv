@@ -1,0 +1,15 @@
+id,name,parent,claims,status
+C0,coverage robot,,1,stated
+C1,drive,C0,1,stated
+C2,controller,C0,1,stated
+C3,swivel caster assembly,C0,1,stated
+C4,stasis indication wheel,C3,1,stated
+C5,wheel housing,C3,1,stated
+C6,suspension,C3,1,stated
+C7,shaft,C5,1,stated
+C8,signal emitter,C0,1,stated
+C9,signal receiver,C0,1,stated
+C10,wheel drop sensor,C0,3,stated
+C11,cliff signal emitter,C0,10,stated
+C12,cliff signal receiver,C0,10,stated
+C13,second signal receiver,C0,21,stated

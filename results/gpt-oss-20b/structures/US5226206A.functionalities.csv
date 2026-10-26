@@ -1,0 +1,11 @@
+id,component,text,target,claims,status
+FN1,C5,drive a component,C3,1,stated
+FN2,C7,drive a component,C3,1,stated
+FN3,C6,move a component,C3,1,stated
+FN4,C4,drive a component,C5,1,stated
+FN5,C4,drive a component,C6,1,stated
+FN7,C8,drive a component,C9,4,stated
+FN8,C19,drive a component,C8,10,stated
+FN9,C21,drive a component,C22,13,stated
+FN10,C22,drive a component,C6,13,stated
+FN11,C23,drive a component,C6,14,stated

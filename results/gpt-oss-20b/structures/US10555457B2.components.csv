@@ -1,0 +1,34 @@
+id,name,parent,claims,status
+C0,invention,,1,stated
+C1,inner body,C0,1,stated
+C2,outer cover,C1,1,stated
+C3,blades,C1,1,stated
+C4,casters,C1,1,stated
+C5,wheels,C1,1,stated
+C6,driving unit,C0,1,stated
+C7,sensor unit,C0,1,stated
+C8,drop switch,C7,1,stated
+C9,shaft supporter,C7,1,stated
+C10,lowering protrusion,C7,1,stated
+C11,supporter receiving portion,C1,2,stated
+C12,height restricting portion,C11,2,stated
+C13,bracket,C11,2,stated
+C14,guide protrusions,C11,3,stated
+C15,rotation preventing protrusions,C9,3,stated
+C16,insertion hole,C9,4,stated
+C17,supporting groove,C9,4,stated
+C18,release preventing member,C9,4,stated
+C19,housing,C6,6,stated
+C20,housing supporter,C6,6,stated
+C21,housing coupling portion,C20,6,stated
+C22,flange portion,C20,6,stated
+C23,ribs,C22,8,stated
+C24,spacer,C22,8,stated
+C25,guide portion,C22,8,stated
+C26,drive motor,C19,9,stated
+C27,gears,C19,9,stated
+C28,motor shaft,C26,9,stated
+C30,rotation shaft,C4,1,stated
+C33,lever,C8,5,stated
+C34,corner portion,C22,7,stated
+C35,fastening portions,C1,7,stated

@@ -1,0 +1,8 @@
+functionality,component,text,target,FUNCTIONALITY,closest,score,matched_patents,claims
+FN1,controller,control an actuator,actuator,EXISTING,US20180299890A1:FN4 control vehicle actuator devices for transverse movement,0.72,US20180299890A1,1
+FN2,controller,infer a location of a target object,,EXISTING,US10386480B1:FN4 correlate target information with predetermined map,0.673,US10386480B1;US20180299890A1;US20190339383A1,2;3;6
+FN3,controller,identify a target object as a multipath reflection and disregard it,,NEW,US10386480B1:FN3 process reflection signals to determine target information,0.416,,4
+FN4,controller,access a behavior model,,NEW,"US20180299890A1:FN8 acquire actuation of steering wheel, accelerator, brake",0.244,,5
+FN5,controller,define a vehicle path,,EXISTING,US9669827B1:FN10 determine vehicle trajectory,0.642,US20190146060A1;US9669827B1,2;6
+FN6,sensor,emit a signal,,EXISTING,US10386480B1:FN1 transmit a signal pulse,0.869,US10386480B1;US20180188371A1;US20190339383A1,1
+FN7,sensor,receive a return signal,,EXISTING,US20200088844A1:FN3 receive a multi-return signal,0.77,US10386480B1;US20190339383A1;US20200088844A1,1

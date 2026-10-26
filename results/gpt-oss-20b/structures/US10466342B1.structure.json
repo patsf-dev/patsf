@@ -1,0 +1,474 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "Lidar system",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "A Lidar system comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "light source",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "at least one light source configured to emit a multi-pulse sequence",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "photosensitive detector",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "at least one photosensitive detector configured to detect light pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "processors",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "processors are configured to obtain one or more real-time conditions for determining a coding scheme",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "light emitting device",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "a light emitting device",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "energy storage element",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "an energy storage element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "switching element",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "a switching element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "charging units",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "a plurality of charging units",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "built-in switching element",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "quote": "a built-in switching element",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "emit a multi-pulse sequence",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one light source configured to emit a multi-pulse sequence",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C2",
+      "text": "detect light pulses",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one photosensitive detector configured to detect light pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C3",
+      "text": "obtain real-time conditions for determining a coding scheme",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "processors are configured to obtain one or more real-time conditions for determining a coding scheme",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C3",
+      "text": "determine a coding scheme for creating a temporal profile",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "processors are configured to determine, based on the one or more real-time conditions, a coding scheme for creating the temporal profile",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C3",
+      "text": "calculate a distance based on a time of flight",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "processors are configured to calculate the distance based on a time of flight",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C3",
+      "text": "determine a match between detected pulses and a temporal profile",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "processors are configured to determine a match between detected light pulses and the temporal profile",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C1",
+      "text": "emit pulses within a duration of no more than 100 nanoseconds",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "multiple pulses are emitted sequentially within a duration of no more than 100 nanoseconds",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C1",
+      "text": "emit pulses with time intervals no more than 30 nanoseconds",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "at least one time interval between two consecutive pulses of the multiple pulses is no more than 30 nanoseconds",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C3",
+      "text": "generate control signals to the switching element and built-in switching element",
+      "target": null,
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "processors are further configured to generate control signals to the switching element and the built-in switching element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C3",
+      "text": "cause predetermined amount of energy to be supplied from charging unit to energy storage element",
+      "target": null,
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "control signal to the built-in switching element causes a predetermined amount of energy supplied from the charging unit to the energy storage element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C3",
+      "text": "use predetermined energy to emit multiple pulses",
+      "target": null,
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "pre-determined amount of energy is used to emit the multiple pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C3",
+      "text": "use predetermined energy to emit one pulse",
+      "target": null,
+      "provenance": {
+        "claims": [
+          16
+        ],
+        "quote": "pre-determined amount of energy is used to emit one pulse",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C3",
+      "text": "cause electrical discharges from energy storage element to light emitting device to trigger emission of multiple pulses",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          17
+        ],
+        "quote": "control signal to the switching element causes electrical discharges from the energy storage element to the light emitting device to trigger emission of multiple pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C3",
+      "text": "generate pulses with different amplitudes from different amounts of energy from charging units",
+      "target": null,
+      "provenance": {
+        "claims": [
+          18
+        ],
+        "quote": "different amounts of energy from charging units generate pulses with different amplitudes",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C3",
+      "text": "regulate duration, amplitude, and time intervals of pulses by control signals",
+      "target": null,
+      "provenance": {
+        "claims": [
+          19
+        ],
+        "quote": "duration, amplitude, and time intervals of pulses are regulated by control signals",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C3",
+      "text": "select factors, extract factors, compare them with temporal profile",
+      "target": null,
+      "provenance": {
+        "claims": [
+          20
+        ],
+        "quote": "selecting factors, extracting factors, and comparing them with the temporal profile",
+        "status": "stated"
+      }
+    }
+  ]
+}

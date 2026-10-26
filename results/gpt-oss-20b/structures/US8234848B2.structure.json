@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "robotic mower height of cut adjustment assembly",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A robotic mower height of cut adjustment assembly, comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "height of cut drum",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a height of cut drum secured to a bottom chassis of the robotic mower and having an internal circumferential surface with spiral threads having detents",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "motor cup",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor cup supporting a cutting blade motor and having an external circumferential surface with spiral threads that engage the height of cut drum",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "blade shield",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a blade shield fastened to the motor cup",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "inserts",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a plurality of inserts into the height of cut drum",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C2",
+      "text": "rotate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1,
+          2
+        ],
+        "quote": "the blade shield and the motor cup are rotatable to change height of cut",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C3",
+      "text": "rotate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1,
+          2
+        ],
+        "quote": "the blade shield and the motor cup are rotatable to change height of cut",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C1",
+      "text": "engage detents",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the detents on the height of cut drum engaging the detents on the motor cup to hold and maintain the blade shield and motor cup",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C1",
+      "text": "flex radially",
+      "target": null,
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "the detents flex radially outwardly to slide up a plurality of ramped surfaces on the external threads of the motor cup",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C2",
+      "text": "move vertically between min and max cutting height",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "rotatable one revolution to move the motor cup and blade shield vertically between a minimum and a maximum cutting height",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C3",
+      "text": "move vertically between min and max cutting height",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "rotatable one revolution to move the motor cup and blade shield vertically between a minimum and a maximum cutting height",
+        "status": "stated"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+id,component,text,target,claims,status
+FN1,C9,provide energy,C7,1,stated
+FN2,C9,provide energy,C8,1,stated
+FN3,C7,position,C2,1,stated
+FN4,C8,position,C3,1,stated
+FN5,C10,attach,C7,2,stated
+FN6,C10,impart vibratory energy,C0,2,stated
+FN7,C11,reduce transfer of vibratory energy,C2,3,stated
+FN8,C11,position,,4,stated
+FN9,C12,reduce transfer of vibratory energy,C2,6,stated
+FN10,C12,position,,7;11,stated
+FN11,C8,position,C13,9,stated
+FN12,C14,attach,C13,10,stated
+FN13,C8,position,C14,12,stated
+FN14,C15,hold,C7,17,stated
+FN15,C15,hold,C8,17,stated
+FN16,C15,impart vibratory energy,C3,17,stated
+FN17,C16,change operating speed,,18,stated

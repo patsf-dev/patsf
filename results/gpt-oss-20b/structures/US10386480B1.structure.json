@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "invention",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "transmitting, by a radar unit of a vehicle, at least two signal pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "radar unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "transmitting, by a radar unit of a vehicle, at least two signal pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "signal pulse",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least two signal pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "reflection signal",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "receiving, by the radar unit, a reflection signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "target information",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to determine target information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "predetermined map",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "with at least one object of a predetermined map",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "electronic database",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "storing the correlated target information as radar data indexed with information from the predetermined map",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "transmit a signal pulse",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "transmitting, by a radar unit of a vehicle, at least two signal pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C1",
+      "text": "receive a reflection signal",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "receiving, by the radar unit, a reflection signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C1",
+      "text": "process reflection signals to determine target information",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "processing the received reflection signals in a synthetic aperture radar processing mode to determine target information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C1",
+      "text": "correlate target information with predetermined map",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1,
+          6,
+          7
+        ],
+        "quote": "correlating the target information with at least one object of a predetermined map",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C1",
+      "text": "generate an image",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "generating an image based on the received reflection signals",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C1",
+      "text": "correlate target information based on image",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "and wherein the correlating is further based on the image",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C6",
+      "text": "store correlated target information",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "storing the correlated target information as radar data indexed with information from the predetermined map",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C1",
+      "text": "create a virtual antenna aperture",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "creating a virtual antenna aperture that is larger than the physical antenna aperture of the vehicle",
+        "status": "stated"
+      }
+    }
+  ]
+}

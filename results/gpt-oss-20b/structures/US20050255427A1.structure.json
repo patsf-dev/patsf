@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "power oral hygiene device",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A power oral hygiene device comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "main body",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a main body having a handle portion and a removable head portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "handle portion",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a main body having a handle portion and a removable head portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "removable head portion",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a main body having a handle portion and a removable head portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "toothbrush head",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the head portion comprising one of the group consisting of a toothbrush head, a flosser head, and a tongue scraper",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "flosser head",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the head portion comprising one of the group consisting of a toothbrush head, a flosser head, and a tongue scraper",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "tongue scraper",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the head portion comprising one of the group consisting of a toothbrush head, a flosser head, and a tongue scraper",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "first vibratory means",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first vibratory means positioned in the handle portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "second vibratory means",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second vibratory means positioned in the head portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "power means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a power means for providing energy to the first vibratory means and the second vibratory means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "vibration focusing means",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a vibration focusing means attached to the first vibratory means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "vibration isolation means",
+      "parent": "C10",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a vibration isolation means for reducing the transfer of vibratory energy",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "vibration isolation means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a vibration isolation means for reducing the transfer of vibratory energy",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "shaft",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "the head portion further comprises a shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "oral hygiene attachment",
+      "parent": "C13",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "an oral hygiene attachment attached to the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "frame means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          17
+        ],
+        "quote": "a frame means for holding the first vibratory means and the second vibratory means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "means for changing operating speed",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          18
+        ],
+        "quote": "a means for changing an operating speed of at least one of the first vibratory means and the second vibratory means",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C9",
+      "text": "provide energy",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a power means for providing energy to the first vibratory means and the second vibratory means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C9",
+      "text": "provide energy",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a power means for providing energy to the first vibratory means and the second vibratory means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C7",
+      "text": "position",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first vibratory means positioned in the handle portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C8",
+      "text": "position",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second vibratory means positioned in the head portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C10",
+      "text": "attach",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a vibration focusing means attached to the first vibratory means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C10",
+      "text": "impart vibratory energy",
+      "target": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the vibration focusing means for imparting vibratory energy generated by the first vibratory means to the oral hygiene device in a particular direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C11",
+      "text": "reduce transfer of vibratory energy",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a vibration isolation means for reducing the transfer of vibratory energy",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C11",
+      "text": "position",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "the vibration isolation means is positioned between the first vibratory means and the handle portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C12",
+      "text": "reduce transfer of vibratory energy",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a vibration isolation means for reducing the transfer of vibratory energy",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C12",
+      "text": "position",
+      "target": null,
+      "provenance": {
+        "claims": [
+          7,
+          11
+        ],
+        "quote": "the vibration isolation means is positioned between the second vibratory means and the handle portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C8",
+      "text": "position",
+      "target": "C13",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "the second vibratory means is positioned within the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C14",
+      "text": "attach",
+      "target": "C13",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "an oral hygiene attachment attached to the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C8",
+      "text": "position",
+      "target": "C14",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "the second vibratory means is positioned within the oral hygiene attachment",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C15",
+      "text": "hold",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          17
+        ],
+        "quote": "a frame means for holding the first vibratory means and the second vibratory means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C15",
+      "text": "hold",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          17
+        ],
+        "quote": "a frame means for holding the first vibratory means and the second vibratory means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C15",
+      "text": "impart vibratory energy",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          17
+        ],
+        "quote": "the frame means imparts the vibratory energy generated by the first vibratory means to the head portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C16",
+      "text": "change operating speed",
+      "target": null,
+      "provenance": {
+        "claims": [
+          18
+        ],
+        "quote": "a means for changing an operating speed of at least one of the first vibratory means and the second vibratory means",
+        "status": "stated"
+      }
+    }
+  ]
+}

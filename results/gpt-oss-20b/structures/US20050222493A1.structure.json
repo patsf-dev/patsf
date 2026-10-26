@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "endoscope",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An endoscope comprising",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "insertion portion",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an insertion portion that is to be inserted into a coelom",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "treatment instrument elevation support",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a treatment instrument elevation support, pivotally provided at a distal end of the insertion portion, that is used to guide a treatment instrument",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "observation section",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an observation section that obtains an image observed at the distal end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "identification section",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "an identification section that employs the image to determine whether the treatment instrument elevation support has been reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "marker",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a marker that is provided on the part of the treatment instrument elevation support, to determine whether the treatment instrument elevation support has been reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "position indicator",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a position indicator that designates a location of the marker that is displayed in the image when the treatment instrument elevation support is reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "reclined position indicator",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a reclined position indicator that indicates a first position of the marker that is displayed in the image when the treatment instrument elevation support is reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "elevation position indicator",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "an elevation position indicator that indicates a second position of the marker that is displayed in the image when the treatment instrument elevation support is elevated",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "insert",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an insertion portion that is to be inserted into a coelom",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C2",
+      "text": "guide",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "that is used to guide a treatment instrument introduced at the distal end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C3",
+      "text": "obtain an image",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an observation section that obtains an image observed at the distal end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C3",
+      "text": "include part of support in image",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1,
+          5
+        ],
+        "quote": "when the treatment instrument elevation support is reclined, part of the treatment instrument elevation support is included in the image obtained by the observation section",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C4",
+      "text": "employ image to determine whether support has been reclined",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "an identification section that employs the image to determine whether the treatment instrument elevation support has been reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C5",
+      "text": "provide on part of support to determine whether support has been reclined",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a marker that is provided on the part of the treatment instrument elevation support, to determine whether the treatment instrument elevation support has been reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C5",
+      "text": "captured in image when support is reclined",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "and that is captured in an image obtained when the treatment instrument elevation support is reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C6",
+      "text": "designate location of marker displayed in image when support is reclined",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a position indicator that designates a location of the marker that is displayed in the image when the treatment instrument elevation support is reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C7",
+      "text": "indicate first position of marker displayed in image when support is reclined",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a reclined position indicator that indicates a first position of the marker that is displayed in the image when the treatment instrument elevation support is reclined",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C8",
+      "text": "indicate second position of marker displayed in image when support is elevated",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "an elevation position indicator that indicates a second position of the marker that is displayed in the image when the treatment instrument elevation support is elevated",
+        "status": "stated"
+      }
+    }
+  ]
+}

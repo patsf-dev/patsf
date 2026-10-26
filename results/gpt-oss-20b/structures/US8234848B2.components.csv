@@ -1,0 +1,6 @@
+id,name,parent,claims,status
+C0,robotic mower height of cut adjustment assembly,,1,stated
+C1,height of cut drum,C0,1,stated
+C2,motor cup,C0,1,stated
+C3,blade shield,C0,1,stated
+C4,inserts,C1,3,stated

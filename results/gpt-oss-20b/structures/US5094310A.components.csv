@@ -1,0 +1,25 @@
+id,name,parent,claims,status
+C0,powered wheelchair,,1,stated
+C1,seat,C0,1,stated
+C2,first side frame,C0,1,stated
+C3,second side frame,C0,1,stated
+C4,first driven wheel,C0,1,stated
+C5,second driven wheel,C0,1,stated
+C6,first drive motor,C0,1,stated
+C7,second drive motor,C0,1,stated
+C8,first drive means,C0,1,stated
+C9,second drive means,C0,1,stated
+C10,first gear box,C8,1,stated
+C11,second gear box,C9,1,stated
+C12,first drive pulley,C8,1,stated
+C13,second drive pulley,C9,1,stated
+C14,first driven pulley,C8,1,stated
+C15,second driven pulley,C9,1,stated
+C16,first bracket,C0,2,stated
+C17,second bracket,C0,2,stated
+C18,pinion of first drive motor,C6,4,stated
+C19,pinion of second drive motor,C7,4,stated
+C20,output shaft of first drive motor,C6,1,stated
+C21,output shaft of second drive motor,C7,1,stated
+C22,gear in first gear box,C10,4,stated
+C23,gear in second gear box,C11,4,stated

@@ -1,0 +1,7 @@
+id,component,text,target,claims,status
+FN1,C1,rotate a wheel,C4,1,stated
+FN2,C6,produce a driving force,,1,stated
+FN3,C7,rotate a wheel,C4,1,stated
+FN4,C8,detect a driving force,,1,stated
+FN5,C8,drive a motor,C6,1,stated
+FN6,C8,detect a torque output,C3,1,stated

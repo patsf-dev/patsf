@@ -1,0 +1,9 @@
+id,component,text,target,claims,status
+FN1,C1,transmit a signal pulse,C2,1,stated
+FN2,C1,receive a reflection signal,C3,1,stated
+FN3,C1,process reflection signals to determine target information,C4,1,stated
+FN4,C1,correlate target information with predetermined map,C5,1;6;7,stated
+FN5,C1,generate an image,,3,stated
+FN6,C1,correlate target information based on image,,3,stated
+FN7,C6,store correlated target information,,1,stated
+FN8,C1,create a virtual antenna aperture,,8,stated

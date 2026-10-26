@@ -1,0 +1,473 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "endoscope",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An endoscope adapted to insert a treatment tool, the endoscope comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "opening",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an opening from which the treatment tool protrudes, the opening being provided on a distal end of the endoscope",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "rotary shaft",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a rotary shaft rotatably mounted in the opening",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "raise base",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "quote": "a raise base that is attachable to the rotary shaft and detachable from the rotary shaft in a predetermined attaching/detaching direction through the opening",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "engagement sections",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a pair of engagement sections made of an elastic material",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "engagement surface",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the rotary shaft includes an engagement surface extending in the attaching/detaching direction and abutting an inner surface of the engagement section",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "projection",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a projection configured to project toward a direction intersecting with the attaching/detaching direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "projection convex portion",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "the projection is a convex portion protruding from the engagement surface toward the engagement section to be engaged",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "recessed portion",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a recessed portion provided on an inner side with respect to a direction in which the engagement sections are opposed to each other",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "attaching/detaching-direction display marker",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an attaching/detaching-direction display marker configured to indicate the attaching/detaching direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "rotation preventing unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a rotation preventing unit configured to prevent the raise base and the rotary shaft from relatively rotating",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "groove",
+      "parent": "C10",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a groove formed on one of the raise base and the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "projection on other component",
+      "parent": "C10",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a projection formed on an other of the raise base and the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "ultrasound transducer",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "an ultrasound transducer provided on a distal end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "elastic member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "an elastic member provided around the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "operating unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "an operating unit configured to receive an operation for rotating the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "wire",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a wire provided along the longitudinal direction, the wire having a proximal end connected to the operation unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "shaft section",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the rotary shaft includes a shaft section that is perpendicular to the longitudinal direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "wire connection section",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a wire connection section connected to the distal end of the wire",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C3",
+      "text": "rise around a shaft",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the raise base being configured to rise around the rotary shaft while being attached to the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C4",
+      "text": "engage a shaft",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the pair of engagement sections extending in the attaching/detaching direction and opposing to each other with the rotary shaft interposed therebetween",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C5",
+      "text": "abut an inner surface",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the rotary shaft includes an engagement surface extending in the attaching/detaching direction and abutting an inner surface of the engagement section",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C6",
+      "text": "project toward a direction intersecting with the attaching/detaching direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a projection configured to project toward a direction intersecting with the attaching/detaching direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C6",
+      "text": "protrude toward a shaft",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "the projection is provided on distal ends of the respective engagement sections to protrude from the engagement sections toward the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C3",
+      "text": "align longitudinal direction with a section",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a longitudinal direction of the raise base is identical to a direction in which the engagement section extends",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C7",
+      "text": "engage with a recessed portion",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "the projection is a convex portion protruding from the engagement surface toward the engagement section to be engaged",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C9",
+      "text": "indicate a direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an attaching/detaching-direction display marker configured to indicate the attaching/detaching direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C10",
+      "text": "prevent relative rotation",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a rotation preventing unit configured to prevent the raise base and the rotary shaft from relatively rotating",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C15",
+      "text": "receive an operation for rotating a shaft",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "an operating unit configured to receive an operation for rotating the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C16",
+      "text": "connect to a shaft",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a wire provided along the longitudinal direction, the wire having a proximal end connected to the operation unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C15",
+      "text": "raise a base by rotating a shaft section",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the operating unit raises the treatment tool by raising the raise base by rotating the shaft section of the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C17",
+      "text": "rotate a shaft section",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the rotary shaft includes a shaft section that is perpendicular to the longitudinal direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C18",
+      "text": "connect a wire",
+      "target": "C16",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a wire connection section connected to the distal end of the wire",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C13",
+      "text": "provide a transducer on a distal end",
+      "target": null,
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "an ultrasound transducer provided on a distal end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C14",
+      "text": "contact a circumference surface",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "the elastic member contacts a circumference surface of the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C11",
+      "text": "form a groove",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a groove formed on one of the raise base and the rotary shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN18",
+      "component": "C12",
+      "text": "form a projection",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a projection formed on an other of the raise base and the rotary shaft",
+        "status": "stated"
+      }
+    }
+  ]
+}

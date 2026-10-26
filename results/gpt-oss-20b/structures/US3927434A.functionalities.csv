@@ -1,0 +1,4 @@
+id,component,text,target,claims,status
+FN1,C7,drive a brush,C2,1,stated
+FN2,C8,actuate a drive means,C3,1,stated
+FN3,C9,clutch a drive connection,C7,1,stated

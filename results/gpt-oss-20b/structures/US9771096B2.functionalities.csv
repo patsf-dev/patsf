@@ -1,0 +1,26 @@
+id,component,text,target,claims,status
+FN1,C1,rotatable members rotate relative to each other about an axis,,1,stated
+FN2,C2,permanent magnet has magnetic poles arranged alternately in circumferential direction,,1,stated
+FN3,C4,annular ring body has annular plane portion extending intersecting axial direction,,1,stated
+FN4,C5,protruding portion protrudes from annular ring body toward one side,C4,1,stated
+FN5,C5,protruding portion configured such that circumferential width is smaller than magnetic pole width,,1,stated
+FN6,C4,annular ring body magnetized with strength changing depending on protruding portions relative to magnetic poles,,1,stated
+FN7,C6,magnetic detection unit detects magnetic fluxes of annular plane portion from one surface of annular ring body,C4,1,stated
+FN8,C4,annular ring body formed of single piece,,1,stated
+FN9,C5,protruding portion tapered shape with circumferential width decreasing,,2;17,stated
+FN10,C5,protruding portion extends outward in radial direction,,3,stated
+FN11,C0,device configured to detect magnetic fluxes without forming closed loop circuit,,4,stated
+FN12,C6,magnetic detection unit includes magnetic sensor for detecting axial oriented magnetic fluxes,C7,5,stated
+FN13,C4,annular ring body or magnetic sensor arranged at a position different from protruding portions along axial direction,C5,6,stated
+FN14,C8,intermediate yoke has first plane portion arranged between magnetic sensor and annular ring body,C7,7,stated
+FN15,C9,first plane portion surface area smaller than annular plane portion,C4,8,stated
+FN16,C4,annular ring body or intermediate yoke or magnetic sensor arranged at a position different from protruding portions along radial directions,C5,9,stated
+FN17,C3,ring magnetized with different strengths in first and second states,,10,stated
+FN18,C5,protruding portions positioned to cause equal or single group magnetization,C2,11,stated
+FN19,C11,elastic member constantly applies biasing force in relative rotation direction,C1,12,stated
+FN20,C12,restriction part prevents rotation of members relative to other after a first member rotated relative to a second through a predetermined angle,C1,12,stated
+FN21,C13,rotation driving member configured such that user gives rotational force,,13,stated
+FN22,C14,power source configured to give rotational force to second member,C1,13,stated
+FN23,C15,"control unit configured to, when first member rotated relative to second through a predetermined angle, control the power source force depending on magnetic detection output",C14,13,stated
+FN24,C10,shaft has axis being axis of rotation,,18,stated
+FN25,C2,magnetic poles form N-pole group and S-pole group,,10,stated

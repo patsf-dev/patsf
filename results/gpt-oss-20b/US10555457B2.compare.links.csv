@@ -1,0 +1,23 @@
+link,a,b,LINK,matched_patents,claims
+C1-C2,inner body,outer cover,RECOMBINED,,1
+C1-C20,inner body,housing supporter,RECOMBINED,,6
+C1-C22,inner body,flange portion,RECOMBINED,,6
+C1-C34,inner body,corner portion,RECOMBINED,,7
+C10-C33,lowering protrusion,lever,NEW,,5
+C10-C8,lowering protrusion,drop switch,NEW,,1
+C11-C9,supporter receiving portion,shaft supporter,NEW,,2
+C12-C9,height restricting portion,shaft supporter,NEW,,2
+C13-C9,bracket,shaft supporter,NEW,,2
+C14-C15,guide protrusions,rotation preventing protrusions,RECOMBINED,,3
+C16-C30,insertion hole,rotation shaft,RECOMBINED,,4;10
+C18-C30,release preventing member,rotation shaft,NEW,,4;10
+C19-C21,housing,housing coupling portion,NEW,,6
+C21-C23,housing coupling portion,ribs,NEW,,8
+C25-C35,guide portion,fastening portions,RECOMBINED,,8
+C26-C27,drive motor,gears,RECOMBINED,,9
+C27-C5,gears,wheels,RECOMBINED,,9
+C30-C4,rotation shaft,casters,RECOMBINED,,1
+C4-C7,casters,sensor unit,RECOMBINED,,1
+C4-C8,casters,drop switch,RECOMBINED,,1
+C5-C6,wheels,driving unit,RECOMBINED,,1
+C5-C7,wheels,sensor unit,RECOMBINED,,1

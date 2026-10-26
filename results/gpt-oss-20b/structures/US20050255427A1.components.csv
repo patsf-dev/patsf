@@ -1,0 +1,18 @@
+id,name,parent,claims,status
+C0,power oral hygiene device,,1,stated
+C1,main body,C0,1,stated
+C2,handle portion,C1,1,stated
+C3,removable head portion,C1,1,stated
+C4,toothbrush head,C3,1,stated
+C5,flosser head,C3,1,stated
+C6,tongue scraper,C3,1,stated
+C7,first vibratory means,C2,1,stated
+C8,second vibratory means,C3,1,stated
+C9,power means,C0,1,stated
+C10,vibration focusing means,C7,2,stated
+C11,vibration isolation means,C10,3,stated
+C12,vibration isolation means,C0,6,stated
+C13,shaft,C3,9,stated
+C14,oral hygiene attachment,C13,10,stated
+C15,frame means,C0,17,stated
+C16,means for changing operating speed,C0,18,stated

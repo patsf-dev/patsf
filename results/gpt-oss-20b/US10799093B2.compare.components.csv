@@ -1,0 +1,19 @@
+component,name,COMPONENT,closest,score,matched_patents
+C1,opening,EXISTING,"US5674181A:C15 opening, part of reinforcement member",0.707,US5674181A
+C2,rotary shaft,NEW,,0.0,
+C3,raise base,EXISTING,"US5569157A:C6 raising base, part of support member",0.712,US5569157A
+C4,engagement sections,EXISTING,"US5569157A:C6 raising base, part of support member",0.659,US5569157A;US5674181A
+C5,engagement surface,EXISTING,"US5674181A:C17 engagement pin, part of tip forming member",0.526,US5674181A
+C6,projection,EXISTING,"US5569157A:C6 raising base, part of support member",0.701,US5569157A
+C7,projection convex portion,EXISTING,"US5569157A:C6 raising base, part of support member",0.594,US5569157A
+C8,recessed portion,EXISTING,"US5674181A:C16 recess, part of reinforcement member",0.665,US5569157A;US5674181A
+C9,attaching/detaching-direction display marker,NEW,"US20050222493A1:C5 marker, part of treatment instrument elevation support",0.498,
+C10,rotation preventing unit,NEW,,0.0,
+C11,groove,NEW,,0.0,
+C12,projection on other component,NEW,,0.0,
+C13,ultrasound transducer,NEW,,0.0,
+C14,elastic member,EXISTING,US5674181A:C6 operation member,0.601,US5674181A
+C15,operating unit,EXISTING,US5569157A:C1 operating portion,0.761,US5569157A;US5674181A
+C16,wire,EXISTING,"US5569157A:C4 operation wire, part of raising mechanism",0.605,US5569157A;US5674181A
+C17,shaft section,NEW,"US5569157A:C16 operating knob, part of operating portion",0.36,
+C18,wire connection section,EXISTING,"US5569157A:C4 operation wire, part of raising mechanism",0.563,US5569157A;US5674181A

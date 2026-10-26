@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "vehicle",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A vehicle comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "man power driving system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a man power driving system including change mechanism",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "change mechanism",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a man power driving system including change mechanism",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "gear change mechanism",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "gear change mechanism to a wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "wheel",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to a wheel to rotate the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "motor driving system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor driving system including a motor producing a driving force",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "motor",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor producing a driving force",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "transmitting mechanism",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a transmitting mechanism for directly rotating the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "torque detector",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a torque detector for detecting a man power driving force",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "rotate a wheel",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to a wheel to rotate the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C6",
+      "text": "produce a driving force",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "motor producing a driving force",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C7",
+      "text": "rotate a wheel",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "transmitting mechanism for directly rotating the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C8",
+      "text": "detect a driving force",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "torque detector for detecting a man power driving force",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C8",
+      "text": "drive a motor",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "so as to drive the motor according to a magnitude of the man power driving force detected by the torque detector",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C8",
+      "text": "detect a torque output",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "torque detector detects a torque output from the gear change mechanism",
+        "status": "stated"
+      }
+    }
+  ]
+}

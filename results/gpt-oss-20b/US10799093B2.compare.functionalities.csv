@@ -1,0 +1,19 @@
+functionality,component,text,target,FUNCTIONALITY,closest,score,matched_patents,claims
+FN1,raise base,rise around a shaft,rotary shaft,NEW,US5569157A:FN4 adjust angle,0.123,,1
+FN2,engagement sections,engage a shaft,rotary shaft,NEW,US5569157A:FN29 detach,0.349,,1
+FN3,engagement surface,abut an inner surface,engagement sections,NEW,US5674181A:FN1 cover a body,0.233,,1
+FN4,projection,project toward a direction intersecting with the attaching/detaching direction,,NEW,US5674181A:FN2 detachably mount a tip forming member,0.38,,1
+FN5,projection,protrude toward a shaft,rotary shaft,NEW,US5674181A:FN2 detachably mount a tip forming member,0.233,,3
+FN6,raise base,align longitudinal direction with a section,engagement sections,NEW,US5569157A:FN4 adjust angle,0.317,,4
+FN7,projection convex portion,engage with a recessed portion,recessed portion,NEW,US5674181A:FN3 engage an engagement member,0.427,,5
+FN8,attaching/detaching-direction display marker,indicate a direction,,EXISTING,US20050222493A1:FN2 guide,0.721,US20050222493A1,6
+FN9,rotation preventing unit,prevent relative rotation,raise base,NEW,US5569157A:FN4 adjust angle,0.396,,7
+FN10,operating unit,receive an operation for rotating a shaft,rotary shaft,NEW,US5569157A:FN2 operate,0.386,,2
+FN11,wire,connect to a shaft,rotary shaft,NEW,US5569157A:FN29 detach,0.108,,2
+FN12,operating unit,raise a base by rotating a shaft section,raise base,NEW,US5569157A:FN4 adjust angle,0.096,,2
+FN13,shaft section,rotate a shaft section,,NEW,US5569157A:FN4 adjust angle,0.057,,2
+FN14,wire connection section,connect a wire,wire,NEW,US5569157A:FN29 detach,0.145,,2
+FN15,ultrasound transducer,provide a transducer on a distal end,,NEW,,0.0,,9
+FN16,elastic member,contact a circumference surface,rotary shaft,NEW,,0.0,,10
+FN17,groove,form a groove,,EXISTING,US5569157A:FN30 arrange,0.661,US5569157A,8
+FN18,projection on other component,form a projection,,EXISTING,US5569157A:FN6 form,0.595,US20050222493A1;US5569157A,8

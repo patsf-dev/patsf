@@ -1,0 +1,10 @@
+id,name,parent,claims,status
+C0,endoscope,,1,stated
+C1,insertion portion,C0,1,stated
+C2,treatment instrument elevation support,C1,1,stated
+C3,observation section,C0,1,stated
+C4,identification section,C0,2,stated
+C5,marker,C2,3,stated
+C6,position indicator,C4,4,stated
+C7,reclined position indicator,C4,5,stated
+C8,elevation position indicator,C4,5,stated

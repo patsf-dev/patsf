@@ -1,0 +1,19 @@
+component,name,COMPONENT,closest,score,matched_patents
+C1,frame,NEW,,0.0,
+C2,front wheel,EXISTING,US5984038A:C4 wheel,0.62,US5984038A
+C3,rear wheel,EXISTING,US5984038A:C4 wheel,0.63,US5984038A
+C4,bottom bracket shell,EXISTING,US20160332695A1:C4 bottom bracket spindle,0.651,US20160332695A1
+C5,drive train,EXISTING,US20160332695A1:C5 drive mechanism,0.721,US20160332695A1;US5984038A
+C6,pedal crank,EXISTING,"US20160332695A1:C8 drive wheel, part of drive mechanism",0.656,US20160332695A1
+C7,drive chain,EXISTING,US20160332695A1:C5 drive mechanism,0.677,US20160332695A1;US5984038A
+C8,rear sprocket,EXISTING,US5984038A:C4 wheel,0.503,US5984038A
+C9,electric motor,EXISTING,"US5984038A:C6 motor, part of motor driving system",0.58,US20160332695A1;US5984038A
+C10,motor output shaft,EXISTING,"US5984038A:C6 motor, part of motor driving system",0.743,US20160332695A1;US5984038A;US9771096B2
+C11,torque sensor,EXISTING,"US5984038A:C8 torque detector, part of man power driving system",0.719,US20160332695A1;US5984038A
+C12,base,EXISTING,"US5984038A:C8 torque detector, part of man power driving system",0.665,US5984038A
+C13,flexible arm,EXISTING,"US5984038A:C8 torque detector, part of man power driving system",0.631,US5984038A
+C14,sensing member,EXISTING,US20160332695A1:C7 detection device,0.563,US20160332695A1;US9771096B2
+C15,segment of drive chain,EXISTING,"US20160332695A1:C8 drive wheel, part of drive mechanism",0.716,US20160332695A1
+C16,housing,NEW,,0.0,
+C17,magnet,EXISTING,"US9771096B2:C7 magnetic sensor, part of magnetic detection unit",0.66,US9771096B2
+C18,Hall effect sensor,NEW,US20160332695A1:C7 detection device,0.446,

@@ -1,0 +1,17 @@
+id,component,text,target,claims,status
+FN1,C4,move,C3,1,stated
+FN2,C5,move,C3,1,stated
+FN3,C4,activate,,2;3,stated
+FN4,C5,activate,,2;3,stated
+FN5,C6,generate,,4,stated
+FN6,C6,supply,C4,4,stated
+FN7,C6,supply,C5,4,stated
+FN8,C6,adjust,,6,stated
+FN9,C7,move,C3,12,stated
+FN10,C10,rotate,C3,12,stated
+FN11,C13,apply,C7,13,stated
+FN12,C13,apply,C10,13,stated
+FN13,C4,drive periodically,,14,stated
+FN14,C5,drive periodically,,15,stated
+FN15,C13,sustain movement,C3,14,stated
+FN16,C13,sustain rotation,C3,15,stated

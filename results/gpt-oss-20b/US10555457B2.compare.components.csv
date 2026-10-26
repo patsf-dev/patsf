@@ -1,0 +1,33 @@
+component,name,COMPONENT,closest,score,matched_patents
+C1,inner body,EXISTING,US20080276407A1:C6 body,0.614,US20080276407A1;US20170265384A1
+C2,outer cover,EXISTING,"US8336282B2:C4 outer seal, part of bottom chassis",0.574,US20120023887A1;US20180199506A1;US8336282B2
+C3,blades,EXISTING,"US20170265384A1:C2 blade housing, part of main body",0.81,US20170265384A1
+C4,casters,EXISTING,"US20080282494A1:C12 caster wheel assembly, part of chassis",0.53,US20080282494A1
+C5,wheels,EXISTING,"US20170265384A1:C7 rear wheels, part of main body",0.822,US20080276407A1;US20080282494A1;US20110239613A1;US20170265384A1;US20180199506A1
+C6,driving unit,EXISTING,US20080276407A1:C2 drive system,0.834,US20080276407A1;US20100257691A1;US8417383B2
+C7,sensor unit,EXISTING,US20180199506A1:C6 guidewire sensor,0.607,US20080276407A1;US20080282494A1;US20100257691A1;US20180199506A1
+C8,drop switch,EXISTING,"US20100257691A1:C5 wheel drop sensor, part of robot housing",0.703,US20100257691A1;US8417383B2
+C9,shaft supporter,NEW,"US20140033862A1:C2 first shaft, part of motor",0.441,
+C10,lowering protrusion,NEW,"US8336282B2:C10 boundary sensor, part of bottom chassis",0.452,
+C11,supporter receiving portion,EXISTING,"US8336282B2:C7 inner cavity, part of bottom chassis",0.526,US8336282B2
+C12,height restricting portion,NEW,,0.0,
+C13,bracket,NEW,US5094310A:C17 second bracket,0.454,
+C14,guide protrusions,EXISTING,"US20080276407A1:C23 guide pin, part of bumper guide",0.533,US20080276407A1
+C15,rotation preventing protrusions,EXISTING,"US20150381009A1:C8 rotor shaft, part of rotor",0.617,US20150381009A1
+C16,insertion hole,EXISTING,"US8417383B2:C7 shaft, part of wheel housing",0.573,US20110239613A1;US20140033862A1;US8417383B2
+C17,supporting groove,EXISTING,"US8417383B2:C7 shaft, part of wheel housing",0.524,US8417383B2
+C18,release preventing member,NEW,,0.0,
+C19,housing,EXISTING,"US20080282494A1:C3 drive wheel assembly housing, part of drive wheel assembly",0.869,US20080282494A1;US20100257691A1
+C20,housing supporter,EXISTING,"US20080282494A1:C3 drive wheel assembly housing, part of drive wheel assembly",0.728,US20080282494A1;US20100257691A1
+C21,housing coupling portion,NEW,"US20150381009A1:C11 stator assembly, part of hollow housing",0.413,
+C22,flange portion,EXISTING,"US20150381009A1:C14 radially protruding mounting structure, part of hollow housing",0.688,US20150381009A1
+C23,ribs,NEW,"US20150381009A1:C17 circumferential flange, part of radially protruding mounting structure",0.481,
+C24,spacer,EXISTING,"US20150381009A1:C17 circumferential flange, part of radially protruding mounting structure",0.618,US20150381009A1
+C25,guide portion,EXISTING,"US20150381009A1:C17 circumferential flange, part of radially protruding mounting structure",0.636,US20080276407A1;US20150381009A1
+C26,drive motor,EXISTING,"US20100257691A1:C2 motor drive, part of robot housing",0.796,US20080282494A1;US20100257691A1;US5094310A
+C27,gears,EXISTING,"US20080282494A1:C3 drive wheel assembly housing, part of drive wheel assembly",0.536,US20080282494A1
+C28,motor shaft,EXISTING,"US5094310A:C20 output shaft of first drive motor, part of first drive motor",0.812,US20110239613A1;US20140033862A1;US5094310A
+C30,rotation shaft,EXISTING,"US20150381009A1:C8 rotor shaft, part of rotor",0.638,US20150381009A1;US8417383B2
+C33,lever,NEW,"US20080276407A1:C14 button, part of bin cover release",0.143,
+C34,corner portion,EXISTING,"US20150381009A1:C17 circumferential flange, part of radially protruding mounting structure",0.604,US20150381009A1
+C35,fastening portions,EXISTING,"US20120023887A1:C11 mounting clip, part of outer cavity",0.583,US20080276407A1;US20120023887A1

@@ -1,0 +1,15 @@
+id,name,parent,claims,status
+C0,power toothbrush,,1,stated
+C1,brush head,C0,1,stated
+C2,actuator,C0,1,stated
+C3,drive shaft,C2,1,stated
+C4,first magnetic circuit,C2,1,stated
+C5,second magnetic circuit,C2,1,stated
+C6,inverter,C0,4,stated
+C7,first permanent magnet unit,C4,12,stated
+C8,first stator,C4,12,stated
+C9,first winding,C4,12,stated
+C10,second permanent magnet unit,C5,12,stated
+C11,second stator,C5,12,stated
+C12,second winding,C5,12,stated
+C13,coil spring,C2,13,stated

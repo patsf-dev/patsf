@@ -1,0 +1,10 @@
+id,component,text,target,claims,status
+FN1,C3,operate a shaft,C1,1,stated
+FN2,C4,enable a shaft to move eccentrically,C1,1,stated
+FN3,C6,enable a shaft to reciprocate linearly,C1,1,stated
+FN4,C8,press a weight,C5,3,stated
+FN5,C10,drive a linear actuator,C6,4,stated
+FN6,C10,drive a weight-equipped rotary motor,C5,4,stated
+FN7,C11,hold a primary drive unit,C3,7,stated
+FN8,C12,hold a supplementary drive unit,C4,7,stated
+FN9,C13,couple a shaft to a second holder,C12,8,stated

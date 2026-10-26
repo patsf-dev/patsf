@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "automotive vehicle",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An automotive vehicle comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "actuator",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one actuator configured to control vehicle steering, acceleration, or shifting",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one sensor configured to emit a signal having a first encoding scheme and receive a return signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "controller",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one controller in communication with the actuator and the sensor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "LiDAR emitter",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "the at least one sensor comprises a LiDAR emitter and a LiDAR receiver",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "LiDAR receiver",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "the at least one sensor comprises a LiDAR emitter and a LiDAR receiver",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C3",
+      "text": "control an actuator",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the controller being configured to control the actuator according to a first mode and a second mode",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C3",
+      "text": "infer a location of a target object",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2,
+          3,
+          6
+        ],
+        "quote": "the controller is further configured to infer a location of a target object external to the vehicle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C3",
+      "text": "identify a target object as a multipath reflection and disregard it",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "identify the target object as a multipath reflection and disregard the target object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C3",
+      "text": "access a behavior model",
+      "target": null,
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "access a behavior model for predicting behavior of a target object external to the vehicle, the behavior model corresponding to the second encoding scheme",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C3",
+      "text": "define a vehicle path",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2,
+          6
+        ],
+        "quote": "defining a vehicle path based on the inferred presence of the target object at the location",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C2",
+      "text": "emit a signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one sensor configured to emit a signal having a first encoding scheme",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C2",
+      "text": "receive a return signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "receive a return signal",
+        "status": "stated"
+      }
+    }
+  ]
+}

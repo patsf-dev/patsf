@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "robotic mower housing",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A robotic mower housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "bottom chassis",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a one piece molded bottom chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "traction wheel motors",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "pair of traction wheel motors",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "top cover",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "top cover",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "outer seal",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "outer seal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "inner seal",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "inner seal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "outer cavity",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "outer cavity",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "inner cavity",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "inner cavity",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "mounting clips",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "plurality of mounting clips",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "height of cut adjustment assembly",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "height of cut adjustment assembly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "boundary sensor",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "boundary sensor",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C2",
+      "text": "mount a component",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to which a pair of traction wheel motors are mounted",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C3",
+      "text": "attach a component",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "removably attached to and covering the bottom chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C4",
+      "text": "enclose a cavity",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to fully enclose the outer cavity",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C5",
+      "text": "enclose a cavity",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to fully enclose an inner cavity",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C4",
+      "text": "prevent contaminants from reaching components",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "preventing moisture, dust, debris and other contaminants from reaching a plurality of components housed in the inner cavity.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C5",
+      "text": "prevent contaminants from reaching components",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "preventing moisture, dust, debris and other contaminants from reaching a plurality of components housed in the inner cavity.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C8",
+      "text": "position a component",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "positioned in the outer cavity between the outer seal and the inner seal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C9",
+      "text": "mount a component",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "mounted through an opening in the bottom chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C10",
+      "text": "position a component",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "positioned in the inner cavity",
+        "status": "stated"
+      }
+    }
+  ]
+}

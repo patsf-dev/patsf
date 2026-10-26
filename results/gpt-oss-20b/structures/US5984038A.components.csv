@@ -1,0 +1,10 @@
+id,name,parent,claims,status
+C0,vehicle,,1,stated
+C1,man power driving system,C0,1,stated
+C2,change mechanism,C1,1,stated
+C3,gear change mechanism,C2,1,stated
+C4,wheel,C0,1,stated
+C5,motor driving system,C0,1,stated
+C6,motor,C5,1,stated
+C7,transmitting mechanism,C5,1,stated
+C8,torque detector,C1,1,stated

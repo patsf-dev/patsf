@@ -1,0 +1,20 @@
+id,name,parent,claims,status
+C0,endoscope,,1,stated
+C1,opening,C0,1,stated
+C2,rotary shaft,C0,1,stated
+C3,raise base,C0,1;2;4;5;6;7,stated
+C4,engagement sections,C3,1,stated
+C5,engagement surface,C2,1,stated
+C6,projection,C3,1,stated
+C7,projection convex portion,C3,5,stated
+C8,recessed portion,C3,5,stated
+C9,attaching/detaching-direction display marker,C3,6,stated
+C10,rotation preventing unit,C0,7,stated
+C11,groove,C10,8,stated
+C12,projection on other component,C10,8,stated
+C13,ultrasound transducer,C0,9,stated
+C14,elastic member,C0,10,stated
+C15,operating unit,C0,2,stated
+C16,wire,C0,2,stated
+C17,shaft section,C2,2,stated
+C18,wire connection section,C2,2,stated

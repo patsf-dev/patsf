@@ -1,0 +1,833 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "invention",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A lawn mower robot",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "inner body",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an inner body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "outer cover",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an outer cover",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "blades",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a plurality of blades",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "casters",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "casters",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "wheels",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "driving unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a driving unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "sensor unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a sensor unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "drop switch",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a drop switch",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "shaft supporter",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a shaft supporter",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "lowering protrusion",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a lowering protrusion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "supporter receiving portion",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a supporter receiving portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "height restricting portion",
+      "parent": "C11",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a height restricting portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "bracket",
+      "parent": "C11",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a bracket",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "guide protrusions",
+      "parent": "C11",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "guide protrusions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "rotation preventing protrusions",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "rotation preventing protrusions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "insertion hole",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "an insertion hole",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "supporting groove",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a supporting groove",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "release preventing member",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a release preventing member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "housing",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "housing supporter",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a housing supporter",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "housing coupling portion",
+      "parent": "C20",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a housing coupling portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C22",
+      "name": "flange portion",
+      "parent": "C20",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a flange portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C23",
+      "name": "ribs",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a plurality of ribs",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C24",
+      "name": "spacer",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a spacer",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C25",
+      "name": "guide portion",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a guide portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C26",
+      "name": "drive motor",
+      "parent": "C19",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "a drive motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C27",
+      "name": "gears",
+      "parent": "C19",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "a plurality of gears",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C28",
+      "name": "motor shaft",
+      "parent": "C26",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "the motor shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C30",
+      "name": "rotation shaft",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "rotation shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C33",
+      "name": "lever",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a lever",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C34",
+      "name": "corner portion",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "corner portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C35",
+      "name": "fastening portions",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a plurality of fastening portions",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C2",
+      "text": "surround",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an outer cover configured to surround an outer side of the inner body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C3",
+      "text": "cut",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a plurality of blades rotatably provided on a bottom surface of the inner body to cut grass",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C4",
+      "text": "pivot",
+      "target": "C30",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "casters pivotably provided near front sides of the inner body to be pivotable about a rotation shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C5",
+      "text": "roll",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "wheels rotatably provided near rear sides of the inner body and configured to roll on a surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C6",
+      "text": "drive",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a driving unit configured to drive the wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C7",
+      "text": "sense",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a sensor unit configured to sense whether one or more of the casters is lifted off the surface to stop rotation of the wheels by the driving unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C8",
+      "text": "sense",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the sensor unit includes a drop switch configured to sense a downward movement of one or more of the casters when the one or more of the casters is lifted off the surface to be suspended in air",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C9",
+      "text": "move",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a shaft supporter received in a lower portion of the inner body and configured to be movable up and down",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C10",
+      "text": "contact",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the lowering protrusion is brought into contact with the drop switch to activate the drop switch",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C8",
+      "text": "activate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to activate the drop switch and stop rotation of the wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C7",
+      "text": "stop",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to stop rotation of the wheels by the driving unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C11",
+      "text": "receive",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a supporter receiving portion configured to receive the shaft supporter is formed on a bottom surface of the inner body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C12",
+      "text": "restrict",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a height restricting portion provided at an upper portion of the shaft supporter to restrict an upward movement of the shaft supporter to a prescribed upper height",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C13",
+      "text": "restrict",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a bracket coupled to a lower end of the supporter receiving portion configured to restrict a downward movement of the shaft supporter to a prescribed lower height",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C14",
+      "text": "spaced",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "the supporter receiving portion includes a plurality of guide protrusions spaced apart from each other along an inner circumferential surface of the supporter receiving portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C15",
+      "text": "insert",
+      "target": "C14",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "the shaft supporter includes a plurality of rotation preventing protrusions spaced apart from each other along an outer circumferential surface of the shaft supporter and configured to be inserted between the plurality of guide protrusions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C16",
+      "text": "accommodate",
+      "target": "C30",
+      "provenance": {
+        "claims": [
+          4,
+          10
+        ],
+        "quote": "an insertion hole formed within the shaft supporter to accommodate the rotation shaft of the caster",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN18",
+      "component": "C18",
+      "text": "prevent",
+      "target": "C30",
+      "provenance": {
+        "claims": [
+          4,
+          10
+        ],
+        "quote": "a release preventing member coupled to an upper end portion of the rotation shaft of the caster and supported by the supporting groove to prevent the rotation shaft of the caster from being released from the shaft supporter in a downward direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN19",
+      "component": "C19",
+      "text": "receive",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a housing configured to receive a drive motor and a plurality of gears for transmitting power of the drive motor to the wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN20",
+      "component": "C20",
+      "text": "fasten",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a housing supporter configured to fasten the housing to a side surface of the inner body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN21",
+      "component": "C21",
+      "text": "surround",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a housing supporter includes a housing coupling portion that surrounds an outer circumferential surface of the housing and coupled to the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN22",
+      "component": "C22",
+      "text": "protrude",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a flange portion formed to protrude radially from an outer circumferential surface of the housing coupling portion to be fastened to the inner body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN23",
+      "component": "C23",
+      "text": "connect",
+      "target": "C21",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a plurality of ribs disposed to extend from a first surface of the flange portion to an outer circumferential surface of the housing coupling portion to connect the flange portion to the housing coupling portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN24",
+      "component": "C24",
+      "text": "protrude",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a spacer formed to protrude from a second surface of the flange portion that is opposite the first surface, the spacer having a circumference greater than the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN25",
+      "component": "C25",
+      "text": "surround",
+      "target": "C35",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a guide portion formed to protrude from the second surface at a corner portion of the flange portion and configured to surround a portion of the fastening portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN26",
+      "component": "C26",
+      "text": "connect",
+      "target": "C27",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "the drive motor received in the housing is connected to a plurality of gears through the motor shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN27",
+      "component": "C27",
+      "text": "couple",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "the plurality of gears are coupled to the wheel through the rotation shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN28",
+      "component": "C27",
+      "text": "change",
+      "target": "C26",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "and the plurality of gears are coupled to the wheel through the rotation shaft and configured to change a rotational speed of the motor according to a preset gear ratio",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN29",
+      "component": "C33",
+      "text": "lower",
+      "target": "C10",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "the lowering protrusion is provided adjacent to the drop switch and includes an angled surface that protrudes toward the drop switch and the drop switch includes a lever configured to be lowered by the angled surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN30",
+      "component": "C33",
+      "text": "contact",
+      "target": "C10",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "the lever is configured to contact the angled surface of the lowering protrusion when one or more of the casters is lifted off the surface to be lowered relative to the inner body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN31",
+      "component": "C10",
+      "text": "contact",
+      "target": "C33",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "the lever is configured to contact the angled surface of the lowering protrusion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN32",
+      "component": "C34",
+      "text": "fasten",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a corner portion of the flange portion is fastened to the inner body with a bolt",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN33",
+      "component": "C35",
+      "text": "accommodate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a plurality of fastening portions are provided to protrude from a side surface of the inner body and configured to accommodate the bolt for fastening the flange portion to the side surface of the inner body",
+        "status": "stated"
+      }
+    }
+  ]
+}

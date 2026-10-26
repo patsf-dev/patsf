@@ -1,0 +1,507 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "seat-belt monitoring system",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A seat-belt monitoring system comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "self-driving vehicle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first self-driving vehicle configured to transport a rider;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "seat",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first seat coupled to the first self-driving vehicle;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "seat belt",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first seat belt configured to secure the rider in the first seat;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "seat belt sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "configured to detect at least one of a buckled state of the first seat belt and an unbuckled state of the first seat belt",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "occupancy sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first occupancy sensor configured to detect the rider sitting in the first seat;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "computer system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a computer system comprising at least one computer and located remotely relative to the first self-driving vehicle,",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "memory",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the computer system comprises a memory having a buckling history of the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "program instructions",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first program instructions configured to send a first wireless communication to the computer system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "program instructions",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "configured to determine a future transportation price for a ride at least partially based on the buckling history of the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "program instructions",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "third program instructions configured to send a second wireless communication to a remote computing device of the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "program instructions",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "fourth program instructions configured to deny a future ride request from the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "camera",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "camera configured to take a picture of the rider in the first seat during the unbuckled state",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "self-driving vehicle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a second self-driving vehicle having a second seat belt and a second seat belt sensor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "seat belt",
+      "parent": "C13",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "configured to detect at least one of a buckled state of the second seat belt and an unbuckled state of the second seat belt",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "seat belt sensor",
+      "parent": "C13",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "configured to detect at least one of a buckled state of the second seat belt and an unbuckled state of the second seat belt",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "program instructions",
+      "parent": "C13",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "second program instructions configured to send a second wireless communication to the computer system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "weight sensor",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "first weight sensor configured to detect first data indicative of a first weight of the rider sitting in the first seat",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "weight sensor",
+      "parent": "C13",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "second weight sensor configured to detect second data indicative of a second weight of an unknown rider sitting in the second seat",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "transport a rider",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "configured to transport a rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C3",
+      "text": "secure a rider",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "configured to secure the rider in the first seat",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C4",
+      "text": "detect a buckled or unbuckled state",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "configured to detect at least one of a buckled state of the first seat belt and an unbuckled state of the first seat belt",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C5",
+      "text": "detect a rider sitting",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "configured to detect the rider sitting in the first seat",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C7",
+      "text": "store buckling history",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the computer system comprises a memory having a buckling history of the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C9",
+      "text": "determine a future transportation price",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "configured to determine a future transportation price for a ride at least partially based on the buckling history of the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C8",
+      "text": "send a first wireless communication",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first program instructions configured to send a first wireless communication to the computer system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C10",
+      "text": "send a second wireless communication",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "third program instructions configured to send a second wireless communication to a remote computing device of the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C10",
+      "text": "warn the rider of a fine",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "configured to warn the rider of a fine for the unbuckled state of the first seat belt",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C10",
+      "text": "update buckling history",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "third program instructions configured to update the buckling history in response to receiving the first wireless communication",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C11",
+      "text": "deny a future ride request",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "fourth program instructions configured to deny a future ride request from the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C12",
+      "text": "take a picture",
+      "target": null,
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "camera configured to take a picture of the rider in the first seat during the unbuckled state",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C8",
+      "text": "send picture via wireless communication",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "first program instructions are configured to send a second wireless communication comprising the picture to the computer system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C9",
+      "text": "receive identification and record rider sitting",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          16
+        ],
+        "quote": "configured to receive an identification of the rider and record that the rider is sitting in the first seat",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C9",
+      "text": "determine unknown rider is rider",
+      "target": null,
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "second program instructions are configured to determine that the unknown rider is the rider in response to comparing the second data to the first data",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C9",
+      "text": "determine future transportation price for ride in second vehicle",
+      "target": null,
+      "provenance": {
+        "claims": [
+          17
+        ],
+        "quote": "second program instructions are configured to determine the future transportation price for the ride in a second self-driving vehicle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C10",
+      "text": "charge transportation price to account",
+      "target": null,
+      "provenance": {
+        "claims": [
+          18
+        ],
+        "quote": "third program instructions are configured to charge the transportation price to an account of the rider",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN18",
+      "component": "C10",
+      "text": "increase future transportation price in response to buckling history indicating unbuckled state of first seat belt",
+      "target": null,
+      "provenance": {
+        "claims": [
+          19
+        ],
+        "quote": "configured to increase the future transportation price in response to the buckling history indicating the unbuckled state of the first seat belt",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN19",
+      "component": "C10",
+      "text": "increase future transportation price in response to buckling history indicating unbuckled state of second seat belt",
+      "target": null,
+      "provenance": {
+        "claims": [
+          20
+        ],
+        "quote": "configured to increase the future transportation price in response to the buckling history indicating an unbuckled state of a second seat belt",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN20",
+      "component": "C10",
+      "text": "prompt rider to buckle seat belt",
+      "target": null,
+      "provenance": {
+        "claims": [
+          21
+        ],
+        "quote": "configured to prompt the rider to place the first seat belt in the buckled state",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN21",
+      "component": "C16",
+      "text": "send a second wireless communication to computer system in response to second seat belt sensor detecting unbuckled state",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          21
+        ],
+        "quote": "configured to send a second wireless communication to the computer system in response to the second seat belt sensor detecting the unbuckled state",
+        "status": "stated"
+      }
+    }
+  ]
+}

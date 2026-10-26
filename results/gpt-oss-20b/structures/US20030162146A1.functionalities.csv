@@ -1,0 +1,16 @@
+id,component,text,target,claims,status
+FN1,C5,operate a vibratory means,,1,stated
+FN2,C6,operate a vibratory means,,1,stated
+FN3,C7,provide energy,,1,stated
+FN4,C0,impart an orbital motion,C3,1,stated
+FN5a,C8,focus vibratory energy,,6,stated
+FN5b,C8,impart vibratory energy,C3,6,stated
+FN6,C9,constrain radius of orbital motion,C3,7,stated
+FN7,C9,impart additional complex motion,C3,8,stated
+FN8,C9,dampen motion,C3,9,stated
+FN9,C0,maintain frequency ratio,,10,stated
+FN10,C0,produce substantially elliptical orbital motion,,2;3,stated
+FN11a,C0,orient major axis,,4,stated
+FN11b,C0,orient minor axis,,4,stated
+FN12,C0,contribute to orbital motion,,5,stated
+FN13,C0,contribute to random or quasi-random variable motion,,5,stated

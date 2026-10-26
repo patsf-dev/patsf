@@ -1,0 +1,11 @@
+link,a,b,LINK,matched_patents,claims
+C1-C11,frame,torque sensor,NEW,,1
+C11-C16,torque sensor,housing,NEW,,6
+C11-C9,torque sensor,electric motor,EXISTING,US5984038A,1
+C12-C13,base,flexible arm,RECOMBINED,,1
+C12-C14,base,sensing member,RECOMBINED,,1
+C13-C17,flexible arm,magnet,RECOMBINED,,7
+C14-C7,sensing member,drive chain,RECOMBINED,,1
+C16-C18,housing,Hall effect sensor,NEW,,7
+C16-C9,housing,electric motor,NEW,,5
+C17-C18,magnet,Hall effect sensor,NEW,,7

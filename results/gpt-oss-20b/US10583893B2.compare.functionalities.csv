@@ -1,0 +1,11 @@
+functionality,component,text,target,FUNCTIONALITY,closest,score,matched_patents,claims
+FN1,sensing member,engage a drive chain,drive chain,EXISTING,US20160332695A1:FN1 generate a drive force,0.663,US20160332695A1;US5984038A,1
+FN2,flexible arm,extend from a base,base,NEW,,0.0,,1
+FN3,sensing member,be displaceable relative to a base,base,NEW,,0.0,,1
+FN4,torque sensor,be mounted in fixed relation to a frame,frame,NEW,,0.0,,1
+FN5,torque sensor,be mounted in fixed relation to a motor,electric motor,NEW,US5984038A:FN5 drive a motor,0.33,,1
+FN6,electric motor,be disposed within a housing,housing,NEW,,0.0,,5
+FN7,torque sensor,be disposed within a housing,housing,NEW,,0.0,,6
+FN8,magnet,be mounted to a flexible arm,flexible arm,NEW,,0.0,,7
+FN9,Hall effect sensor,be mounted to a housing,housing,NEW,,0.0,,7
+FN10,Hall effect sensor,be spaced from a magnet,magnet,NEW,US9771096B2:FN18 protruding portions positioned to cause equal or single group magnetization,0.49,,7

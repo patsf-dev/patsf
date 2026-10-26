@@ -1,0 +1,528 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "powered wheelchair",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A powered wheelchair comprising: a seat; first and second side frames extending in spaced, generally parallel relationship",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "seat",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a seat",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "first side frame",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second side frames extending in spaced, generally parallel relationship",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "second side frame",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second side frames extending in spaced, generally parallel relationship",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "first driven wheel",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second driven wheels rotatably mounted on said first and second side frames",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "second driven wheel",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second driven wheels rotatably mounted on said first and second side frames",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "first drive motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second drive motors mounted on said side frames",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "second drive motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second drive motors mounted on said side frames",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "first drive means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second drive means to said first and second driven wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "second drive means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second drive means to said first and second driven wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "first gear box",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second gear boxes of the first and second drive means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "second gear box",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second gear boxes of the first and second drive means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "first drive pulley",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive pulleys of the first and second drive means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "second drive pulley",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive pulleys of the first and second drive means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "first driven pulley",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second driven pulleys of the drive means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "second driven pulley",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second driven pulleys of the drive means",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "first bracket",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "first and second brackets adapted for securing said first and second drive motors",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "second bracket",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "first and second brackets adapted for securing said first and second drive motors",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "pinion of first drive motor",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "pinion having five teeth or less that meshes with a gear in the gear box",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "pinion of second drive motor",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "pinion having five teeth or less that meshes with a gear in the gear box",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "output shaft of first drive motor",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "output shafts of the respective drive motors",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "output shaft of second drive motor",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "output shafts of the respective drive motors",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C22",
+      "name": "gear in first gear box",
+      "parent": "C10",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "gear in the gear box",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C23",
+      "name": "gear in second gear box",
+      "parent": "C11",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "gear in the gear box",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C6",
+      "text": "mount a motor",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second drive motors mounted on said side frames",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C7",
+      "text": "mount a motor",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second drive motors mounted on said side frames",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C6",
+      "text": "drive a pulley",
+      "target": "C12",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "output shafts of the drive motors driving first and second drive pulleys",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C7",
+      "text": "drive a pulley",
+      "target": "C13",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "output shafts of the drive motors driving first and second drive pulleys",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C12",
+      "text": "drive a pulley",
+      "target": "C14",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive pulleys being coaxial and selectively driving first and second driven pulleys",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C13",
+      "text": "drive a pulley",
+      "target": "C15",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive pulleys being coaxial and selectively driving first and second driven pulleys",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C8",
+      "text": "connect a drive means",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive means connected to the first and second driven wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C9",
+      "text": "connect a drive means",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive means connected to the first and second driven wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C6",
+      "text": "reverse",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "drive motors are reversible to facilitate manual movement",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C7",
+      "text": "reverse",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "drive motors are reversible to facilitate manual movement",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C6",
+      "text": "mesh a pinion",
+      "target": "C10",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "pinion having five teeth or less that meshes with a gear in the gear box",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C7",
+      "text": "mesh a pinion",
+      "target": "C11",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "pinion having five teeth or less that meshes with a gear in the gear box",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C16",
+      "text": "secure a motor",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "first and second brackets adapted for securing said first and second drive motors",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C17",
+      "text": "secure a motor",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "first and second brackets adapted for securing said first and second drive motors",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C6",
+      "text": "arrange a motor",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second drive motors disposed in parallel, spaced relation whereby first and second output shafts of the respective drive motors are parallel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN18",
+      "component": "C7",
+      "text": "arrange a motor",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second drive motors disposed in parallel, spaced relation whereby first and second output shafts of the respective drive motors are parallel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN19",
+      "component": "C6",
+      "text": "mount a motor transversely",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive motors mounted substantially transversely to said side frames",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN20",
+      "component": "C7",
+      "text": "mount a motor transversely",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive motors mounted substantially transversely to said side frames",
+        "status": "stated"
+      }
+    }
+  ]
+}

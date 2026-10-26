@@ -1,0 +1,384 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "power toothbrush",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A power toothbrush comprising a brush head and an actuator for moving the brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "brush head",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A power toothbrush comprising a brush head and an actuator for moving the brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "actuator",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A power toothbrush comprising a brush head and an actuator for moving the brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "drive shaft",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the actuator further comprises a drive shaft to which the brush head is fitted",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "first magnetic circuit",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first magnetic circuit for reciprocally moving the drive shaft in an axial direction thereof",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "second magnetic circuit",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second magnetic circuit for reciprocally rotating the drive shaft around the center axis thereof",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "inverter",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "an inverter for generating two driving currents having predetermined frequencies and a phase difference therebetween",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "first permanent magnet unit",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "the first permanent magnet unit fixed on the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "first stator",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a pair of first stators",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "first winding",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a pair of first winding respectively wound around the first stators",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "second permanent magnet unit",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a second permanent magnet unit fixed on the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "second stator",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a pair of second stators",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "second winding",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "two pairs of second winding respectively wound around poles of the second stators",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "coil spring",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a pair of coil springs for applying pressing forces for positioning the first permanent magnet unit and the second permanent magnet unit",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C4",
+      "text": "move",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the first magnetic circuit and the second magnetic circuit directly move the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C5",
+      "text": "move",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the first magnetic circuit and the second magnetic circuit directly move the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C4",
+      "text": "activate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2,
+          3
+        ],
+        "quote": "the first magnetic circuit and the second magnetic circuit can be activated, simultaneously",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C5",
+      "text": "activate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2,
+          3
+        ],
+        "quote": "the first magnetic circuit and the second magnetic circuit can be activated, simultaneously",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C6",
+      "text": "generate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "an inverter for generating two driving currents having predetermined frequencies and a phase difference therebetween",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C6",
+      "text": "supply",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "and supplied to the first magnetic circuit and the second magnetic circuit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C6",
+      "text": "supply",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "and supplied to the first magnetic circuit and the second magnetic circuit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C6",
+      "text": "adjust",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "the frequencies of and/or the phase difference between the driving currents supplied to the first magnetic circuit and the second magnetic circuit are/is adjustable.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C7",
+      "text": "move",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "the first permanent magnet unit is linearly moved in the axial direction of the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C10",
+      "text": "rotate",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "the second permanent magnet unit is rotated around the center axis of the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C13",
+      "text": "apply",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a pair of coil springs for applying pressing forces for positioning the first permanent magnet unit and the second permanent magnet unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C13",
+      "text": "apply",
+      "target": "C10",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a pair of coil springs for applying pressing forces for positioning the first permanent magnet unit and the second permanent magnet unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C4",
+      "text": "drive periodically",
+      "target": null,
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "the first magnetic circuit is periodically driven by switching on and off of supplying driving current",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C5",
+      "text": "drive periodically",
+      "target": null,
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "the second magnetic circuit is periodically driven by switching on and off of supplying driving current",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C13",
+      "text": "sustain movement",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "the reciprocal movement of the drive shaft in the axial direction is sustained owing to sympathetic vibrations of the coil springs",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C13",
+      "text": "sustain rotation",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "the reciprocal rotation of the drive shaft around the center axis of the drive shaft is sustained owing to sympathetic vibrations of the coil springs",
+        "status": "stated"
+      }
+    }
+  ]
+}

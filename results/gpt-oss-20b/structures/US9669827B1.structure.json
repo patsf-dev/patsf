@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "invention",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A computer-implemented method",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "computing device",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "one or more computing devices",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "receive sensor data",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "receiving, by one or more computing devices, sensor data identifying a first object and a second object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C1",
+      "text": "generate possible future trajectories",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "generating, by the one or more computing devices, a set of possible future trajectories of the first object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C1",
+      "text": "receive contextual information",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "receiving, by the one or more computing devices, contextual information for the second object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C1",
+      "text": "determine likelihood value of each trajectory",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "determining, by the one or more computing devices, a likelihood value of each trajectory of the set of possible future trajectories",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C1",
+      "text": "determine final future trajectory",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "determining, by the one or more computing devices, a final future trajectory based on the determined likelihood value",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C1",
+      "text": "maneuver vehicle to avoid trajectory",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1,
+          13
+        ],
+        "quote": "maneuvering, by the one or more computing devices, the vehicle in order to avoid the final future trajectory and the first object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C1",
+      "text": "compare likelihood value to threshold",
+      "target": null,
+      "provenance": {
+        "claims": [
+          9,
+          10,
+          12
+        ],
+        "quote": "comparing the likelihood value for each trajectory of the set of possible future trajectories to a threshold value",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C1",
+      "text": "discard trajectory when likelihood below threshold",
+      "target": null,
+      "provenance": {
+        "claims": [
+          9,
+          10,
+          12
+        ],
+        "quote": "discarding a trajectory from the set of trajectories when the likelihood value of that trajectory does not meet the threshold value",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C1",
+      "text": "identify waypoints for each trajectory",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "identifying a plurality of waypoints for each trajectory in the set of trajectories",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C1",
+      "text": "determine vehicle trajectory",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "determining a trajectory of the vehicle, wherein the trajectory of the vehicle includes a plurality of waypoints",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C1",
+      "text": "compare waypoints at same timestamp",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "comparing, at a same timestamp, each of the waypoints to a waypoint associated with a trajectory of the vehicle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C1",
+      "text": "identify situational relationship",
+      "target": null,
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "identifying a situational relationship between the object and the vehicle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C1",
+      "text": "select trajectory with highest likelihood",
+      "target": null,
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "selecting a trajectory of the set of possible future trajectories with a highest likelihood value as the final future trajectory",
+        "status": "stated"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+id,component,text,target,claims,status
+FN1,C3,control an actuator,C1,1,stated
+FN2,C3,infer a location of a target object,,2;3;6,stated
+FN3,C3,identify a target object as a multipath reflection and disregard it,,4,stated
+FN4,C3,access a behavior model,,5,stated
+FN5,C3,define a vehicle path,,2;6,stated
+FN6,C2,emit a signal,,1,stated
+FN7,C2,receive a return signal,,1,stated

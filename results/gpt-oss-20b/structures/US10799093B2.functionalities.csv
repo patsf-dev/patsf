@@ -1,0 +1,19 @@
+id,component,text,target,claims,status
+FN1,C3,rise around a shaft,C2,1,stated
+FN2,C4,engage a shaft,C2,1,stated
+FN3,C5,abut an inner surface,C4,1,stated
+FN4,C6,project toward a direction intersecting with the attaching/detaching direction,,1,stated
+FN5,C6,protrude toward a shaft,C2,3,stated
+FN6,C3,align longitudinal direction with a section,C4,4,stated
+FN7,C7,engage with a recessed portion,C8,5,stated
+FN8,C9,indicate a direction,,6,stated
+FN9,C10,prevent relative rotation,C3,7,stated
+FN10,C15,receive an operation for rotating a shaft,C2,2,stated
+FN11,C16,connect to a shaft,C2,2,stated
+FN12,C15,raise a base by rotating a shaft section,C3,2,stated
+FN13,C17,rotate a shaft section,,2,stated
+FN14,C18,connect a wire,C16,2,stated
+FN15,C13,provide a transducer on a distal end,,9,stated
+FN16,C14,contact a circumference surface,C2,10,stated
+FN17,C11,form a groove,,8,stated
+FN18,C12,form a projection,,8,stated

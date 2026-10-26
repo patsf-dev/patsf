@@ -1,0 +1,19 @@
+id,name,parent,claims,status
+C0,endoscope,,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21,stated
+C1,light source,C0,1,stated
+C2,insertion member,C0,1,stated
+C3,tip forming member,C0,1;2;3;4;15;19,stated
+C4,body,C3,1;4;15;19,stated
+C5,engagement member,C4,1,stated
+C6,operation member,C0,1,stated
+C7,connector,C0,1,stated
+C8,cover,C0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21,stated
+C9,reinforcement member,C8,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21,stated
+C10,engagement member,C9,1,stated
+C11,wall extension,C8,3,stated
+C12,relief,C3,3,stated
+C13,overlap portion,C4,4,stated
+C14,engagement hole,C8,8,stated
+C15,opening,C9,16,stated
+C16,recess,C9,17,stated
+C17,engagement pin,C3,8,stated

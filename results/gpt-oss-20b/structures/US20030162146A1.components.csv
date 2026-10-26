@@ -1,0 +1,11 @@
+id,name,parent,claims,status
+C0,power oral hygiene device,,1,stated
+C1,main body,C0,1,stated
+C2,handle portion,C1,1,stated
+C3,head portion,C1,1,stated
+C4,oral hygiene attachment,C3,1,stated
+C5,first vibratory means,C2,1;6,stated
+C6,second vibratory means,C3,1,stated
+C7,power means,C0,1,stated
+C8,motor mount,C5,6,stated
+C9,pivot means,C0,7,stated

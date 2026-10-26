@@ -1,0 +1,18 @@
+id,component,text,target,claims,status
+FN1,C1,maneuver a robot,,1,stated
+FN2,C2,monitor a drive current,C1,11,stated
+FN3,C8,direct a signal,C4,1,stated
+FN4,C9,receive a reflected signal,C8,1,stated
+FN5,C10,detect vertical displacement,C4,3,stated
+FN6,C11,emit a cliff detection signal,,10,stated
+FN7,C12,receive a reflected cliff detection signal,C11,10,stated
+FN8,C13,receive a reflected signal,C8,21,stated
+FN9,C6,permit vertical displacement of wheel,C4,2,stated
+FN10,C6,permit tilting away from a vertical axis,C4,4,stated
+FN11,C6,permit translation parallel to underside of robot,C4,5,stated
+FN12,C5,shroud wheel and define aperture exposing wheel to signal emitter and receiver,,6,stated
+FN13,C5,minimize entry of ambient light into aperture,,7,stated
+FN14,C4,reflect light of first infrared wavelength and second infrared wavelength different from first,,8,stated
+FN15,C8,arranged above the wheel to emit signal onto top portion of wheel,C4,9,stated
+FN16,C4,disposed adjacent a drive wheel,C1,12,stated
+FN17,C7,freely rotatable within predetermined angular range as wide as field of detection of signal receiver,C9,20,stated

@@ -1,0 +1,364 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "electric bicycle",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An electric bicycle, comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "frame",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "frame to which a front wheel and a rear wheel are rotatably mounted",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "front wheel",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "front wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "rear wheel",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "rear wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "bottom bracket shell",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "bottom bracket shell",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "drive train",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive train having a rotatable pedal crank mounted about the bottom bracket shell",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "pedal crank",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "pedal crank mounted about the bottom bracket shell",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "drive chain",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive chain extending between and engaging the pedal crank and a rear sprocket of the rear wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "rear sprocket",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "rear sprocket of the rear wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "electric motor",
+      "parent": "C16",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "electric motor is disposed within a housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "motor output shaft",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "motor output shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "torque sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "torque sensor having a base mounted in fixed relation to the frame and/or the electric motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "base",
+      "parent": "C11",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "having a flexible arm extending from the base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "flexible arm",
+      "parent": "C11",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "having a flexible arm extending from the base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "sensing member",
+      "parent": "C13",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the sensing member engaging the drive chain along a segment thereof",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "segment of drive chain",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the segment of the drive chain extending from the output end of the motor output shaft to the pedal crank of the drive train",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "housing",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "electric motor is disposed within a housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "magnet",
+      "parent": "C13",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a magnet mounted to the flexible arm",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "Hall effect sensor",
+      "parent": "C16",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a Hall effect sensor mounted to the housing",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C14",
+      "text": "engage a drive chain",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the sensing member engaging the drive chain along a segment thereof",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C13",
+      "text": "extend from a base",
+      "target": "C12",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "having a flexible arm extending from the base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C14",
+      "text": "be displaceable relative to a base",
+      "target": "C12",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the extremity being displaceable relative to the base",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C11",
+      "text": "be mounted in fixed relation to a frame",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "mounted in fixed relation to the frame",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C11",
+      "text": "be mounted in fixed relation to a motor",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "mounted in fixed relation to the electric motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C9",
+      "text": "be disposed within a housing",
+      "target": "C16",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "electric motor is disposed within a housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C11",
+      "text": "be disposed within a housing",
+      "target": "C16",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "the torque sensor is disposed within the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C17",
+      "text": "be mounted to a flexible arm",
+      "target": "C13",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a magnet mounted to the flexible arm",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C18",
+      "text": "be mounted to a housing",
+      "target": "C16",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a Hall effect sensor mounted to the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C18",
+      "text": "be spaced from a magnet",
+      "target": "C17",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "mounted to the housing and spaced from the magnet",
+        "status": "stated"
+      }
+    }
+  ]
+}

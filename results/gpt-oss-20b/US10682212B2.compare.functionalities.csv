@@ -1,0 +1,10 @@
+functionality,component,text,target,FUNCTIONALITY,closest,score,matched_patents,claims
+FN1,primary drive unit,operate a shaft,shaft,EXISTING,US20170007384A1:FN1 convert rotation of a shaft into oscillation movement of a shaft,0.815,US20110041268A1;US20170007384A1,1
+FN2,supplementary drive unit,enable a shaft to move eccentrically,shaft,EXISTING,US20170007384A1:FN1 convert rotation of a shaft into oscillation movement of a shaft,0.621,US20170007384A1,1
+FN3,linear actuator,enable a shaft to reciprocate linearly,shaft,EXISTING,US20170007384A1:FN1 convert rotation of a shaft into oscillation movement of a shaft,0.783,US20070220689A1;US20170007384A1,1
+FN4,retainer,press a weight,weight-equipped rotary motor,NEW,US20110041268A1:FN10 connect eccentric shaft main body and weight,0.46,,3
+FN5,circuit component,drive a linear actuator,linear actuator,EXISTING,US5226206A:FN4 drive a component,0.566,US5226206A,4
+FN6,circuit component,drive a weight-equipped rotary motor,weight-equipped rotary motor,NEW,US20070145832A1:FN1 drive a moving object,0.447,,4
+FN7,first holder,hold a primary drive unit,primary drive unit,EXISTING,US3927434A:FN3 clutch a drive connection,0.613,US3927434A;US5226206A,7
+FN8,second holder,hold a supplementary drive unit,supplementary drive unit,EXISTING,US3927434A:FN3 clutch a drive connection,0.689,US3927434A;US5226206A,7
+FN9,elastic member,couple a shaft to a second holder,second holder,EXISTING,US20170007384A1:FN1 convert rotation of a shaft into oscillation movement of a shaft,0.548,US20170007384A1,8

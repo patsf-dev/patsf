@@ -1,0 +1,14 @@
+id,component,text,target,claims,status
+FN1,C1,receive sensor data,,1,stated
+FN2,C1,generate possible future trajectories,,1,stated
+FN3,C1,receive contextual information,,1,stated
+FN4,C1,determine likelihood value of each trajectory,,1,stated
+FN5,C1,determine final future trajectory,,1,stated
+FN6,C1,maneuver vehicle to avoid trajectory,,1;13,stated
+FN7,C1,compare likelihood value to threshold,,9;10;12,stated
+FN8,C1,discard trajectory when likelihood below threshold,,9;10;12,stated
+FN9,C1,identify waypoints for each trajectory,,11,stated
+FN10,C1,determine vehicle trajectory,,11,stated
+FN11,C1,compare waypoints at same timestamp,,11,stated
+FN12,C1,identify situational relationship,,12,stated
+FN13,C1,select trajectory with highest likelihood,,14,stated

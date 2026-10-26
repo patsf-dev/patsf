@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "electric toothbrush",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An electric toothbrush comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "shaft",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a shaft to which a brush is attached",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "brush",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a brush",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "primary drive unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a primary drive unit that operates the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "supplementary drive unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a supplementary drive unit that enables the shaft to move eccentrically",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "weight-equipped rotary motor",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a weight-equipped rotary motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "linear actuator",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a linear actuator that enables the shaft to reciprocate linearly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "spindle",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a spindle of the weight-equipped rotary motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "retainer",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a retainer to press a weight of the weight-equipped rotary motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "circuit board",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a circuit board populated with a circuit component",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "circuit component",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a circuit component to drive the linier actuator and the weight-equipped rotary motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "first holder",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a first holder to hold the primary drive unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "second holder",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a second holder to hold the supplementary drive unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "elastic member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "an elastic member that couples the shaft to the second holder",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C3",
+      "text": "operate a shaft",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a primary drive unit that operates the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C4",
+      "text": "enable a shaft to move eccentrically",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a supplementary drive unit that enables the shaft to move eccentrically",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C6",
+      "text": "enable a shaft to reciprocate linearly",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a linear actuator that enables the shaft to reciprocate linearly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C8",
+      "text": "press a weight",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a retainer to press a weight of the weight-equipped rotary motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C10",
+      "text": "drive a linear actuator",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a circuit component to drive the linier actuator and the weight-equipped rotary motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C10",
+      "text": "drive a weight-equipped rotary motor",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a circuit component to drive the linier actuator and the weight-equipped rotary motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C11",
+      "text": "hold a primary drive unit",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a first holder to hold the primary drive unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C12",
+      "text": "hold a supplementary drive unit",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a second holder to hold the supplementary drive unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C13",
+      "text": "couple a shaft to a second holder",
+      "target": "C12",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "an elastic member that couples the shaft to the second holder",
+        "status": "stated"
+      }
+    }
+  ]
+}

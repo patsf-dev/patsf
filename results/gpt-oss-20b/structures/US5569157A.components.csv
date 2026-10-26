@@ -1,0 +1,24 @@
+id,name,parent,claims,status
+C0,endoscope,,1,stated
+C1,operating portion,C0,1;4;8;9;10,stated
+C2,elongated insertion portion,C0,1;4,stated
+C3,raising mechanism,C0,1,stated
+C4,operation wire,C3,1;2;3;4;5;6;7;8;9;10;11,stated
+C5,instrument insertion channel,C2,1,stated
+C6,raising base,C7,1;3;7;11,stated
+C7,support member,C22,1;3,stated
+C8,distal end body portion,C22,1,stated
+C9,transmission member,C22,1;4;6;10,stated
+C10,observation means,C8,1,stated
+C11,housing,C1,4,stated
+C12,guide means,C1,5,stated
+C13,guide tube,C12,5,stated
+C14,coupling means,C0,6;7;8;10,stated
+C15,grip,C1,8,stated
+C16,operating knob,C1,8,stated
+C17,stopper,C7,3,stated
+C18,flexible tube,C12,9,stated
+C19,holding means,C1,9,stated
+C20,cooperation means,C1,10,stated
+C21,adjusting means,C14,10,stated
+C22,operation means,C1,1,stated

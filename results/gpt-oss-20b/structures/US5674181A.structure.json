@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "endoscope",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "quote": "An endoscope comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "light source",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a light source",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "insertion member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an insertion member to be inserted into a tubular cavity",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "tip forming member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          15,
+          19
+        ],
+        "quote": "a tip forming member having a body comprising an engagement member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "body",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1,
+          4,
+          15,
+          19
+        ],
+        "quote": "a tip forming member having a body comprising an engagement member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "engagement member",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a body comprising an engagement member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "operation member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an operation member disposed at the other end of said insertion member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "connector",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a connector connecting between said light source and said operation member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "cover",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "quote": "a cover which covers at least a part of said body of said tip forming member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "reinforcement member",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "quote": "a reinforcement member disposed in said cover having an engagement member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "engagement member",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "having an engagement member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "wall extension",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "cover comprises a wall extension at a rear end portion thereof",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "relief",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "tip forming member comprises a relief at a portion thereof facing said wall extension of said cover",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "overlap portion",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "body comprises an overlap portion formed on its entire circumference",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "engagement hole",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "cover comprises an engagement hole engageable with said engagement pin of said tip forming member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "opening",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          16
+        ],
+        "quote": "reinforcement member comprises an opening in the top thereof",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "recess",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          17
+        ],
+        "quote": "opening of said reinforcement member comprises a recess",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "engagement pin",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "cover comprises an engagement hole engageable with said engagement pin of said tip forming member",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C8",
+      "text": "cover a body",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cover which covers at least a part of said body of said tip forming member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C8",
+      "text": "detachably mount a tip forming member",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "cover is detachably mounted on said tip forming member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C9",
+      "text": "engage an engagement member",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "said engagement member of said reinforcement member engageable with said engagement member of said body of said tip forming member",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C8",
+      "text": "engage an engagement pin",
+      "target": "C17",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "cover comprises an engagement hole engageable with said engagement pin of said tip forming member",
+        "status": "stated"
+      }
+    }
+  ]
+}

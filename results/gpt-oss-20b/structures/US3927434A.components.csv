@@ -1,0 +1,13 @@
+id,name,parent,claims,status
+C0,water powered rotary brush,,1,stated
+C1,housing means,C0,1,stated
+C2,pair of generally cylindrical brushes,C1,1,stated
+C3,drive means,C1,1,stated
+C4,fluid motor,C3,1,stated
+C7,drive connection means,C3,1,stated
+C8,drive control means,C3,1,stated
+C9,clutch means,C8,1,stated
+C10,positive displacement motor,C4,2,stated
+C11,pair of axially aligned rotors,C10,3,stated
+C12,annular rotor means,C10,4,stated
+C13,annular chamber means,C10,4,stated
