@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "rules",
+    "human"
+  ],
+  "structural_f1": {
+    "rules vs human": {
+      "mean": {
+        "components": 0.756,
+        "links": 0.355,
+        "functionalities": 0.694,
+        "macro": 0.602
+      },
+      "patents": {
+        "US10799093B2": {
+          "components": 0.684,
+          "links": 0.118,
+          "functionalities": 0.722,
+          "macro": 0.508
+        },
+        "US10583893B2": {
+          "components": 0.762,
+          "links": 0.333,
+          "functionalities": 0.513,
+          "macro": 0.536
+        },
+        "US11059478B2": {
+          "components": 0.72,
+          "links": 0.286,
+          "functionalities": 0.909,
+          "macro": 0.638
+        },
+        "US10682212B2": {
+          "components": 0.815,
+          "links": 0.667,
+          "functionalities": 0.8,
+          "macro": 0.761
+        },
+        "US10555457B2": {
+          "components": 0.8,
+          "links": 0.37,
+          "functionalities": 0.528,
+          "macro": 0.566
+        }
+      }
+    }
+  }
+}

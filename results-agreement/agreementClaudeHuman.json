@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "claude",
+    "human"
+  ],
+  "structural_f1": {
+    "claude vs human": {
+      "mean": {
+        "components": 0.696,
+        "links": 0.704,
+        "functionalities": 0.596,
+        "macro": 0.665
+      },
+      "patents": {
+        "US10799093B2": {
+          "components": 0.667,
+          "links": 0.667,
+          "functionalities": 0.519,
+          "macro": 0.618
+        },
+        "US10583893B2": {
+          "components": 0.737,
+          "links": 0.818,
+          "functionalities": 0.556,
+          "macro": 0.704
+        },
+        "US11059478B2": {
+          "components": 0.706,
+          "links": 0.667,
+          "functionalities": 0.947,
+          "macro": 0.773
+        },
+        "US10682212B2": {
+          "components": 0.88,
+          "links": 0.778,
+          "functionalities": 0.692,
+          "macro": 0.783
+        },
+        "US10555457B2": {
+          "components": 0.489,
+          "links": 0.588,
+          "functionalities": 0.267,
+          "macro": 0.448
+        }
+      }
+    }
+  }
+}

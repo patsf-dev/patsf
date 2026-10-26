@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patsf"
+version = "0.6.0"
+description = "Patent Structure & Functionality: decompose patent claims into an invention's components, and their functionalities and relationships"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31", "beautifulsoup4>=4.12", "lxml>=5", "jsonschema>=4.20", "openai>=1.40",
+                "sentence-transformers>=3", "numpy", "scipy", "openpyxl>=3.1", "networkx>=3"]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.40"]
+rules = ["spacy>=3.8.13", "spacy-curated-transformers>=0.2.2,<1"]
+
+[project.scripts]
+patsf = "patsf.cli:main"
+
+[tool.setuptools]
+packages = ["patsf"]
+
+# Model profiles. `patsf --use <name>` to pick one
+[tool.patsf]
+default = "gpt-oss-20b"
+
+[tool.patsf.models.gpt-oss-20b]
+provider  = "openai_compatible"
+model     = "gpt-oss:20b"
+base_url  = "http://127.0.0.1:11434/v1"
+reasoning = "medium"
+
+[tool.patsf.models.qwen35-9b]
+provider  = "openai_compatible"
+model     = "qwen3.5:9b"
+base_url  = "http://127.0.0.1:11434/v1"
+
+# Proprietary model baseline. 
+[tool.patsf.models.claude]
+provider = "anthropic"
+model    = "claude-sonnet-5-5"
+effort   = "medium"
+
+# Rule-based baseline. 
+[tool.patsf.models.rules]
+provider    = "rules"
+spacy_model = "en_core_web_trf"
+
+# Comparison (`patsf compare`). 
+# model and parameters need to be calibrated to improve performance against hand-coding.
+[tool.patsf.compare]
+model = "AI-Growth-Lab/PatentSBERTa"
+cross_encoder = "cross-encoder/stsb-roberta-base"
+shortlist = 5
+shortlist_floor = 0.5
+thresholds = { component = 0.5, functionality = 0.5 }

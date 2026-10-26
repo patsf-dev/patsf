@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "gpt-oss-20b",
+    "human"
+  ],
+  "structural_f1": {
+    "gpt-oss-20b vs human": {
+      "mean": {
+        "components": 0.881,
+        "links": 0.639,
+        "functionalities": 0.701,
+        "macro": 0.74
+      },
+      "patents": {
+        "US10799093B2": {
+          "components": 0.919,
+          "links": 0.762,
+          "functionalities": 0.737,
+          "macro": 0.806
+        },
+        "US10583893B2": {
+          "components": 0.884,
+          "links": 0.429,
+          "functionalities": 0.5,
+          "macro": 0.604
+        },
+        "US11059478B2": {
+          "components": 0.706,
+          "links": 0.667,
+          "functionalities": 0.824,
+          "macro": 0.732
+        },
+        "US10682212B2": {
+          "components": 1.0,
+          "links": 0.783,
+          "functionalities": 0.692,
+          "macro": 0.825
+        },
+        "US10555457B2": {
+          "components": 0.896,
+          "links": 0.553,
+          "functionalities": 0.753,
+          "macro": 0.734
+        }
+      }
+    }
+  }
+}

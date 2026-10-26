@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "qwen35-9b",
+    "human"
+  ],
+  "structural_f1": {
+    "qwen35-9b vs human": {
+      "mean": {
+        "components": 0.88,
+        "links": 0.58,
+        "functionalities": 0.649,
+        "macro": 0.703
+      },
+      "patents": {
+        "US10799093B2": {
+          "components": 0.941,
+          "links": 0.267,
+          "functionalities": 0.462,
+          "macro": 0.557
+        },
+        "US10583893B2": {
+          "components": 0.857,
+          "links": 0.69,
+          "functionalities": 0.791,
+          "macro": 0.779
+        },
+        "US11059478B2": {
+          "components": 0.706,
+          "links": 0.667,
+          "functionalities": 0.6,
+          "macro": 0.658
+        },
+        "US10682212B2": {
+          "components": 1.0,
+          "links": 0.75,
+          "functionalities": 0.786,
+          "macro": 0.845
+        },
+        "US10555457B2": {
+          "components": 0.896,
+          "links": 0.524,
+          "functionalities": 0.605,
+          "macro": 0.675
+        }
+      }
+    }
+  }
+}
