@@ -2,9 +2,12 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Patent Structure & Functionality (patsf)"
 version: 0.6.0
-date-released: 2026-10-17
+date-released: 2026-10-26
 license: MIT
 authors:
   - family-names: Chan
     given-names: Tian Heong
     affiliation: Emory University
+  - family-names: Lim
+    given-names: Shi-Ying
+    affiliation: National University of Singapore
