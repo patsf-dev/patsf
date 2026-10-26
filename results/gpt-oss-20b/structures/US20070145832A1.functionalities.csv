@@ -1,0 +1,11 @@
+id,component,text,target,claims,status
+FN1,C0,drive a moving object,C4,1,stated
+FN2,C0,drive a moving object,C8,1,stated
+FN3,C14,switch between driving modes,,2,stated
+FN4,C16,drive a spindle reciprocally and linearly in opposite phase,,8,stated
+FN5,C16,drive a spindle rollingly around the axis in opposite phase,,8,stated
+FN6,C17,restrict rotation of arms of coil springs,,9,stated
+FN7,C18,provide spring hook portions fixed to stators,,10,stated
+FN8,C18,provide spring hook portions moving with moving objects,,10,stated
+FN9,C7,drive a coil with alternating current at resonance frequency,,11,stated
+FN10,C12,drive a coil with alternating current at resonance frequency,,11,stated

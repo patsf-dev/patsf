@@ -1,0 +1,656 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "toothbrush",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A toothbrush with combined sonic brushing and water flossing attributes comprising",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "electric motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an electric motor including a drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "drive shaft",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive shaft continuously rotates in a single direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "brush tip",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a brush tip supporting a brush head on a distal end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "brush head",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a brush tip supporting a brush head on a distal end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "fluid conduit",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "defining a fluid conduit therein",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "drive assembly",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a drive assembly coupled between the drive shaft and the brush tip",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "fluid passage",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a fluid passage configured to transport fluid",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "motor control circuit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a motor control circuit in electrical communication with the electric motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "motor control switch",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a motor control switch in electric communication with the motor control circuit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "fluid control switch",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a fluid control switch",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "radio frequency transmitter",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a radio frequency transmitter connected to the fluid control switch",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "coupler",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a coupler having a first end and a second end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "eccentric cam",
+      "parent": "C12",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "eccentric cam connected to the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "rocker arm",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a rocker arm that mechanically connects the coupler to the brush tip",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "brush shaft",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a brush shaft fixed at a first end to the rocker arm",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "fluid tube",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a fluid tube connected to the rocker arm",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "bracket",
+      "parent": "C18",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a bracket that restrains the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "chassis",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a chassis to which the electric motor is mounted",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "fluid outlet",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "a fluid outlet in fluid communication with the fluid conduit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "jet tip",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "a jet tip that forms the fluid outlet",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "bristles",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "a plurality of bristles extending from the surface of the brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C22",
+      "name": "base plate",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a removable base plate comprising a fluid inlet",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C23",
+      "name": "fluid inlet",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a fluid inlet in fluid communication with the fluid passage",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C24",
+      "name": "first valve",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a first valve positioned within the fluid passage",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C25",
+      "name": "second valve",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a second valve housed within the base plate",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C26",
+      "name": "charging port cavity",
+      "parent": "C22",
+      "provenance": {
+        "claims": [
+          14,
+          15
+        ],
+        "quote": "charging port cavity that is exposed upon removal of the base plate",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C2",
+      "text": "rotate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive shaft continuously rotates in a single direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C6",
+      "text": "convert rotation into sonic oscillation",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive assembly coupled between the drive shaft and brush tip and configured to convert rotation of the drive shaft into sonic oscillation of brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C3",
+      "text": "pivot back and forth",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "brush tip pivots back and forth about a longitudinal axis of the brush tip",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C7",
+      "text": "transport fluid",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "fluid passage configured to transport fluid from a fluid source external to the toothbrush to the fluid conduit in the brush tip",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C8",
+      "text": "change output speed",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "motor control circuit is configured to change an output speed of the electric motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C9",
+      "text": "actuate",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "motor control switch in electric communication with the motor control circuit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C11",
+      "text": "transmit signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "radio frequency transmitter connected to the fluid control switch and configured to transmit a signal to the fluid source",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C13",
+      "text": "rotate",
+      "target": "C12",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "eccentric cam connected to the drive shaft and is rotationally received within the second end of the coupler",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C12",
+      "text": "oscillate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "rotation of the eccentric cam causes the coupler to oscillate",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C14",
+      "text": "provide fluid communication",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "rocker arm further defines a cavity which provides fluid communication between the fluid conduit in the brush tip and the fluid passage",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C15",
+      "text": "provide fluid communication",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "lumen of the brush shaft is in fluid communication with the fluid conduit in the brush tip and the cavity in the rocker arm",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C16",
+      "text": "provide fluid communication",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "fluid tube is in fluid communication with the cavity within the rocker arm and thereby the fluid outlet in the brush tip",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C3",
+      "text": "removably connect",
+      "target": "C15",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "brush tip is removably connected to the brush shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C17",
+      "text": "restrain",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "bracket that restrains the drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C19",
+      "text": "provide fluid communication",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "fluid outlet in fluid communication with the fluid conduit in the brush shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C20",
+      "text": "extend",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "jet tip extends to an extended position with respect to a surface of the brush head when fluid under pressure is in the fluid conduit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C20",
+      "text": "retract",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "jet tip retracts to a retracted position with respect to a surface of brush head when there is no fluid pressure in the fluid conduit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN18",
+      "component": "C21",
+      "text": "extend",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "plurality of bristles extending from the surface of the brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN19",
+      "component": "C23",
+      "text": "provide fluid communication",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "fluid inlet in fluid communication with the fluid passage",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN20",
+      "component": "C24",
+      "text": "close",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "first valve positioned within the fluid passage and configured to close the fluid passage when the base plate is removed",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN21",
+      "component": "C24",
+      "text": "open",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "first valve positioned within the fluid passage and configured to open when the base plate is connected",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN22",
+      "component": "C25",
+      "text": "close",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "second valve housed within the base plate and configured to close a fluid outlet of the base plate when the base plate is removed",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN23",
+      "component": "C25",
+      "text": "open",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "second valve housed within the base plate and configured to open when the base plate is connected",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN24",
+      "component": "C26",
+      "text": "expose",
+      "target": null,
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "charging port cavity that is exposed upon removal of the base plate",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN25",
+      "component": "C26",
+      "text": "receive",
+      "target": null,
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "charging port cavity for receipt of an inductive charging post",
+        "status": "stated"
+      }
+    }
+  ]
+}

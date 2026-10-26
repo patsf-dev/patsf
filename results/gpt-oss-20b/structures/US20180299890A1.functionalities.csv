@@ -1,0 +1,14 @@
+id,component,text,target,claims,status
+FN1,C1,detect driver ability,,1,stated
+FN2,C0,change over vehicle controlling from first to second operating state,,1,stated
+FN3,C0,control vehicle actuator devices for longitudinal movement,,2,stated
+FN4,C0,control vehicle actuator devices for transverse movement,,2,stated
+FN5,C0,control vehicle signal devices,,2,stated
+FN6,C1,recognize tiredness,,3,stated
+FN7,C1,recognize call or activity,,4,stated
+FN8,C1,"acquire actuation of steering wheel, accelerator, brake",,5,stated
+FN9,C1,"evaluate deflection amplitude, speed, frequency to determine attentiveness",,5,stated
+FN10,C1,"acquire vehicle speed, acceleration, rotation rates",,6,stated
+FN11,C1,detect objects and provide relative coordinates,,6,stated
+FN12,C1,store information in data cloud,,7,stated
+FN13,C2,issue driver warning,,8,stated

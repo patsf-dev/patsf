@@ -1,0 +1,14 @@
+id,name,parent,claims,status
+C0,electric toothbrush,,1,stated
+C1,motor,C0,1,stated
+C2,eccentric shaft,C0,1,stated
+C3,vibration transmitting component,C0,1,stated
+C4,brush portion,C0,1,stated
+C5,eccentric shaft main body,C2,4,stated
+C6,weight,C2,2,stated
+C7,first weight,C2,3,stated
+C8,second weight,C2,3,stated
+C9,male screw,C5,5,stated
+C10,female screw,C6,5,stated
+C11,coil spring,C2,8,stated
+C12,bearing,C3,10,stated

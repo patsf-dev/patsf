@@ -1,0 +1,503 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "coverage robot",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "coverage robot",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "chassis",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "drive wheel assembly",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "multiple drive wheel assemblies disposed on the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "drive wheel assembly housing",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a drive wheel assembly housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "wheel",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a wheel rotatably coupled to the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "wheel drive motor",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a wheel drive motor carried by the drive wheel assembly housing and operable to drive the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "cleaning assembly",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cleaning assembly carried by the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "cleaning assembly housing",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cleaning assembly housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "cleaning head",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cleaning head rotatably coupled to the cleaning assembly housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "cleaning drive motor",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cleaning drive motor carried by cleaning assembly housing and operable to drive the cleaning head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "removable cover",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          2,
+          9
+        ],
+        "quote": "a removable cover secured to a bottom of the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "electric battery",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "an electric battery carried by the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "caster wheel assembly",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a removable caster wheel assembly disposed on the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "linkage",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a linkage suspending the wheel from a forward portion of the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "proximity sensor",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "at least one proximity sensor to detect an absence of an adjacent floor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "bumper",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "a removable bumper disposed on a forward portion of the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "cleaning bin",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "a cleaning bin carried by the chassis and arranged to collect debris removed from a work surface by the cleaning head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "bin housing",
+      "parent": "C16",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a bin housing defining a debris cavity and a filter cavity",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "bin filter",
+      "parent": "C16",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a bin filter disposed in the filter cavity, the filter configured to substantially inhibit particulate from entering the vacuum fan",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "bin cover",
+      "parent": "C16",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a bin cover attached to the bin housing and configured to move between a closed position and an open position, exposing the filter cavity",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "bin cover spring actuator",
+      "parent": "C19",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a bin cover spring actuator that biases the bin cover in the open position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "latch",
+      "parent": "C16",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "a latch to hold the biased bin cover in the closed position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C22",
+      "name": "wheel assembly power connector",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a power connector disposed on an outer surface of the drive wheel assembly housing and configured to mate with a corresponding chassis power connector",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C23",
+      "name": "cleaning assembly power connector",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a power connector disposed on an outer surface of the cleaning assembly housing and configured to mate with a corresponding chassis power connector",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C5",
+      "text": "drive a wheel",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a wheel drive motor carried by the drive wheel assembly housing and operable to drive the wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C9",
+      "text": "drive a cleaning head",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cleaning drive motor carried by cleaning assembly housing and operable to drive the cleaning head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C2",
+      "text": "remove a wheel assembly",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "each drive wheel assembly comprising: a drive wheel assembly housing; a wheel rotatably coupled to the housing; and a wheel drive motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C6",
+      "text": "remove a cleaning assembly",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cleaning assembly carried by the chassis, the cleaning assembly comprising: a cleaning assembly housing; a cleaning head rotatably coupled to the cleaning assembly housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C10",
+      "text": "secure a wheel assembly",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a removable cover secured to a bottom of the chassis, the cover securing each wheel assembly and cleaning assembly within their respective receptacles",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C10",
+      "text": "secure a cleaning assembly",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a removable cover secured to a bottom of the chassis, the cover securing each wheel assembly and cleaning assembly within their respective receptacles",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C22",
+      "text": "establish an electric power connection to a wheel assembly",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a power connector disposed on an outer surface of the drive wheel assembly housing and configured to mate with a corresponding chassis power connector",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C23",
+      "text": "establish an electric power connection to a cleaning assembly",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a power connector disposed on an outer surface of the cleaning assembly housing and configured to mate with a corresponding chassis power connector",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C13",
+      "text": "suspend a wheel",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a linkage suspending the wheel from a forward portion of the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C14",
+      "text": "detect absence of an adjacent floor",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "at least one proximity sensor to detect an absence of an adjacent floor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C16",
+      "text": "collect debris",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "a cleaning bin carried by the chassis and arranged to collect debris removed from a work surface by the cleaning head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C18",
+      "text": "inhibit particulate",
+      "target": null,
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a bin filter disposed in the filter cavity, the filter configured to substantially inhibit particulate from entering the vacuum fan",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C19",
+      "text": "expose filter cavity",
+      "target": null,
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a bin cover attached to the bin housing and configured to move between a closed position and an open position, exposing the filter cavity",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C20",
+      "text": "bias a bin cover in the open position",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a bin cover spring actuator that biases the bin cover in the open position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C21",
+      "text": "hold a bin cover in the closed position",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "a latch to hold the biased bin cover in the closed position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C19",
+      "text": "move a bin cover between a closed position and an open position",
+      "target": "C17",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a bin cover attached to the bin housing and configured to move between a closed position and an open position",
+        "status": "stated"
+      }
+    }
+  ]
+}

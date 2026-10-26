@@ -1,0 +1,15 @@
+id,name,parent,claims,status
+C0,apparatus,,1,stated
+C1,encode logic,C0,1,stated
+C2,memory,C0,1,stated
+C3,light source,C0,1,stated
+C4,modulator,C0,4,stated
+C5,electro-optic modulator,C4,5,stated
+C6,lithium niobate crystal electro-optic modulator,C5,6,stated
+C7,liquid crystal electro-optic modulator,C5,6,stated
+C8,laser source,C3,7,stated
+C9,plurality of light sources,C0,8,stated
+C10,decode logic,C0,11,stated
+C11,IoT device or vehicle,C0,13,stated
+C12,processor,C0,14,stated
+C13,single integrated device,C0,15,stated

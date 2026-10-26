@@ -1,0 +1,436 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "actuator",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An actuator capable of reciprocal linear driving and rolling driving comprising a reciprocal linear driving unit and a rolling driving unit",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "shaft",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the shaft being pivoted to be enabled reciprocal linear driving in the axial direction thereof",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "reciprocal linear driving unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the reciprocal linear driving unit comprising: a first moving object having the shaft and first permanent magnets",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "rolling driving unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the rolling driving unit comprising: a second moving object having the shaft, a second yoke fixed on the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "first moving object",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first moving object having the shaft and first permanent magnets",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "first permanent magnets",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first permanent magnets each magnetized so that polarities of both end portions in the axial direction of the shaft are different",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "first stator",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first stator having a coil disposed to face end faces of the first permanent magnets parallel to the axial direction of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "first coil",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a coil disposed to face end faces of the first permanent magnets parallel to the axial direction of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "second moving object",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second moving object having the shaft, a second yoke fixed on the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "second yoke",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second yoke fixed on the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "second permanent magnet",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one second permanent magnet attached to adjoin the second yoke around the axis of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "second stator",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a tubular shaped second stator having a second coil wound around the axis of the shaft to enclose the second moving object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "second coil",
+      "parent": "C11",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second coil wound around the axis of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "second stationary yokes",
+      "parent": "C11",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "second stationary yokes disposed to face an outermost peripheral portion of the second yoke and the second permanent magnet",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "switching means",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a switching means for switching among a mode for driving only the first moving object reciprocally and linearly in the axial direction of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "spring members",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "spring members supporting the first moving object in the axial direction of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "common vibrational absorption spindle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a common vibrational absorption spindle is provided in the vibration system of the reciprocal linear driving",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "spring receiving members",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "spring receiving members are further comprised so as to restrict rotation of arms at both ends of the coil springs",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "spring hook portions",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "spring hook portions which are not movable with respect to the first stator and the second stator",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "magnetic shielding member",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a magnetic shielding member of tubular shape or ring shape which is made of a nonmagnetic material",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "first yokes",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a plurality of first yokes fitted to and fixed on the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "iron core",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "an iron core of substantially tubular shape fitted to the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C22",
+      "name": "first bobbin",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "the first stator further comprises a first bobbin around which the first coil is wound",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C23",
+      "name": "first stationary yoke",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "at least a first stationary yoke provided on any side of the first bobbin in the axial direction of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C24",
+      "name": "torsion and compression coil springs",
+      "parent": "C17",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "torsion and compression coil springs",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C0",
+      "text": "drive a moving object",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the first moving object being driven reciprocally and linearly in the axial direction of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C0",
+      "text": "drive a moving object",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the second moving object being driven rollingly around the axis of the shaft in a predetermined angle region",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C14",
+      "text": "switch between driving modes",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "switching among a mode for driving only the first moving object reciprocally and linearly in the axial direction of the shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C16",
+      "text": "drive a spindle reciprocally and linearly in opposite phase",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "the vibrational absorption spindle is driven reciprocally and linearly in the axial direction of the shaft in opposite phase",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C16",
+      "text": "drive a spindle rollingly around the axis in opposite phase",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "and driven rollingly around the axis of the shaft in opposite phase to that of the second moving object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C17",
+      "text": "restrict rotation of arms of coil springs",
+      "target": null,
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "restrict rotation of arms at both ends of the coil springs",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C18",
+      "text": "provide spring hook portions fixed to stators",
+      "target": null,
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "spring hook portions which are not movable with respect to the first stator and the second stator",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C18",
+      "text": "provide spring hook portions moving with moving objects",
+      "target": null,
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "spring hook portions which move with the first moving object and the second moving object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C7",
+      "text": "drive a coil with alternating current at resonance frequency",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "supplying an alternating current having a frequency equal to or near to a resonance frequency of the vibration system of the reciprocal linear driving",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C12",
+      "text": "drive a coil with alternating current at resonance frequency",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "supplying an alternating current having a frequency equal to or near to a resonance frequency of the vibration system of the reciprocal linear driving",
+        "status": "stated"
+      }
+    }
+  ]
+}

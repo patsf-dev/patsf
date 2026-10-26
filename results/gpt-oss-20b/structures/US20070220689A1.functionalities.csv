@@ -1,0 +1,15 @@
+id,component,text,target,claims,status
+FN1,C4,rotate a handle,C3,1;5,stated
+FN2,C5,reciprocate a handle,C3,1;7,stated
+FN3a,C1,drive a gear,C13,3,stated
+FN3b,C13,drive a gear,C12,3,stated
+FN3c,C1,drive a gear,C21,6,stated
+FN3d,C21,drive a gear,C20,6,stated
+FN3e,C20,drive a gear,C19,6,stated
+FN4a,C1,drive a disc,C8,7,stated
+FN4b,C1,drive a disc,C16,5,stated
+FN5,C17,move up and down a handle,C3,5,stated
+FN6,C9,bias a component toward another,C8,7,stated
+FN7,C3,swing a handle,,1,stated
+FN8,C7,radiate light,,8,stated
+FN9,C15,reciprocate a flange,C14,4,stated

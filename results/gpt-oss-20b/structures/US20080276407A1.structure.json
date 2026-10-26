@@ -1,0 +1,524 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "autonomous coverage robot",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An autonomous coverage robot comprising",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "chassis",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a chassis having forward and rearward portions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "drive system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a drive system carried by the chassis and configured to maneuver the robot over a cleaning surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "cleaning assembly",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cleaning assembly mounted on the forward portion of the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "bin",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a bin disposed adjacent the cleaning assembly and configured to receive debris agitated by the cleaning assembly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "bin cover",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a bin cover pivotally attached to a portion of the chassis and configured to rotate between a first, closed position and a second, open position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "body",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a body attached to the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "handle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a handle disposed on an upper portion of the body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "bin cover release",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a bin cover release configured to control movement of the bin cover between its first and second positions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "first roller brush",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a first roller brush rotatably mounted substantially near a front edge of the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "second roller brush",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a second roller brush rotatably mounted parallel to and rearward of the first roller brush, the first and second roller brushes rotate in opposite directions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "right end brush",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "each roller brush comprises right and left end brushes extending from respective ends of the roller brush beyond a lateral extend of the body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "left end brush",
+      "parent": "C9",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "each roller brush comprises right and left end brushes extending from respective ends of the roller brush beyond a lateral extend of the body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "spring biased latch",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "the bin cover release comprises a spring biased latch",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "button",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a button disposed on the handle and configured to actuate the latch",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "proximity sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "one proximity sensor carried by a side of the robot, the proximity sensor responsive to an obstacle substantially near the body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "cliff sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          16
+        ],
+        "quote": "at least one cliff sensor carried by a forward portion of the body and arranged substantially near a front edge of the body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "cliff sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          17
+        ],
+        "quote": "at least one cliff sensor carried by a rearward portion of the body and arranged substantially near the rear edge of the body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "stasis detector",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          20
+        ],
+        "quote": "a stasis detector comprising a magnet disposed in or on the idler wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "magnet",
+      "parent": "C18",
+      "provenance": {
+        "claims": [
+          20
+        ],
+        "quote": "a magnet disposed in or on the idler wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "magnet detector",
+      "parent": "C18",
+      "provenance": {
+        "claims": [
+          20
+        ],
+        "quote": "a magnet detector disposed adjacent the idler wheel for detecting the magnet as the idler wheel rotates",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "bumper guide",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          26
+        ],
+        "quote": "a bumper guide configured to confine body movements to along two directions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C22",
+      "name": "groove",
+      "parent": "C21",
+      "provenance": {
+        "claims": [
+          27
+        ],
+        "quote": "two orthogonal grooves defined by the body and configured to receive a guide pin disposed on the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C23",
+      "name": "guide pin",
+      "parent": "C21",
+      "provenance": {
+        "claims": [
+          27
+        ],
+        "quote": "guide pin disposed on the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C24",
+      "name": "controller",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "the controller configured to alter a drive direction in response to a signal received from the proximity sensor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C25",
+      "name": "drive wheels",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "right and left differentially driven drive wheels rotatably mounted to the rearward portion of the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C26",
+      "name": "idler wheel",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          18
+        ],
+        "quote": "an idler wheel disposed on the bin cover",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C28",
+      "name": "right side roller brush",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "right and left side roller brushes rotatably mounted orthogonal to the front brush substantially near the respective right and left side edges of the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C29",
+      "name": "left side roller brush",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "right and left side roller brushes rotatably mounted orthogonal to the front brush substantially near the respective right and left side edges of the chassis",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C2",
+      "text": "maneuver a robot over a cleaning surface",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a drive system carried by the chassis and configured to maneuver the robot over a cleaning surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C5",
+      "text": "rotate between positions",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a bin cover pivotally attached to a portion of the chassis and configured to rotate between a first, closed position and a second, open position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C8",
+      "text": "control movement of a bin cover",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a bin cover release configured to control movement of the bin cover between its first and second positions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C8",
+      "text": "move between positions",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the bin cover release is configured to move between a first, locking position which locks the bin cover in its first, closed position and a second, disengaged position which allows the bin cover to move to its second, open position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C14",
+      "text": "actuate a latch",
+      "target": "C13",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a button disposed on the handle and configured to actuate the latch",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C10",
+      "text": "rotate in opposite direction",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a second roller brush rotatably mounted parallel to and rearward of the first roller brush, the first and second roller brushes rotate in opposite directions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C2",
+      "text": "pivot in place",
+      "target": null,
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "right and left differentially driven drive wheels rotatably mounted to the rearward portion of the chassis, the drive system being capable of maneuvering the robot to pivot in place",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C24",
+      "text": "alter drive direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "the controller configured to alter a drive direction in response to a signal received from the proximity sensor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C2",
+      "text": "alter drive direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          16,
+          17
+        ],
+        "quote": "the drive system configured to alter a drive direction in response to a signal received from the cliff sensor indicating a potential cliff",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C21",
+      "text": "confine body movements to two directions",
+      "target": null,
+      "provenance": {
+        "claims": [
+          26
+        ],
+        "quote": "a bumper guide configured to confine body movements to along two directions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C22",
+      "text": "receive a guide pin",
+      "target": "C23",
+      "provenance": {
+        "claims": [
+          27
+        ],
+        "quote": "two orthogonal grooves defined by the body and configured to receive a guide pin disposed on the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C18",
+      "text": "detect a magnet",
+      "target": null,
+      "provenance": {
+        "claims": [
+          20
+        ],
+        "quote": "a stasis detector comprising a magnet disposed in or on the idler wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C4",
+      "text": "receive debris",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a bin disposed adjacent the cleaning assembly and configured to receive debris agitated by the cleaning assembly",
+        "status": "stated"
+      }
+    }
+  ]
+}

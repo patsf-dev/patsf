@@ -1,0 +1,12 @@
+id,component,text,target,claims,status
+FN1,C1,encode a sequence of pulses,,1,stated
+FN2,C1,transmit a sequence of pulses,,1,stated
+FN3,C1,receive a multi-return signal,,1,stated
+FN4,C1,decode a multi-return signal,,1,stated
+FN5,C1,authenticate a decoded multi-return signal,,1;12,stated
+FN6,C1,determine amplitude of a pulse,,2,stated
+FN7,C1,determine interval between pulses,,2,stated
+FN8,C1,compute a peak ratio,,5,stated
+FN9,C1,generate a user signature,,8,stated
+FN10,C1,adjust a user signature,,9,stated
+FN11,C1,configure a LiDAR system with a user signature,,10,stated

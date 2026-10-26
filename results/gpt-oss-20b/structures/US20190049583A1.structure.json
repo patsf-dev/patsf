@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "apparatus",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An apparatus comprising: encode logic to encode a plurality of light beam pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "encode logic",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "encode logic to encode a plurality of light beam pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "memory",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "memory, coupled to the encode logic, to store encoding information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "light source",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "from at least one light source towards an object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "modulator",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "encode logic is to cause the modification via a modulator",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "electro-optic modulator",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "the modulator comprises an electro-optic modulator",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "lithium niobate crystal electro-optic modulator",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "the electro-optic modulator comprises a lithium niobate crystal electro-optic modulator",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "liquid crystal electro-optic modulator",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "or a liquid crystal electro-optic modulator",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "laser source",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "at least one light source comprises: a pulsed diode laser source",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "plurality of light sources",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "further comprising a plurality of light sources",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "decode logic",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "decode logic is to access the stored encoding information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "IoT device or vehicle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "an Internet of Things (IoT) device or vehicle comprises the encode logic",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "processor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "a processor, having one or more processor cores, comprises the encode logic",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "single integrated device",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "a single integrated device comprises one or more of: a processor, the encode logic, and the memory",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "encode",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1,
+          12
+        ],
+        "quote": "encode logic to encode a plurality of light beam pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C2",
+      "text": "store",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "memory, coupled to the encode logic, to store encoding information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C1",
+      "text": "modify",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1,
+          3
+        ],
+        "quote": "encode logic is to cause a modification to at least one of the one or more sub-pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C1",
+      "text": "cause modification via",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "encode logic is to cause the modification via a modulator",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C1",
+      "text": "cause modification via",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "encode logic is to cause the modification via a modulator or the at least one light source",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C10",
+      "text": "access",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "decode logic is to access the stored encoding information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C11",
+      "text": "comprise",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "an Internet of Things (IoT) device or vehicle comprises the encode logic",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C12",
+      "text": "comprise",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "a processor, having one or more processor cores, comprises the encode logic",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C13",
+      "text": "comprise",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "a single integrated device comprises one or more of: a processor, the encode logic, and the memory",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C13",
+      "text": "comprise",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "a single integrated device comprises one or more of: a processor, the encode logic, and the memory",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C13",
+      "text": "comprise",
+      "target": "C12",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "a single integrated device comprises one or more of: a processor, the encode logic, and the memory",
+        "status": "stated"
+      }
+    }
+  ]
+}

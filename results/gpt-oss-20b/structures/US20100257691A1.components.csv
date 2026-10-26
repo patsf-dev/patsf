@@ -1,0 +1,10 @@
+id,name,parent,claims,status
+C0,robot,,1,stated
+C1,robot housing,C0,1,stated
+C2,motor drive,C1,1,stated
+C3,drive wheel,C1,1,stated
+C4,cliff sensor,C1,1,stated
+C5,wheel drop sensor,C1,1,stated
+C6,controller,C1,1,stated
+C7,edge brush,C0,2,stated
+C8,obstacle detection sensor,C0,4,stated

@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "lawnmower",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A lawnmower comprising",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "chassis",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a chassis having wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "wheels",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a chassis having wheels",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "disc motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a disc motor having disc-shaped coil discs",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "coil discs",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a disc motor having disc-shaped coil discs",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "output shaft",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "with the axial line of an output shaft being arranged substantially vertically",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "rotary blade",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a rotary blade connected to the output shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "handle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a handle arranged separated from the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "connecting piece",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a connecting piece connecting the chassis and the handle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "grass collection case",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a grass collection case positioned above the chassis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "fan",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a fan connected to the output shaft, said fan generating a flow of air directed from near the rotary blade toward the inside of the grass collection case",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "rotor",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the disc motor has a rotor, a stator and the output shaft provided integrally and coaxially with the rotor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "stator",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the disc motor has a rotor, a stator and the output shaft provided integrally and coaxially with the rotor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "magnetic flux generation mechanism",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the other out of the rotor and the stator is provided with a magnetic flux generation mechanism for generating magnetic flux that passes through the coil disc in the axial direction of the output shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "magnet",
+      "parent": "C13",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "the magnetic flux generation mechanism is provided with a magnet",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "move in a predetermined forward direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a chassis having wheels and capable of moving at least in a predetermined forward direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C13",
+      "text": "generate magnetic flux that passes through a coil disc",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "the other out of the rotor and the stator is provided with a magnetic flux generation mechanism for generating magnetic flux that passes through the coil disc in the axial direction of the output shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C10",
+      "text": "generate a flow of air directed from near a rotary blade toward the inside of a grass collection case",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a fan connected to the output shaft, said fan generating a flow of air directed from near the rotary blade toward the inside of the grass collection case",
+        "status": "stated"
+      }
+    }
+  ]
+}

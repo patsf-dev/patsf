@@ -1,0 +1,13 @@
+id,component,text,target,claims,status
+FN1,C3,transmit vibration,C4,1,stated
+FN2,C2,move gravity center position,,1,stated
+FN3,C6,rotate relative to eccentric shaft main body,C5,2,stated
+FN4,C8,regulate rotation range,,3,stated
+FN5,C8,differentiate position by rotation direction,,3,stated
+FN6,C6,move axially relative to eccentric shaft main body,C5,4,stated
+FN7,C6,screw onto eccentric shaft main body,C5,5,stated
+FN8,C6,slide axially relative to eccentric shaft main body,C5,6,stated
+FN9,C7,mesh teeth to form ratchet mechanism,C8,7,stated
+FN10,C11,connect eccentric shaft main body and weight,C5,8,stated
+FN11,C12,support other end of eccentric shaft,C2,10,stated
+FN12,C0,place fluid between,,9,stated

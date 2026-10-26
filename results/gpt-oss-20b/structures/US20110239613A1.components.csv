@@ -1,0 +1,16 @@
+id,name,parent,claims,status
+C0,lawnmower,,1,stated
+C1,chassis,C0,1,stated
+C2,wheels,C1,1,stated
+C3,disc motor,C0,1,stated
+C4,coil discs,C3,1,stated
+C5,output shaft,C3,1,stated
+C6,rotary blade,C3,1,stated
+C7,handle,C0,1,stated
+C8,connecting piece,C0,1,stated
+C9,grass collection case,C0,3,stated
+C10,fan,C3,3,stated
+C11,rotor,C3,2,stated
+C12,stator,C3,2,stated
+C13,magnetic flux generation mechanism,C3,2,stated
+C14,magnet,C13,7,stated

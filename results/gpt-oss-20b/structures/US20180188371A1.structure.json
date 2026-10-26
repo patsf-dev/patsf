@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "method",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A method for enabling light detection and ranging (LiDAR) scanning",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a system disposed or included in a mounting object",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "LiDAR scanner",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a respective LiDAR scanner of the plurality of LiDAR scanners",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "temperature controlled periodical poled lithium niobate crystal",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a temperature controlled periodical poled lithium niobate crystal",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "receive a laser signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "receiving a first laser signal, the first laser signal having a first wavelength",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C1",
+      "text": "generate a laser signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "generating a second laser signal based on the first laser signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C1",
+      "text": "provide a laser signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "providing a plurality of third laser signals based on the first laser signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C1",
+      "text": "deliver a laser signal to a LiDAR scanner",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "delivering a corresponding third laser signal of the plurality of third laser signals to a respective LiDAR scanner",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C3",
+      "text": "generate a laser signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "generating the second laser signal based on the first laser signal uses a temperature controlled periodical poled lithium niobate crystal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C1",
+      "text": "modulate a laser signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "prior to generating the second laser signal, modulating the first laser signal",
+        "status": "stated"
+      }
+    }
+  ]
+}

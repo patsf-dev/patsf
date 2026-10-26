@@ -1,0 +1,12 @@
+id,component,text,target,claims,status
+FN1,C4,convert rotation of a shaft into oscillation movement of a shaft,C3,1,stated
+FN2,C7,engage surfaces of a chassis assembly to absorb momentum and apply momentum to a shaft,C3,3,stated
+FN3,C8,constrain movement of a rocker arm to output oscillating movement in response to rotation of a shaft,C3,4,stated
+FN4,C9,receive end of a wing within a slot,C11,6,stated
+FN5,C10,receive end of a wing within a slot,C12,6,stated
+FN6,C13,receive a component in a cam follower to cause rotation with cam follower and cause rocker arm to move,C14,8,stated
+FN7,C16,support and constrain a shaft,C3,10,stated
+FN8,C18,oscillate correspondingly,C3,13,stated
+FN9,C19,transport fluid from a source to a conduit in a brush head,C18,14,stated
+FN10,C21,removably couple to a handle and fluidly connect to a fluid passage,C19,15,stated
+FN11,C21,rotate relative to a handle,,16,stated

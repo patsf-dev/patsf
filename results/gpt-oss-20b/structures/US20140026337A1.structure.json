@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "invention",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An oral hygiene implement comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "housing",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "functional element",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a movably mounted functional element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "fixation element",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a fixation element that is secured at the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "axle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an axle that is supported by the fixation element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "carrier element",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a carrier element of the functional element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "shaft element",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a shaft element is coupled to the functional element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "spring element",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a spring element is arranged between the carrier element and the fixation element",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "drive unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "a drive unit arranged to drive the functional element into a movement around the axle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "handle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a handle",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C3",
+      "text": "inhibit pulling",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "such that pulling the functional element out of the housing along the longitudinal axle extension direction is inhibited.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C2",
+      "text": "move around axle",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the functional element is arranged for movement around the axle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C6",
+      "text": "drive functional element into motion around axle",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "the shaft element being arranged to drive the functional element into motion around the axle during operation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C7",
+      "text": "bias carrier element in direction of load",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "the spring element biases the carrier element in a direction that essentially coincides with the direction of a load",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C8",
+      "text": "drive functional element into movement around axle",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "drive the functional element into a movement around the axle during operation",
+        "status": "stated"
+      }
+    }
+  ]
+}

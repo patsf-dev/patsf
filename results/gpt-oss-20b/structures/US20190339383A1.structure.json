@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "apparatus",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An apparatus comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "radar unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a radar unit comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "transmitter",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a transmitter configured to transmit at least two signal pulses in a direction perpendicular to a direction of travel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "receiver",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a receiver configured to receive, for each transmitted signal pulse, a reflection signal associated with reflection of each of the respective transmitted signal pulse",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "processing unit",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a processing unit configured to:",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C2",
+      "text": "transmit signal pulses",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3
+        ],
+        "quote": "a transmitter configured to transmit at least two signal pulses in a direction perpendicular to a direction of travel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C3",
+      "text": "receive reflection signals",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a receiver configured to receive, for each transmitted signal pulse, a reflection signal associated with reflection of each of the respective transmitted signal pulse",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C4",
+      "text": "process reflection signals to determine target information",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "process the received reflection signals to determine target information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C4",
+      "text": "correlate target information with predetermined target information",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1,
+          4,
+          6
+        ],
+        "quote": "correlate the target information with predetermined target information to provide correlated target information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C4",
+      "text": "determine a location of the vehicle",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "determine a location of the vehicle based on the correlated target information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C4",
+      "text": "control an autonomous vehicle",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "control an autonomous vehicle based on the determined location",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C4",
+      "text": "generate an image",
+      "target": null,
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "generate an image based on the received reflection signals",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C4",
+      "text": "correlate image to predetermined target information",
+      "target": null,
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "correlate the image to predetermined target information to provide correlated target information",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C4",
+      "text": "operate in a synthetic aperture radar processing mode",
+      "target": null,
+      "provenance": {
+        "claims": [
+          7,
+          14
+        ],
+        "quote": "operate in a synthetic aperture radar processing mode",
+        "status": "stated"
+      }
+    }
+  ]
+}

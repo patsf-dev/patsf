@@ -1,0 +1,17 @@
+id,component,text,target,claims,status
+FN1,C5,drive a wheel,C4,1,stated
+FN2,C9,drive a cleaning head,C8,1,stated
+FN3,C2,remove a wheel assembly,C1,1,stated
+FN4,C6,remove a cleaning assembly,C1,1,stated
+FN5,C10,secure a wheel assembly,C2,2,stated
+FN6,C10,secure a cleaning assembly,C6,2,stated
+FN7,C22,establish an electric power connection to a wheel assembly,,3,stated
+FN8,C23,establish an electric power connection to a cleaning assembly,,4,stated
+FN9,C13,suspend a wheel,C4,7,stated
+FN10,C14,detect absence of an adjacent floor,,8,stated
+FN11,C16,collect debris,,11,stated
+FN12,C18,inhibit particulate,,12,stated
+FN13,C19,expose filter cavity,,12,stated
+FN14,C20,bias a bin cover in the open position,C19,13,stated
+FN15,C21,hold a bin cover in the closed position,C19,14,stated
+FN16,C19,move a bin cover between a closed position and an open position,C17,12,stated

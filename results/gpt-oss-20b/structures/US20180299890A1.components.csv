@@ -1,0 +1,4 @@
+id,name,parent,claims,status
+C0,device for controlling a vehicle,,1,stated
+C1,driver observation device,C0,1,stated
+C2,warning device,C0,8,stated

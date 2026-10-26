@@ -1,0 +1,10 @@
+id,component,text,target,claims,status
+FN1,C8,extend a shaft,,1,stated
+FN2,C9,support a shaft,C8,1,stated
+FN3,C10,support a shaft,C8,1,stated
+FN4,C11,position a component,C1,1,stated
+FN5a,C12,mount a board,C6,2;3,stated
+FN5c,C12,mount a board,C1,4,stated
+FN5d,C12,mount a board,C3,5,stated
+FN6,C13,seal,,7,stated
+FN7,C0,mount,,8,stated

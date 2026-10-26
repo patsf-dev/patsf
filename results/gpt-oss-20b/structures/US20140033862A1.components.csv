@@ -1,0 +1,10 @@
+id,name,parent,claims,status
+C0,motor housing with integrated gears,,1,stated
+C1,motor,C0,1,stated
+C2,first shaft,C1,1,stated
+C3,dowel,C0,1,stated
+C4,encoder,C0,1,stated
+C5,gear system,C0,1,stated
+C6,second shaft,C0,1,stated
+C7,seal,C0,1,stated
+C8,lubricant,C0,7,stated

@@ -1,0 +1,18 @@
+id,name,parent,claims,status
+C0,self-propelled grass mower,,1,stated
+C1,wheel motor,C0,1,stated
+C2,wheel,C0,1,stated
+C3,cutting blade motor,C0,1,stated
+C4,cutting blade,C0,1,stated
+C5,rechargeable battery,C0,1,stated
+C6,guidewire sensor,C0,1,stated
+C7,control device,C0,1,stated
+C8,main body chassis,C0,8,stated
+C9,main body cover,C0,8,stated
+C10,front wheels,C0,8,stated
+C11,rear wheels,C0,8,stated
+C12,coil,C6,4,stated
+C13,inverter circuit,C3,7,stated
+C14,switching elements,C13,7,stated
+C15,guidance signal generator,C0,5,stated
+C16,guidewire,C0,1,stated

@@ -1,0 +1,454 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "electric toothbrush",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An electric toothbrush comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "case",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a case in which the motor is installed;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "toothbrush handle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "toothbrush handle which is installed in the case for rotating and swinging at a predetermined angle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "power transmitter",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a power transmitter which is installed in the case between the motor and the toothbrush handle and rotates the toothbrush handle;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "vibration generator",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a vibration generator which is installed in the case between the motor and the toothbrush handle and reciprocates the toothbrush handle.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "brush",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "has a brush at a tip of the toothbrush handle;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "lamp",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "further comprising a lamp which is installed in the case to radiate light to a mount.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "rotary disc",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a rotary disc which is installed on a rotating shaft of the motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "spring",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a spring which is installed at the toothbrush handle and elastically biases the toothbrush handle toward the rotary disc.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "bristles",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "brush of the toothbrush handle has toothbrush bristles which are arranged spirally",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "support member",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a driven gear which is spline-coupled to a support member of the toothbrush handle;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "driven gear",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a driven gear which is spline-coupled to a support member of the toothbrush handle;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "drive gear",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a drive gear which is engaged with the driven gear and driven by the motor.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "flange",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a flange which is installed at a tip of the support member to which the driven gear is spline-coupled;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "coil unit",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a coil unit which is provided around an outer circumferential surface of the flange and reciprocates the flange at a resonant frequency",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "inclined disc",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "an inclined disc which is inclined on a rotating shaft of the motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "guide member",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a guide member which is installed at the tip of the toothbrush handle and coupled to an edge of the inclined disc",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "eccentric cam housing",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an eccentric cam housing on which a tip of the support member is rotatably supported;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "eccentric cam",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an eccentric cam which is coupled to the eccentric cam housing and installed on a driven shaft;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "eccentric cam driven gear",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an eccentric cam driven gear which is installed on the driven shaft and has a tooth portion at a side surface;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "eccentric cam drive gear",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an eccentric cam drive gear which is installed on a rotating shaft of the motor.",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C4",
+      "text": "rotate a handle",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1,
+          5
+        ],
+        "quote": "a power transmitter which is installed in the case between the motor and the toothbrush handle and rotates the toothbrush handle;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C5",
+      "text": "reciprocate a handle",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1,
+          7
+        ],
+        "quote": "a vibration generator which is installed in the case between the motor and the toothbrush handle and reciprocates the toothbrush handle.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3a",
+      "component": "C1",
+      "text": "drive a gear",
+      "target": "C13",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a drive gear which is engaged with the driven gear and driven by the motor.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3b",
+      "component": "C13",
+      "text": "drive a gear",
+      "target": "C12",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a drive gear which is engaged with the driven gear and driven by the motor.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3c",
+      "component": "C1",
+      "text": "drive a gear",
+      "target": "C21",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an eccentric cam drive gear which is installed on a rotating shaft of the motor.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3d",
+      "component": "C21",
+      "text": "drive a gear",
+      "target": "C20",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an eccentric cam drive gear which is installed on a rotating shaft of the motor.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3e",
+      "component": "C20",
+      "text": "drive a gear",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an eccentric cam driven gear which is installed on the driven shaft and has a tooth portion at a side surface;",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4a",
+      "component": "C1",
+      "text": "drive a disc",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a rotary disc which is installed on a rotating shaft of the motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4b",
+      "component": "C1",
+      "text": "drive a disc",
+      "target": "C16",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "an inclined disc which is inclined on a rotating shaft of the motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C17",
+      "text": "move up and down a handle",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a guide member which is installed at the tip of the toothbrush handle and coupled to an edge of the inclined disc",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C9",
+      "text": "bias a component toward another",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "a spring which is installed at the toothbrush handle and elastically biases the toothbrush handle toward the rotary disc.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C3",
+      "text": "swing a handle",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "toothbrush handle which is installed in the case for rotating and swinging at a predetermined angle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C7",
+      "text": "radiate light",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "further comprising a lamp which is installed in the case to radiate light to a mount.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C15",
+      "text": "reciprocate a flange",
+      "target": "C14",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a coil unit which is provided around an outer circumferential surface of the flange and reciprocates the flange at a resonant frequency",
+        "status": "stated"
+      }
+    }
+  ]
+}

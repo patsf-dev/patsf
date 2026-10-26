@@ -1,0 +1,14 @@
+id,component,text,target,claims,status
+FN1,C2,maneuver a robot,C0,1,stated
+FN2,C3,move downwardly,,1,stated
+FN3,C4,send a signal,,1,stated
+FN4,C5,sense downward movement,C3,1,stated
+FN5,C6,redirect a robot,C0,1,stated
+FN6,C7,move debris,,2,stated
+FN7,C7,intersect a path,,3,stated
+FN8,C8,detect proximity,,4,stated
+FN9,C8,transmit a detection signal,C6,4,stated
+FN10,C6,initiate a collision avoidance routine,C0,6,stated
+FN11,C3,move to an extended position,,8,stated
+FN12,C5,sense pivot downwardly,C3,9,stated
+FN13,C5,sense extends downwardly,C3,10,stated

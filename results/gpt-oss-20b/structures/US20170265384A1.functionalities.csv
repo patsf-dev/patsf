@@ -1,0 +1,12 @@
+id,component,text,target,claims,status
+FN1,C4,mount a component on the main body,C1,1,stated
+FN2,C8,mount a component on the main body,C1,1,stated
+FN3,C5,attach a component to the main body,C1,1,stated
+FN4,C6,communicate an interior,C5,1,stated
+FN5,C8,connect a component to the rear wheels in a power transmitting relationship,C7,1,stated
+FN6,C4,drive a component,C3,1,stated
+FN7,C9,supply a component,C4,1,stated
+FN8,C9,position a component,,1,stated
+FN9,C3,rotate a component in a horizontal plane,,1,stated
+FN10,C10,rotate a component in opposite directions,,4,stated
+FN11,C6,connect a component to the blade housing,C2,4,stated

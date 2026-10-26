@@ -1,0 +1,28 @@
+id,name,parent,claims,status
+C0,toothbrush,,1,stated
+C1,electric motor,C0,1,stated
+C2,drive shaft,C1,1,stated
+C3,brush tip,C0,1,stated
+C4,brush head,C3,1,stated
+C5,fluid conduit,C3,1,stated
+C6,drive assembly,C0,1,stated
+C7,fluid passage,C0,1,stated
+C8,motor control circuit,C0,2,stated
+C9,motor control switch,C0,2,stated
+C10,fluid control switch,C0,3,stated
+C11,radio frequency transmitter,C0,3,stated
+C12,coupler,C6,4,stated
+C13,eccentric cam,C12,4,stated
+C14,rocker arm,C0,5,stated
+C15,brush shaft,C14,6,stated
+C16,fluid tube,C14,6,stated
+C17,bracket,C18,8,stated
+C18,chassis,C0,8,stated
+C19,fluid outlet,C4,9,stated
+C20,jet tip,C4,10,stated
+C21,bristles,C4,11,stated
+C22,base plate,C0,12,stated
+C23,fluid inlet,C22,12,stated
+C24,first valve,C22,12,stated
+C25,second valve,C22,13,stated
+C26,charging port cavity,C22,14;15,stated

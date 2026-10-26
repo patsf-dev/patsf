@@ -1,0 +1,6 @@
+id,component,text,target,claims,status
+FN1,C3,inhibit pulling,C2,1,stated
+FN2,C2,move around axle,C4,1,stated
+FN3,C6,drive functional element into motion around axle,C2,4,stated
+FN4,C7,bias carrier element in direction of load,C5,7,stated
+FN5,C8,drive functional element into movement around axle,C2,11,stated

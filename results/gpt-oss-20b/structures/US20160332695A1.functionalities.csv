@@ -1,0 +1,14 @@
+id,component,text,target,claims,status
+FN1,C1,generate a drive force,,11,stated
+FN2,C5,transfer drive energy,C8,11,stated
+FN3,C6,transfer clearance-affected parts into idle position,C4,11,stated
+FN4,C6,transfer clearance-affected parts into idle position,C8,11,stated
+FN5,C6,furnish information as to whether clearance-affected parts are in idle position,,11,stated
+FN6,C1,deliver no drive energy,,11,stated
+FN7,C6,transfer clearance-affected parts into end stop position,C4,12,stated
+FN8,C6,transfer clearance-affected parts into end stop position,C8,12,stated
+FN9,C6,furnish information as to whether clearance-affected parts are in end stop position,,12,stated
+FN10,C1,deliver no further drive energy after half a revolution of bottom bracket spindle after idle position,,13,stated
+FN11,C7,detect passage time of passage indicator device of each clearance-affected part,C9,14,stated
+FN12,C7,detect passage time of passage indicator device of each clearance-affected part,C10,14,stated
+FN13,C4,associate passage indicator devices,C11,15,stated

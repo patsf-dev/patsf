@@ -1,0 +1,457 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "LiDAR system",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A Light Detection and Ranging (LiDAR) system, comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "light source",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a light source, said light source comprising a plurality of laser emitters",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "laser emitter",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "said plurality of laser emitters configured to generate an outgoing laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "light receiver",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a light receiver, said light receiver comprising a plurality of photon detectors and configured to detect a returned incoming laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "photon detector",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a plurality of photon detectors",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "mirror system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          8,
+          9
+        ],
+        "quote": "a mirror system for changing an outgoing direction of the outgoing laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "control system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "quote": "a control system for controlling the LiDAR system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "one or more sensors to detect a path of the laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "lens system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "a lens system positioned in between the light source and the mirror system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "polarizing splitter",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          11,
+          12
+        ],
+        "quote": "a polarizing splitter for splitting the laser beam into a first split laser beam and a second split laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "quarter-wave plate",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          11,
+          12
+        ],
+        "quote": "a quarter-wave plate for converting the p-polarized laser beam into circular polarization",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "filter",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a filter to substantially remove noise",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "light absorption plate",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "a light absorption plate, wherein the light absorption plate is placed on an interior side of the LiDAR system",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C6",
+      "text": "adjust a mirror system",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1,
+          8,
+          9
+        ],
+        "quote": "adjust the mirror system to direct the outgoing laser beam to a scanning region",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C6",
+      "text": "direct a laser beam",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "direct the outgoing laser beam to a scanning region",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C6",
+      "text": "derive a scanning result",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "scanning result derived from the returned incoming laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C3",
+      "text": "detect a returned incoming laser beam",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "detect a returned incoming laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C2",
+      "text": "generate an outgoing laser beam",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "generate an outgoing laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C9",
+      "text": "split a laser beam",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11,
+          12
+        ],
+        "quote": "splitting the laser beam into a first split laser beam and a second split laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C10",
+      "text": "convert a p-polarized laser beam into circular polarization",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "converting the p-polarized laser beam into circular polarization",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C10",
+      "text": "convert an incoming laser beam into s-polarization",
+      "target": null,
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "convert the incoming laser beam into s-polarization",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C9",
+      "text": "split a s-polarized incoming laser beam into a third split laser beam",
+      "target": null,
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "splitting the s-polarization incoming laser beam into a third split laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C11",
+      "text": "remove noise",
+      "target": null,
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "remove noise",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C12",
+      "text": "absorb light noises",
+      "target": null,
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "absorb light noises inside the LiDAR system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C7",
+      "text": "detect a path of the laser beam",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "detect a path of the laser beam",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C6",
+      "text": "compare a detected path with a pre-determined path",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "compare the detected path of the laser beam with a pre-determined path",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN14",
+      "component": "C6",
+      "text": "adjust a mirror system based on the comparison",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "adjust the mirror system based on the comparison",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN15",
+      "component": "C6",
+      "text": "adjust an angle of the mirror system based on the comparison",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "adjust an angle of the mirror system based on the comparison",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN16",
+      "component": "C6",
+      "text": "adjust a time interval between pulses of the laser beam based on the comparison",
+      "target": null,
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "adjust a time interval between pulses of the laser beam based on the comparison",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN17",
+      "component": "C6",
+      "text": "divide a region",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "divide the scanning region into multiple sub-areas",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN18",
+      "component": "C6",
+      "text": "select a priority zone",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3,
+          4
+        ],
+        "quote": "select a priority zone from the multiple sub-areas",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN19",
+      "component": "C6",
+      "text": "scan with increased resolution",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3,
+          7
+        ],
+        "quote": "scan with an increased resolution",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN20",
+      "component": "C6",
+      "text": "determine an error zone",
+      "target": null,
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "determine an error zone among the multiple sub-areas",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN21",
+      "component": "C6",
+      "text": "adjust a scanning region",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "adjust the scanning region to include a detected object",
+        "status": "stated"
+      }
+    }
+  ]
+}

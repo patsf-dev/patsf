@@ -1,0 +1,12 @@
+id,component,text,target,claims,status
+FN1,C7,determine whether mower is within or out of region,C6,1;5,stated
+FN2,C7,control autonomous traveling,,1,stated
+FN3,C7,reduce voltage supplied to cutting blade motor,C3,1;2,stated
+FN4,C7,increase voltage supplied to cutting blade motor,C3,1,stated
+FN5,C3,stop energization at predetermined time intervals,,3,stated
+FN6,C15,cause pulsed current group to flow,C16,5,stated
+FN7,C7,stop rotation of wheel motor,C1,5,stated
+FN8,C7,stop rotation of cutting blade motor,C3,5,stated
+FN9,C7,set time for driving cutting blade motor constant,C3,6,stated
+FN10,C7,set time for stopping energization variable,C3,6,stated
+FN11,C7,stop energization by causing PWM duty ratio to be 0%,C13,7,stated

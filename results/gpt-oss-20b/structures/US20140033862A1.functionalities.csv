@@ -1,0 +1,9 @@
+id,component,text,target,claims,status
+FN1,C1,actuate a shaft,C2,1,stated
+FN2,C4,measure a velocity,C2,1,stated
+FN3,C5,mesh with a shaft,C2,1,stated
+FN4,C6,mesh with a gear system,C5,1,stated
+FN5,C1,transmit power,C6,1,stated
+FN6,C7,create a barrier,C4,1,stated
+FN7,C3,couple,C2,1,stated
+FN8,C4,surround,C3,1,stated

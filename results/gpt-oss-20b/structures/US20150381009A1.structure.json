@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "motor assembly",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A motor assembly comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "hollow housing",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a hollow housing including a front end wall defining a forward bearing seat and a shaft aperture",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "front end wall",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a front end wall defining a forward bearing seat and a shaft aperture",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "internal shelf",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an internal shelf adjacent the open rear end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "end shield",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an end shield mounted to the internal shelf",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "rearward bearing seat",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the end shield defining a rearward bearing seat",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "cover",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a cover removably attached to the open rear end of the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "rotor",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a rotor including a rotor shaft having a front end and a rear end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "rotor shaft",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the rotor shaft extends in an axial direction through the shaft aperture",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "first rotary bearing",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a first rotary bearing seated in the forward bearing seat",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "second rotary bearing",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second rotary bearing seated in the rearward bearing seat",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "stator assembly",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a stator assembly positioned in the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "electronic circuit board",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an electronic circuit board mounted to the housing or to the cover",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "O-ring",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "an O-ring forming a seal between the facing surfaces of the housing and the cover",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "radially protruding mounting structure",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a radially protruding mounting structure having a plurality of fastener-receiving holes",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "fastener-receiving holes",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a plurality of fastener-receiving holes",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "radially extending tabs",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "a plurality of radially extending tabs",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "circumferential flange",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "a circumferential flange",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "rear wall",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "cover including a rear wall",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C8",
+      "text": "extend a shaft",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the rotor shaft extends in an axial direction through the shaft aperture",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C9",
+      "text": "support a shaft",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second bearings rotatably support the rotor shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C10",
+      "text": "support a shaft",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "first and second bearings rotatably support the rotor shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C11",
+      "text": "position a component",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a stator assembly positioned in the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5a",
+      "component": "C12",
+      "text": "mount a board",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          2,
+          3
+        ],
+        "quote": "mounted to the cover",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5c",
+      "component": "C12",
+      "text": "mount a board",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "mounted to the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5d",
+      "component": "C12",
+      "text": "mount a board",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "mounted to the internal shelf of the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C13",
+      "text": "seal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "an O-ring forming a seal between the facing surfaces of the housing and the cover",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C0",
+      "text": "mount",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "the motor assembly may be mounted to a shroud of a lawn mower",
+        "status": "stated"
+      }
+    }
+  ]
+}

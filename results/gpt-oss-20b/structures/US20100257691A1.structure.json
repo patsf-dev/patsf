@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "robot",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A robot comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "robot housing",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "robot housing having a substantially arcuate forward portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "motor drive",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "motor drive housed by the robot housing and configured to maneuver the robot on a floor surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "drive wheel",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive wheels moveably attached to the robot housing and biased toward the floor surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "cliff sensor",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "cliff sensors disposed adjacent a forward edge of the robot housing and spaced from each other",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "wheel drop sensor",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "wheel drop sensor in communication with each drive wheel that senses when a drive wheel moves downwardly and sends a signal indicating downward movement of the drive wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "controller",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "controller in communication with the cliff sensors, each of the wheel drop sensors, and the motor drive to redirect the robot when a cliff in the floor surface is detected",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "edge brush",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "edge brush driven about a non-horizontal axis",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "obstacle detection sensor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "obstacle detection sensor including an emitter and detector configured to detect the proximity of the robot to an obstacle and transmit a detection signal to the controller",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C2",
+      "text": "maneuver a robot",
+      "target": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "motor drive housed by the robot housing and configured to maneuver the robot on a floor surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C3",
+      "text": "move downwardly",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "each of the drive wheels being moveable downwardly in response to the each of the drive wheels moving over a cliff in the floor surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C4",
+      "text": "send a signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "each cliff sensor responsive to a cliff in the floor surface and configured to send a signal when a cliff in the floor surface is detected",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C5",
+      "text": "sense downward movement",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "wheel drop sensor in communication with each drive wheel that senses when a drive wheel moves downwardly and sends a signal indicating downward movement of the drive wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C6",
+      "text": "redirect a robot",
+      "target": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "controller in communication with the cliff sensors, each of the wheel drop sensors, and the motor drive to redirect the robot when a cliff in the floor surface is detected",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C7",
+      "text": "move debris",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "edge brush driven about a non-horizontal axis, at least a portion of the at least one edge brush extending beyond a peripheral edge of the robot housing to move debris while the robot is maneuvered across the floor surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C7",
+      "text": "intersect a path",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "edge brush rotated about a non-horizontal axis, at least a portion of the at least one edge brush periodically during a duration of time intersecting a path between at least one of the plurality of cliff sensors and the floor surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C8",
+      "text": "detect proximity",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "obstacle detection sensor including an emitter and detector configured to detect the proximity of the robot to an obstacle and transmit a detection signal to the controller",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C8",
+      "text": "transmit a detection signal",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "obstacle detection sensor including an emitter and detector configured to detect the proximity of the robot to an obstacle and transmit a detection signal to the controller",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C6",
+      "text": "initiate a collision avoidance routine",
+      "target": "C0",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "controller is configured to initiate a collision avoidance routine that navigates the robot about objects as the robot is maneuvered across the floor surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C3",
+      "text": "move to an extended position",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "drive wheels are moved to an extended position when the robot is removed from the floor surface",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C5",
+      "text": "sense pivot downwardly",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "wheel drop sensor senses when the drive wheel pivots downwardly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C5",
+      "text": "sense extends downwardly",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "wheel drop sensor senses when the drive wheel extends downwardly",
+        "status": "stated"
+      }
+    }
+  ]
+}

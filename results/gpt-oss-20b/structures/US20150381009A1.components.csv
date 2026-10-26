@@ -1,0 +1,20 @@
+id,name,parent,claims,status
+C0,motor assembly,,1,stated
+C1,hollow housing,C0,1,stated
+C2,front end wall,C1,1,stated
+C3,internal shelf,C1,1,stated
+C4,end shield,C1,1,stated
+C5,rearward bearing seat,C4,1,stated
+C6,cover,C1,1,stated
+C7,rotor,C1,1,stated
+C8,rotor shaft,C7,1,stated
+C9,first rotary bearing,C1,1,stated
+C10,second rotary bearing,C1,1,stated
+C11,stator assembly,C1,1,stated
+C12,electronic circuit board,C1,1,stated
+C13,O-ring,C1,7,stated
+C14,radially protruding mounting structure,C1,8,stated
+C15,fastener-receiving holes,C14,8,stated
+C16,radially extending tabs,C14,11,stated
+C17,circumferential flange,C14,12,stated
+C18,rear wall,C6,1,stated

@@ -1,0 +1,5 @@
+id,name,parent,claims,status
+C0,method,,1,stated
+C1,system,C0,1,stated
+C2,LiDAR scanner,C1,2,stated
+C3,temperature controlled periodical poled lithium niobate crystal,C1,4,stated

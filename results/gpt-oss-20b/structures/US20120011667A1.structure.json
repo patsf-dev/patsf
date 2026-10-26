@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "electric tooth brush",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An electric tooth brush comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "handle portion",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a handle portion including an electric motor; a first drive shaft; a second drive shaft; and a drive",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "electric motor",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an electric motor; a first drive shaft; a second drive shaft; and a drive",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "first drive shaft",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an electric motor; a first drive shaft; a second drive shaft; and a drive",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "second drive shaft",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an electric motor; a first drive shaft; a second drive shaft; and a drive",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "drive",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an electric motor; a first drive shaft; a second drive shaft; and a drive",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "head portion",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a head portion including a housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "housing",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1,
+          2
+        ],
+        "quote": "a housing being attached to the second drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "head portion axle",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a head portion axle being attached to the first drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "bristle carrier",
+      "parent": "C7",
+      "provenance": {
+        "claims": [
+          1,
+          2
+        ],
+        "quote": "a bristle carrier having a plurality of bristles, which is rotatably supported by the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "head portion drive coupling",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a head portion drive coupling the head portion axle to the bristle carrier",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C5",
+      "text": "convert a rotational motion into an oscillating pivoting",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "drive being arranged to convert a rotational motion of the electric motor into an oscillating pivoting of the first drive shaft and second drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C7",
+      "text": "transfer an oscillating pivoting",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "housing being attached to the second drive shaft of the handle portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C8",
+      "text": "transfer an oscillating pivoting",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "head portion axle being attached to the first drive shaft of the handle portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C9",
+      "text": "rotatably support",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "bristle carrier having a plurality of bristles, which is rotatably supported by the housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C10",
+      "text": "transfer an oscillating pivoting",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "head portion drive coupling the head portion axle to the bristle carrier",
+        "status": "stated"
+      }
+    }
+  ]
+}

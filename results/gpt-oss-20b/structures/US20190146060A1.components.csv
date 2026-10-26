@@ -1,0 +1,14 @@
+id,name,parent,claims,status
+C0,LiDAR system,,1,stated
+C1,light source,C0,1,stated
+C2,laser emitter,C1,1,stated
+C3,light receiver,C0,1,stated
+C4,photon detector,C3,1,stated
+C5,mirror system,C0,1;8;9,stated
+C6,control system,C0,1;2;3;4;5;6;7;8;9;10;11;12;13;14,stated
+C7,sensor,C0,8,stated
+C8,lens system,C0,11,stated
+C9,polarizing splitter,C8,11;12,stated
+C10,quarter-wave plate,C8,11;12,stated
+C11,filter,C8,13,stated
+C12,light absorption plate,C0,14,stated

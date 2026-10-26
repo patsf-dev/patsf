@@ -1,0 +1,22 @@
+id,component,text,target,claims,status
+FN1,C6,adjust a mirror system,C5,1;8;9,stated
+FN2,C6,direct a laser beam,,1,stated
+FN3,C6,derive a scanning result,,1,stated
+FN4,C3,detect a returned incoming laser beam,,1,stated
+FN5,C2,generate an outgoing laser beam,,1,stated
+FN6,C9,split a laser beam,,11;12,stated
+FN7,C10,convert a p-polarized laser beam into circular polarization,,11,stated
+FN8,C10,convert an incoming laser beam into s-polarization,,12,stated
+FN9,C9,split a s-polarized incoming laser beam into a third split laser beam,,12,stated
+FN10,C11,remove noise,,13,stated
+FN11,C12,absorb light noises,,14,stated
+FN12,C7,detect a path of the laser beam,,8,stated
+FN13,C6,compare a detected path with a pre-determined path,,8,stated
+FN14,C6,adjust a mirror system based on the comparison,C5,8,stated
+FN15,C6,adjust an angle of the mirror system based on the comparison,C5,9,stated
+FN16,C6,adjust a time interval between pulses of the laser beam based on the comparison,,10,stated
+FN17,C6,divide a region,,2,stated
+FN18,C6,select a priority zone,,3;4,stated
+FN19,C6,scan with increased resolution,,3;7,stated
+FN20,C6,determine an error zone,,5,stated
+FN21,C6,adjust a scanning region,,6,stated

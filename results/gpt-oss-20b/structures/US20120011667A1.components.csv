@@ -1,0 +1,12 @@
+id,name,parent,claims,status
+C0,electric tooth brush,,1,stated
+C1,handle portion,C0,1,stated
+C2,electric motor,C1,1,stated
+C3,first drive shaft,C1,1,stated
+C4,second drive shaft,C1,1,stated
+C5,drive,C1,1,stated
+C6,head portion,C0,1,stated
+C7,housing,C6,1;2,stated
+C8,head portion axle,C6,1,stated
+C9,bristle carrier,C7,1;2,stated
+C10,head portion drive coupling,C6,1,stated

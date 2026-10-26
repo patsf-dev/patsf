@@ -1,0 +1,23 @@
+id,name,parent,claims,status
+C0,brushing device,,1,stated
+C1,motor,C0,1,stated
+C2,eccentric drive shaft,C1,1,stated
+C3,output shaft,C0,1,stated
+C4,power train assembly,C0,1,stated
+C5,chassis assembly,C0,2,stated
+C6,housing,C0,2,stated
+C7,conservation feature,C4,3,stated
+C8,rocker arm,C4,4,stated
+C9,first wing,C8,5,stated
+C10,second wing,C8,5,stated
+C11,first slot,C5,6,stated
+C12,second slot,C5,6,stated
+C13,eccentric,C4,7,stated
+C14,cam follower,C8,8,stated
+C15,spherical socket,C14,9,stated
+C16,sleeve bearing,C4,10,stated
+C17,mounting feature,C5,11,stated
+C18,brush head,C3,13,stated
+C19,fluid passage,C4,14,stated
+C20,handle,C0,15,stated
+C21,fluid connector,C20,15,stated

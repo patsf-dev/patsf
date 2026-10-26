@@ -1,0 +1,6 @@
+id,component,text,target,claims,status
+FN1,C5,convert a rotational motion into an oscillating pivoting,,1,stated
+FN2,C7,transfer an oscillating pivoting,C4,1,stated
+FN3,C8,transfer an oscillating pivoting,C3,1,stated
+FN4,C9,rotatably support,C7,1,stated
+FN5,C10,transfer an oscillating pivoting,C9,1,stated

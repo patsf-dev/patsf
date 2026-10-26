@@ -1,0 +1,10 @@
+id,component,text,target,claims,status
+FN1,C2,transmit signal pulses,,1;2;3,stated
+FN2,C3,receive reflection signals,,1,stated
+FN3,C4,process reflection signals to determine target information,,1,stated
+FN4,C4,correlate target information with predetermined target information,,1;4;6,stated
+FN5,C4,determine a location of the vehicle,,1,stated
+FN6,C4,control an autonomous vehicle,,1,stated
+FN7,C4,generate an image,,5,stated
+FN8,C4,correlate image to predetermined target information,,5,stated
+FN9,C4,operate in a synthetic aperture radar processing mode,,7;14,stated

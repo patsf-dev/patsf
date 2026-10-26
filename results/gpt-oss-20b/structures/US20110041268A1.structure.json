@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "electric toothbrush",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "An electric toothbrush, comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "eccentric shaft",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an eccentric shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "vibration transmitting component",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a vibration transmitting component",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "brush portion",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to a brush portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "eccentric shaft main body",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "an eccentric shaft main body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "weight",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a weight",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "first weight",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a first weight",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "second weight",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a second weight",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "male screw",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a male screw",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "female screw",
+      "parent": "C6",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a female screw",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "coil spring",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a coil spring",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "bearing",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "a bearing",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C3",
+      "text": "transmit vibration",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a vibration transmitting component for transmitting vibration generated in accordance with rotation of the eccentric shaft to a brush portion",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C2",
+      "text": "move gravity center position",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the eccentric shaft is formed so that a gravity center position is movable at least in one direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C6",
+      "text": "rotate relative to eccentric shaft main body",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "at least one of the plurality of weights is provided rotatably relative to an eccentric shaft main body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C8",
+      "text": "regulate rotation range",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a second weight positioned so that a gravity center is shifted from the shaft center with a rotation range regulated",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C8",
+      "text": "differentiate position by rotation direction",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a regulated position of the second weight in a rotation direction is differentiated by a rotation direction of the eccentric shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C6",
+      "text": "move axially relative to eccentric shaft main body",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "the weight is provided movably in the axial direction relative to an eccentric shaft main body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C6",
+      "text": "screw onto eccentric shaft main body",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a male screw is formed in the eccentric shaft main body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C6",
+      "text": "slide axially relative to eccentric shaft main body",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "the weight is fitted to the eccentric shaft main body slidably in the axial direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C7",
+      "text": "mesh teeth to form ratchet mechanism",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "thereby forming a ratchet mechanism",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C11",
+      "text": "connect eccentric shaft main body and weight",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a coil spring with one end fixed to the eccentric shaft main body and the other end fixed to the weight",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C12",
+      "text": "support other end of eccentric shaft",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "a bearing for supporting the other end of the eccentric shaft is provided in the vibration transmitting component",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C0",
+      "text": "place fluid between",
+      "target": null,
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "a fluid is placed between the eccentric shaft main body and the weight",
+        "status": "stated"
+      }
+    }
+  ]
+}

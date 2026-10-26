@@ -1,0 +1,11 @@
+id,name,parent,claims,status
+C0,invention,,1,stated
+C1,housing,C0,1,stated
+C2,functional element,C0,1,stated
+C3,fixation element,C0,1,stated
+C4,axle,C0,1,stated
+C5,carrier element,C2,1,stated
+C6,shaft element,C2,4,stated
+C7,spring element,C3,7,stated
+C8,drive unit,C0,11,stated
+C9,handle,C0,13,stated

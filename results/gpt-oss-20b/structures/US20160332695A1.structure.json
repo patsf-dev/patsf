@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "drive system",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "A drive system for a pedal-operable vehicle, comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "drive motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "drive motor with which a drive force for the vehicle is generatable",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "pedals",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "pedals on pedal arms",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "pedal arms",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "pedals on pedal arms",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "bottom bracket spindle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "bottom bracket spindle on which the pedal arms are mounted",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "drive mechanism",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "drive mechanism for transferring drive energy from the bottom bracket spindle to a wheel of the vehicle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "return device",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "return device with which clearance-affected parts are transferable, at or below an idle force within their clearance with respect to one another, into an idle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "detection device",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "detection device not rotating with the bottom bracket spindle during rotation of the bottom bracket spindle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "drive wheel",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "drive wheel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "passage indicator device",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "one of the clearance-affected parts has two passage indicator devices that are both spatially associated with one passage indicator device of the other clearance-affected part",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "passage indicator device",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "one of the clearance-affected parts has two passage indicator devices that are both spatially associated with one passage indicator device of the other clearance-affected part",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "passage indicator device",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "one of the clearance-affected parts has two passage indicator devices that are both spatially associated with one passage indicator device of the other clearance-affected part",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "generate a drive force",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "drive motor with which a drive force for the vehicle is generatable",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C5",
+      "text": "transfer drive energy",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "drive mechanism for transferring drive energy from the bottom bracket spindle to a wheel of the vehicle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C6",
+      "text": "transfer clearance-affected parts into idle position",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "return device with which clearance-affected parts are transferable, at or below an idle force within their clearance with respect to one another, into an idle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C6",
+      "text": "transfer clearance-affected parts into idle position",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "return device with which clearance-affected parts are transferable, at or below an idle force within their clearance with respect to one another, into an idle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C6",
+      "text": "furnish information as to whether clearance-affected parts are in idle position",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "information as to whether the clearance-affected parts are in an idle position being furnishable in a form of at least one electrical signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C1",
+      "text": "deliver no drive energy",
+      "target": null,
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "drive motor delivers no drive energy for the vehicle when the clearance-affected parts are in the idle position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C6",
+      "text": "transfer clearance-affected parts into end stop position",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "clearance-affected parts are transferable into an end stop position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C6",
+      "text": "transfer clearance-affected parts into end stop position",
+      "target": "C8",
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "clearance-affected parts are transferable into an end stop position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C6",
+      "text": "furnish information as to whether clearance-affected parts are in end stop position",
+      "target": null,
+      "provenance": {
+        "claims": [
+          12
+        ],
+        "quote": "information as to whether the clearance-affected parts are in the end stop position being furnishable in a form of at least one electrical signal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C1",
+      "text": "deliver no further drive energy after half a revolution of bottom bracket spindle after idle position",
+      "target": null,
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "drive motor delivers no further drive energy after half a revolution of the bottom bracket spindle after the idle position",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C7",
+      "text": "detect passage time of passage indicator device of each clearance-affected part",
+      "target": "C9",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "by the fact that a passage time of a passage indicator device of each of the clearance-affected parts is detectable with the detection device",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C7",
+      "text": "detect passage time of passage indicator device of each clearance-affected part",
+      "target": "C10",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "by the fact that a passage time of a passage indicator device of each of the clearance-affected parts is detectable with the detection device",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C4",
+      "text": "associate passage indicator devices",
+      "target": "C11",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "one of the clearance-affected parts has two passage indicator devices that are both spatially associated with one passage indicator device of the other clearance-affected part",
+        "status": "stated"
+      }
+    }
+  ]
+}

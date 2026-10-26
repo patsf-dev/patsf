@@ -1,0 +1,6 @@
+id,name,parent,claims,status
+C0,apparatus,,1,stated
+C1,radar unit,C0,1,stated
+C2,transmitter,C1,1,stated
+C3,receiver,C1,1,stated
+C4,processing unit,C0,1,stated

@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "mower",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A mower, comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "main body",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a main body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "blade housing",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a blade housing depending from the main body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "cutting blade",
+      "parent": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one cutting blade supported in the blade housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "engine",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an engine mounted on the main body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "grass collection bag",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a grass collection bag attached to a rear end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "chute",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a chute extending in a fore and aft direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "rear wheels",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a pair of rear wheels provided in a rear part",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "electric motors",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a pair of electric motors mounted in a rear part",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "fuel tank",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a fuel tank for supplying fuel to the engine",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "pair of cutting blades",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a pair of cutting blades positioned laterally one next to the other",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C4",
+      "text": "mount a component on the main body",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an engine mounted on the main body",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C8",
+      "text": "mount a component on the main body",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a pair of electric motors mounted in a rear part",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C5",
+      "text": "attach a component to the main body",
+      "target": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a grass collection bag attached to a rear end",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C6",
+      "text": "communicate an interior",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "to communicate an interior of the blade housing with an interior of the grass collection bag",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C8",
+      "text": "connect a component to the rear wheels in a power transmitting relationship",
+      "target": "C7",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "connected to the respective rear wheels in a power transmitting relationship",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C4",
+      "text": "drive a component",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "for driving the cutting blade",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C9",
+      "text": "supply a component",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "for supplying fuel to the engine",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C9",
+      "text": "position a component",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "and positioned in a space surrounded by the electric motors and the chute",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C3",
+      "text": "rotate a component in a horizontal plane",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "in a rotatable manner in a horizontal plane",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C10",
+      "text": "rotate a component in opposite directions",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "so as to be rotatable in opposite directions",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C6",
+      "text": "connect a component to the blade housing",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "inlet end of the chute is connected to a laterally central part of the blade housing",
+        "status": "stated"
+      }
+    }
+  ]
+}

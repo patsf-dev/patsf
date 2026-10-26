@@ -1,0 +1,12 @@
+id,name,parent,claims,status
+C0,mower,,1,stated
+C1,main body,C0,1,stated
+C2,blade housing,C1,1,stated
+C3,cutting blade,C2,1,stated
+C4,engine,C1,1,stated
+C5,grass collection bag,C1,1,stated
+C6,chute,C1,1,stated
+C7,rear wheels,C1,1,stated
+C8,electric motors,C1,1,stated
+C9,fuel tank,C1,1,stated
+C10,pair of cutting blades,C3,4,stated

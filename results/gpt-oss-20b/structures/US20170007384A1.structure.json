@@ -1,0 +1,413 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "brushing device",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A brushing device comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor received including an eccentric drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "eccentric drive shaft",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an eccentric drive shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "output shaft",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an output shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "power train assembly",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a power train assembly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "chassis assembly",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a chassis assembly",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "housing",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "a housing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "conservation feature",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a conservation feature that engages one or more surfaces of the chassis assembly to absorb momentum and apply the momentum to the output shaft.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "rocker arm",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "a rocker arm",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C9",
+      "name": "first wing",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a first wing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C10",
+      "name": "second wing",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a second wing",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C11",
+      "name": "first slot",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a first slot",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C12",
+      "name": "second slot",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "a second slot",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C13",
+      "name": "eccentric",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "an eccentric",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C14",
+      "name": "cam follower",
+      "parent": "C8",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "a cam follower",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C15",
+      "name": "spherical socket",
+      "parent": "C14",
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "a spherical socket",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C16",
+      "name": "sleeve bearing",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "one or more sleeve bearings",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C17",
+      "name": "mounting feature",
+      "parent": "C5",
+      "provenance": {
+        "claims": [
+          11
+        ],
+        "quote": "a mounting feature",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C18",
+      "name": "brush head",
+      "parent": "C3",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "a brush head",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C19",
+      "name": "fluid passage",
+      "parent": "C4",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "a fluid passage",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C20",
+      "name": "handle",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "a handle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C21",
+      "name": "fluid connector",
+      "parent": "C20",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "a fluid connector",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C4",
+      "text": "convert rotation of a shaft into oscillation movement of a shaft",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "converts rotation of the eccentric drive shaft into an oscillation movement of the output shaft.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C7",
+      "text": "engage surfaces of a chassis assembly to absorb momentum and apply momentum to a shaft",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "engages one or more surfaces of the chassis assembly to absorb momentum and apply the momentum to the output shaft.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C8",
+      "text": "constrain movement of a rocker arm to output oscillating movement in response to rotation of a shaft",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "movement of the rocker arm is constrained to output the oscillating movement in response to the rotation of the eccentric drive shaft.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C9",
+      "text": "receive end of a wing within a slot",
+      "target": "C11",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an end of the first wing is received within the first slot.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C10",
+      "text": "receive end of a wing within a slot",
+      "target": "C12",
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "an end of the second wing is received within the second slot.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C13",
+      "text": "receive a component in a cam follower to cause rotation with cam follower and cause rocker arm to move",
+      "target": "C14",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "the eccentric is received in the cam follower such that movement of the eccentric drive shaft causes the eccentric to rotate with the cam follower",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C16",
+      "text": "support and constrain a shaft",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "sleeve bearings received around an outer surface of the output shaft, wherein the sleeve bearings support and constrain the output shaft.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C18",
+      "text": "oscillate correspondingly",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          13
+        ],
+        "quote": "oscillating movement of the output shaft causes the brush head to oscillate correspondingly.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C19",
+      "text": "transport fluid from a source to a conduit in a brush head",
+      "target": "C18",
+      "provenance": {
+        "claims": [
+          14
+        ],
+        "quote": "a fluid passage configured to transport fluid from a fluid source to a fluid conduit in the brush head.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C21",
+      "text": "removably couple to a handle and fluidly connect to a fluid passage",
+      "target": "C19",
+      "provenance": {
+        "claims": [
+          15
+        ],
+        "quote": "a fluid connector removably coupled to the handle and fluidly connected to the fluid passage formed within the power train assembly.",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C21",
+      "text": "rotate relative to a handle",
+      "target": null,
+      "provenance": {
+        "claims": [
+          16
+        ],
+        "quote": "the fluid connector is rotatable relative to the handle when secured thereto.",
+        "status": "stated"
+      }
+    }
+  ]
+}

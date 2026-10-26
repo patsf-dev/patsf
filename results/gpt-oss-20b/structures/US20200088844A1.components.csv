@@ -1,0 +1,3 @@
+id,name,parent,claims,status
+C0,invention,,1,stated
+C1,LiDAR system,C0,1,stated

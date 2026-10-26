@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "device for controlling a vehicle",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A device for controlling a vehicle, the vehicle being capable of being operated in a first operating state",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "driver observation device",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a driver observation device that detects an ability of the driver to drive",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "warning device",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "at least one of an optical, an acoustic, and an haptic driver warning is issued to the driver by a warning device",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "detect driver ability",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a driver observation device that detects an ability of the driver to drive",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C0",
+      "text": "change over vehicle controlling from first to second operating state",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "when inability of the driver to drive is recognized, automatically changes over the vehicle controlling from the first operating state to the second operating state",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C0",
+      "text": "control vehicle actuator devices for longitudinal movement",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "controls actuator devices for controlling of the movement of the vehicle in a vehicle longitudinal direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C0",
+      "text": "control vehicle actuator devices for transverse movement",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "controls actuator devices for controlling of the movement of the vehicle in a transverse direction",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C0",
+      "text": "control vehicle signal devices",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "controls signal devices of the vehicle",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C1",
+      "text": "recognize tiredness",
+      "target": null,
+      "provenance": {
+        "claims": [
+          3
+        ],
+        "quote": "a driver observation device that recognizes tiredness of the driver",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C1",
+      "text": "recognize call or activity",
+      "target": null,
+      "provenance": {
+        "claims": [
+          4
+        ],
+        "quote": "by which an incoming or outgoing call or an operating activity of the driver is recognized",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C1",
+      "text": "acquire actuation of steering wheel, accelerator, brake",
+      "target": null,
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "acquires at least one of: (i) an actuation of a steering wheel, (ii) an actuation of an accelerator pedal",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C1",
+      "text": "evaluate deflection amplitude, speed, frequency to determine attentiveness",
+      "target": null,
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "through evaluation of one of a deflection amplitude, a deflection speed, and a frequency of actuation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C1",
+      "text": "acquire vehicle speed, acceleration, rotation rates",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "acquires at least one of: (i) a vehicle longitudinal speed, (ii) a vehicle transverse speed",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C1",
+      "text": "detect objects and provide relative coordinates",
+      "target": null,
+      "provenance": {
+        "claims": [
+          6
+        ],
+        "quote": "detects objects in an environment surrounding the vehicle and provides relative coordinates of the objects",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN12",
+      "component": "C1",
+      "text": "store information in data cloud",
+      "target": null,
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "an item of information concerning the ability of the driver to drive is stored in a data cloud to which the vehicle is connected",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN13",
+      "component": "C2",
+      "text": "issue driver warning",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "at least one of an optical, an acoustic, and an haptic driver warning is issued to the driver by a warning device",
+        "status": "stated"
+      }
+    }
+  ]
+}

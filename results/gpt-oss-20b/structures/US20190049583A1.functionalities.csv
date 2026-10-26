@@ -1,0 +1,12 @@
+id,component,text,target,claims,status
+FN1,C1,encode,,1;12,stated
+FN2,C2,store,,1,stated
+FN3,C1,modify,,1;3,stated
+FN4,C1,cause modification via,C4,4,stated
+FN5,C1,cause modification via,C3,4,stated
+FN8,C10,access,,11,stated
+FN9,C11,comprise,C1,13,stated
+FN10,C12,comprise,C1,14,stated
+FN11,C13,comprise,C1,15,stated
+FN12,C13,comprise,C2,15,stated
+FN13,C13,comprise,C12,15,stated

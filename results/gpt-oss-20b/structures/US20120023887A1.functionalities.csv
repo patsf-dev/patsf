@@ -1,0 +1,12 @@
+id,component,text,target,claims,status
+FN1,C1,mount a traction wheel motor,C2,1,stated
+FN2,C1,provide an outer cavity,C6,1,stated
+FN3,C7,attach to the bottom chassis,C1,1,stated
+FN4,C8,enclose the outer cavity,C6,1,stated
+FN5,C9,enclose the inner cavity,C10,1,stated
+FN6,C8,prevent contaminants from reaching the inner cavity,C10,1,stated
+FN7,C9,prevent contaminants from reaching the inner cavity,C10,1,stated
+FN8,C11,position in the outer cavity,C6,2,stated
+FN9,C12,mount the bottom chassis,C1,3,stated
+FN10,C13,position in the inner cavity,C10,4,stated
+FN11,C14,attach to the top cover,C7,5,stated

@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "invention",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A method comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "LiDAR system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at a LiDAR system",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "encode a sequence of pulses",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "encoding, at a LiDAR system, a sequence of pulses based on a user signature",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C1",
+      "text": "transmit a sequence of pulses",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "transmitting, at the LiDAR system, the sequences of pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C1",
+      "text": "receive a multi-return signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "receiving, at the LiDAR system, a multi-return signal based on a reflection off objects of the sequences of pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C1",
+      "text": "decode a multi-return signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "decoding, at the LiDAR system, the multi-return signal utilizing the user signature",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C1",
+      "text": "authenticate a decoded multi-return signal",
+      "target": null,
+      "provenance": {
+        "claims": [
+          1,
+          12
+        ],
+        "quote": "authenticating, at the LiDAR system, the decoded multi-return signal via a correlation calculation",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C1",
+      "text": "determine amplitude of a pulse",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "user signature determines an amplitude of a first pulse in the sequence of pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C1",
+      "text": "determine interval between pulses",
+      "target": null,
+      "provenance": {
+        "claims": [
+          2
+        ],
+        "quote": "user signature determines an interval between the first pulse and the second pulse",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C1",
+      "text": "compute a peak ratio",
+      "target": null,
+      "provenance": {
+        "claims": [
+          5
+        ],
+        "quote": "a peak ratio is based on the N-bits and the M-bits",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN9",
+      "component": "C1",
+      "text": "generate a user signature",
+      "target": null,
+      "provenance": {
+        "claims": [
+          8
+        ],
+        "quote": "generating, by the LiDAR system, the user signature for the sequence of pulses based on amplitudes of each of the pulses",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN10",
+      "component": "C1",
+      "text": "adjust a user signature",
+      "target": null,
+      "provenance": {
+        "claims": [
+          9
+        ],
+        "quote": "dynamically adjusting, by the LiDAR system, the user signature",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN11",
+      "component": "C1",
+      "text": "configure a LiDAR system with a user signature",
+      "target": null,
+      "provenance": {
+        "claims": [
+          10
+        ],
+        "quote": "configuring each LiDAR system with a specific user signature",
+        "status": "stated"
+      }
+    }
+  ]
+}

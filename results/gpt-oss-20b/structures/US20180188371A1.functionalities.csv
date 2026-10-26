@@ -1,0 +1,7 @@
+id,component,text,target,claims,status
+FN1,C1,receive a laser signal,,1,stated
+FN2,C1,generate a laser signal,,1,stated
+FN3,C1,provide a laser signal,,2,stated
+FN4,C1,deliver a laser signal to a LiDAR scanner,C2,2,stated
+FN5,C3,generate a laser signal,,4,stated
+FN6,C1,modulate a laser signal,,7,stated

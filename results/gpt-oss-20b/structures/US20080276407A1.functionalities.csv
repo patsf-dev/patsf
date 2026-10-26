@@ -1,0 +1,14 @@
+id,component,text,target,claims,status
+FN1,C2,maneuver a robot over a cleaning surface,,1,stated
+FN2,C5,rotate between positions,,1,stated
+FN3,C8,control movement of a bin cover,C5,1,stated
+FN4,C8,move between positions,,2,stated
+FN5,C14,actuate a latch,C13,4,stated
+FN6,C10,rotate in opposite direction,C9,6,stated
+FN7,C2,pivot in place,,12,stated
+FN8,C24,alter drive direction,,15,stated
+FN9,C2,alter drive direction,,16;17,stated
+FN10,C21,confine body movements to two directions,,26,stated
+FN11,C22,receive a guide pin,C23,27,stated
+FN12,C18,detect a magnet,,20,stated
+FN13,C4,receive debris,,1,stated

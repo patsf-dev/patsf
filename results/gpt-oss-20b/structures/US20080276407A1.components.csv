@@ -1,0 +1,30 @@
+id,name,parent,claims,status
+C0,autonomous coverage robot,,1,stated
+C1,chassis,C0,1,stated
+C2,drive system,C0,1,stated
+C3,cleaning assembly,C0,1,stated
+C4,bin,C0,1,stated
+C5,bin cover,C0,1,stated
+C6,body,C0,1,stated
+C7,handle,C0,1,stated
+C8,bin cover release,C0,1,stated
+C9,first roller brush,C3,5,stated
+C10,second roller brush,C3,6,stated
+C11,right end brush,C9,8,stated
+C12,left end brush,C9,8,stated
+C13,spring biased latch,C8,3,stated
+C14,button,C8,4,stated
+C15,proximity sensor,C0,15,stated
+C16,cliff sensor,C0,16,stated
+C17,cliff sensor,C0,17,stated
+C18,stasis detector,C0,20,stated
+C19,magnet,C18,20,stated
+C20,magnet detector,C18,20,stated
+C21,bumper guide,C0,26,stated
+C22,groove,C21,27,stated
+C23,guide pin,C21,27,stated
+C24,controller,C0,15,stated
+C25,drive wheels,C2,12,stated
+C26,idler wheel,C0,18,stated
+C28,right side roller brush,C3,9,stated
+C29,left side roller brush,C3,9,stated

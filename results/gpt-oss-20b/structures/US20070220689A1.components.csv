@@ -1,0 +1,23 @@
+id,name,parent,claims,status
+C0,electric toothbrush,,1,stated
+C1,motor,C0,1,stated
+C2,case,C0,1,stated
+C3,toothbrush handle,C0,1,stated
+C4,power transmitter,C0,1,stated
+C5,vibration generator,C0,1,stated
+C6,brush,C3,1,stated
+C7,lamp,C0,8,stated
+C8,rotary disc,C0,7,stated
+C9,spring,C4,7,stated
+C10,bristles,C6,9,stated
+C11,support member,C3,3,stated
+C12,driven gear,C4,3,stated
+C13,drive gear,C4,3,stated
+C14,flange,C5,4,stated
+C15,coil unit,C5,4,stated
+C16,inclined disc,C0,5,stated
+C17,guide member,C5,5,stated
+C18,eccentric cam housing,C5,6,stated
+C19,eccentric cam,C5,6,stated
+C20,eccentric cam driven gear,C5,6,stated
+C21,eccentric cam drive gear,C5,6,stated

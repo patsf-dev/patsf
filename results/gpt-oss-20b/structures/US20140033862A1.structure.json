@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "id": "C0",
+      "name": "motor housing with integrated gears",
+      "parent": null,
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "A motor housing with integrated gears comprising:",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C1",
+      "name": "motor",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor including a first shaft, the motor configured to actuate the first shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "first shaft",
+      "parent": "C1",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a motor including a first shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "dowel",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a dowel, the dowel rotatably coupled to the first shaft at a first end of the dowel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C4",
+      "name": "encoder",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an encoder configured to surround the second end of the dowel, the encoder being configured to measure an angular velocity of the first shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C5",
+      "name": "gear system",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a gear system in meshed communication with the first shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C6",
+      "name": "second shaft",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second shaft in meshed communication with the gear system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C7",
+      "name": "seal",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "at least one seal, the seal located on the dowel between the first end and the second end of the dowel and creating a barrier",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "C8",
+      "name": "lubricant",
+      "parent": "C0",
+      "provenance": {
+        "claims": [
+          7
+        ],
+        "quote": "further comprising lubricant, the lubricant being a synthetic lubricating grease",
+        "status": "stated"
+      }
+    }
+  ],
+  "functionalities": [
+    {
+      "id": "FN1",
+      "component": "C1",
+      "text": "actuate a shaft",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the motor configured to actuate the first shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN2",
+      "component": "C4",
+      "text": "measure a velocity",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the encoder being configured to measure an angular velocity of the first shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN3",
+      "component": "C5",
+      "text": "mesh with a shaft",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a gear system in meshed communication with the first shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN4",
+      "component": "C6",
+      "text": "mesh with a gear system",
+      "target": "C5",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "a second shaft in meshed communication with the gear system",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN5",
+      "component": "C1",
+      "text": "transmit power",
+      "target": "C6",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the motor is operable to transmit power to the second shaft",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN6",
+      "component": "C7",
+      "text": "create a barrier",
+      "target": "C4",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the seal located on the dowel between the first end and the second end of the dowel and creating a barrier",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN7",
+      "component": "C3",
+      "text": "couple",
+      "target": "C2",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "the dowel rotatably coupled to the first shaft at a first end of the dowel",
+        "status": "stated"
+      }
+    },
+    {
+      "id": "FN8",
+      "component": "C4",
+      "text": "surround",
+      "target": "C3",
+      "provenance": {
+        "claims": [
+          1
+        ],
+        "quote": "an encoder configured to surround the second end of the dowel",
+        "status": "stated"
+      }
+    }
+  ]
+}

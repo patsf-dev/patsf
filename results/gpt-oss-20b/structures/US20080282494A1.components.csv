@@ -1,0 +1,25 @@
+id,name,parent,claims,status
+C0,coverage robot,,1,stated
+C1,chassis,C0,1,stated
+C2,drive wheel assembly,C1,1,stated
+C3,drive wheel assembly housing,C2,1,stated
+C4,wheel,C2,1,stated
+C5,wheel drive motor,C2,1,stated
+C6,cleaning assembly,C1,1,stated
+C7,cleaning assembly housing,C6,1,stated
+C8,cleaning head,C6,1,stated
+C9,cleaning drive motor,C6,1,stated
+C10,removable cover,C1,2;9,stated
+C11,electric battery,C1,5,stated
+C12,caster wheel assembly,C1,6,stated
+C13,linkage,C2,7,stated
+C14,proximity sensor,C2,8,stated
+C15,bumper,C1,10,stated
+C16,cleaning bin,C1,11,stated
+C17,bin housing,C16,12,stated
+C18,bin filter,C16,12,stated
+C19,bin cover,C16,12,stated
+C20,bin cover spring actuator,C19,13,stated
+C21,latch,C16,14,stated
+C22,wheel assembly power connector,C2,3,stated
+C23,cleaning assembly power connector,C6,4,stated

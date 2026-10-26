@@ -1,0 +1,13 @@
+id,name,parent,claims,status
+C0,drive system,,11,stated
+C1,drive motor,C0,11,stated
+C2,pedals,C3,11,stated
+C3,pedal arms,C0,11,stated
+C4,bottom bracket spindle,C0,11,stated
+C5,drive mechanism,C0,11,stated
+C6,return device,C0,11,stated
+C7,detection device,C0,14,stated
+C8,drive wheel,C5,11,stated
+C9,passage indicator device,C4,15,stated
+C10,passage indicator device,C4,15,stated
+C11,passage indicator device,C8,15,stated
